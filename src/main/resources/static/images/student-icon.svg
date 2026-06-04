@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="56" fill="#6c5ce7" opacity="0.1"/>
+  <circle cx="60" cy="60" r="56" stroke="#6c5ce7" stroke-width="3"/>
+  
+  <!-- Graduation cap -->
+  <polygon points="60,28 25,45 60,62 95,45" fill="#6c5ce7"/>
+  <rect x="58" y="45" width="4" height="22" fill="#6c5ce7"/>
+  <rect x="55" y="65" width="10" height="4" rx="2" fill="#6c5ce7"/>
+  
+  <!-- Tassel -->
+  <line x1="90" y1="45" x2="90" y2="60" stroke="#a29bfe" stroke-width="2.5"/>
+  <circle cx="90" cy="62" r="3" fill="#a29bfe"/>
+  
+  <!-- Book -->
+  <path d="M38 72 L38 92 Q60 86 60 86 Q60 86 82 92 L82 72 Q60 66 60 66 Q60 66 38 72Z" fill="#a29bfe" opacity="0.8"/>
+  <line x1="60" y1="66" x2="60" y2="86" stroke="#6c5ce7" stroke-width="1.5"/>
+  
+  <!-- Math symbols -->
+  <text x="44" y="84" font-family="Arial" font-size="8" fill="white" font-weight="bold">π</text>
+  <text x="68" y="84" font-family="Arial" font-size="8" fill="white" font-weight="bold">∑</text>
+</svg>
