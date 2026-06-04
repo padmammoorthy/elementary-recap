@@ -278,8 +278,8 @@
 /* Worked Examples */
 .worked-examples {
     margin-top: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 1.25rem;
 }
 
@@ -377,7 +377,4 @@
         flex-direction: column;
     }
 
-    .worked-examples {
-        grid-template-columns: 1fr;
-    }
 }
