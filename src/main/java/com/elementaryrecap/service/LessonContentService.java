@@ -183,33 +183,33 @@ public class LessonContentService {
         lessons.add(new LessonContent("even-and-odd-numbers", "Even and Odd Numbers", "16", "Identify even and odd numbers and their properties.", "Section 2: Lessons 11-20", 16,
             Arrays.asList(new Section("Worked Examples", "Identify even and odd numbers and their properties.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 16", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 16", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 16", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 16", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 16", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("factors", "Factors", "17", "Find all factor pairs of a number.", "Section 2: Lessons 11-20", 17,
             Arrays.asList(new Section("Worked Examples", "Find all factor pairs of a number.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 17", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 17", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 17", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 17", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 17", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("word-problems-equal-groups", "Word Problems: Equal Groups", "18", "Solve multiplication and division word problems.", "Section 2: Lessons 11-20", 18,
             Arrays.asList(new Section("Worked Examples", "Solve multiplication and division word problems.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 18", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 18", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 18", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 18", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 18", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -227,22 +227,22 @@ public class LessonContentService {
         lessons.add(new LessonContent("fractions-parts-of-a-set", "Fractions: Parts of a Set", "20", "Find a fraction of a group of objects.", "Section 2: Lessons 11-20", 20,
             Arrays.asList(new Section("Worked Examples", "Find a fraction of a group of objects.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 20", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 20", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 20", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 20", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 20", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("fractions-on-a-number-line", "Fractions on a Number Line", "21", "Locate fractions on a number line.", "Section 3: Lessons 21-30", 21,
             Arrays.asList(new Section("Worked Examples", "Locate fractions on a number line.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 21", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 21", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 21", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 21", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 21", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -260,66 +260,66 @@ public class LessonContentService {
         lessons.add(new LessonContent("reducing-fractions", "Reducing Fractions", "23", "Simplify fractions to lowest terms.", "Section 3: Lessons 21-30", 23,
             Arrays.asList(new Section("Worked Examples", "Simplify fractions to lowest terms.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 23", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 23", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 23", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 23", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 23", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("comparing-fractions", "Comparing Fractions", "24", "Compare fractions with unlike denominators.", "Section 3: Lessons 21-30", 24,
             Arrays.asList(new Section("Worked Examples", "Compare fractions with unlike denominators.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 24", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 24", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 24", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 24", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 24", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("mixed-numbers-and-improper-fractions", "Mixed Numbers and Improper Fractions", "25", "Convert between mixed numbers and improper fractions.", "Section 3: Lessons 21-30", 25,
             Arrays.asList(new Section("Worked Examples", "Convert between mixed numbers and improper fractions.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 25", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 25", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 25", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 25", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 25", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("elapsed-time", "Elapsed Time", "26", "Calculate elapsed time between events.", "Section 3: Lessons 21-30", 26,
             Arrays.asList(new Section("Worked Examples", "Calculate elapsed time between events.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 26", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 26", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 26", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 26", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 26", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("multiplying-by-10-100-1000", "Multiplying by 10, 100, 1000", "27", "Use patterns to multiply by powers of 10.", "Section 3: Lessons 21-30", 27,
             Arrays.asList(new Section("Worked Examples", "Use patterns to multiply by powers of 10.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 27", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 27", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 27", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 27", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 27", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("two-digit-multiplication", "Two-Digit Multiplication", "28", "Multiply two 2-digit numbers.", "Section 3: Lessons 21-30", 28,
             Arrays.asList(new Section("Worked Examples", "Multiply two 2-digit numbers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 28", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 28", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 28", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 28", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 28", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -337,11 +337,11 @@ public class LessonContentService {
         lessons.add(new LessonContent("comparison-word-problems", "Comparison Word Problems", "30", "Solve comparison word problems.", "Section 3: Lessons 21-30", 30,
             Arrays.asList(new Section("Worked Examples", "Solve comparison word problems.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 30", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 30", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 30", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 30", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 30", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -359,11 +359,11 @@ public class LessonContentService {
         lessons.add(new LessonContent("perimeter", "Perimeter", "32", "Calculate perimeter of polygons.", "Section 4: Lessons 31-40", 32,
             Arrays.asList(new Section("Worked Examples", "Calculate perimeter of polygons.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 32", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 32", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 32", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 32", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 32", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 4.56 + 3.78", Arrays.asList("Line up decimals: 6+8=14 carry, 5+7+1=13 carry, 4+3+1=8"), "8.34"),
+            new WorkedExample("Subtract: 10 - 3.45", Arrays.asList("10.00-3.45, borrow: 6.55"), "6.55"),
+            new WorkedExample("Multiply: 2.5 x 3.4", Arrays.asList("25x34=850, 2 decimal places"), "8.50"),
+            new WorkedExample("Divide: 7.2 / 0.8", Arrays.asList("Move decimals: 72/8=9"), "9"),
+            new WorkedExample("Round 4.567 to nearest tenth", Arrays.asList("Look at hundredths (6>=5): round up"), "4.6")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -381,66 +381,66 @@ public class LessonContentService {
         lessons.add(new LessonContent("comparing-decimals", "Comparing Decimals", "34", "Compare and order decimal numbers.", "Section 4: Lessons 31-40", 34,
             Arrays.asList(new Section("Worked Examples", "Compare and order decimal numbers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 34", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 34", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 34", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 34", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 34", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 4.56 + 3.78", Arrays.asList("Line up decimals: 6+8=14 carry, 5+7+1=13 carry, 4+3+1=8"), "8.34"),
+            new WorkedExample("Subtract: 10 - 3.45", Arrays.asList("10.00-3.45, borrow: 6.55"), "6.55"),
+            new WorkedExample("Multiply: 2.5 x 3.4", Arrays.asList("25x34=850, 2 decimal places"), "8.50"),
+            new WorkedExample("Divide: 7.2 / 0.8", Arrays.asList("Move decimals: 72/8=9"), "9"),
+            new WorkedExample("Round 4.567 to nearest tenth", Arrays.asList("Look at hundredths (6>=5): round up"), "4.6")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("adding-and-subtracting-decimals", "Adding and Subtracting Decimals", "35", "Add and subtract decimals.", "Section 4: Lessons 31-40", 35,
             Arrays.asList(new Section("Worked Examples", "Add and subtract decimals.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 35", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 35", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 35", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 35", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 35", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 4.56 + 3.78", Arrays.asList("Line up decimals: 6+8=14 carry, 5+7+1=13 carry, 4+3+1=8"), "8.34"),
+            new WorkedExample("Subtract: 10 - 3.45", Arrays.asList("10.00-3.45, borrow: 6.55"), "6.55"),
+            new WorkedExample("Multiply: 2.5 x 3.4", Arrays.asList("25x34=850, 2 decimal places"), "8.50"),
+            new WorkedExample("Divide: 7.2 / 0.8", Arrays.asList("Move decimals: 72/8=9"), "9"),
+            new WorkedExample("Round 4.567 to nearest tenth", Arrays.asList("Look at hundredths (6>=5): round up"), "4.6")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("multiplying-decimals", "Multiplying Decimals", "36", "Multiply decimals and count decimal places.", "Section 4: Lessons 31-40", 36,
             Arrays.asList(new Section("Worked Examples", "Multiply decimals and count decimal places.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 36", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 36", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 36", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 36", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 36", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 4.56 + 3.78", Arrays.asList("Line up decimals: 6+8=14 carry, 5+7+1=13 carry, 4+3+1=8"), "8.34"),
+            new WorkedExample("Subtract: 10 - 3.45", Arrays.asList("10.00-3.45, borrow: 6.55"), "6.55"),
+            new WorkedExample("Multiply: 2.5 x 3.4", Arrays.asList("25x34=850, 2 decimal places"), "8.50"),
+            new WorkedExample("Divide: 7.2 / 0.8", Arrays.asList("Move decimals: 72/8=9"), "9"),
+            new WorkedExample("Round 4.567 to nearest tenth", Arrays.asList("Look at hundredths (6>=5): round up"), "4.6")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("dividing-decimals", "Dividing Decimals", "37", "Divide decimals by whole numbers.", "Section 4: Lessons 31-40", 37,
             Arrays.asList(new Section("Worked Examples", "Divide decimals by whole numbers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 37", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 37", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 37", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 37", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 37", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 4.56 + 3.78", Arrays.asList("Line up decimals: 6+8=14 carry, 5+7+1=13 carry, 4+3+1=8"), "8.34"),
+            new WorkedExample("Subtract: 10 - 3.45", Arrays.asList("10.00-3.45, borrow: 6.55"), "6.55"),
+            new WorkedExample("Multiply: 2.5 x 3.4", Arrays.asList("25x34=850, 2 decimal places"), "8.50"),
+            new WorkedExample("Divide: 7.2 / 0.8", Arrays.asList("Move decimals: 72/8=9"), "9"),
+            new WorkedExample("Round 4.567 to nearest tenth", Arrays.asList("Look at hundredths (6>=5): round up"), "4.6")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("triangles", "Triangles", "38", "Classify triangles by sides and angles.", "Section 4: Lessons 31-40", 38,
             Arrays.asList(new Section("Worked Examples", "Classify triangles by sides and angles.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 38", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 38", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 38", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 38", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 38", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("quadrilaterals", "Quadrilaterals", "39", "Identify and classify quadrilaterals.", "Section 4: Lessons 31-40", 39,
             Arrays.asList(new Section("Worked Examples", "Identify and classify quadrilaterals.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 39", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 39", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 39", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 39", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 39", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -458,33 +458,33 @@ public class LessonContentService {
         lessons.add(new LessonContent("adding-fractions-like-denom", "Adding Fractions (Like Denom)", "41", "Add fractions with same denominator.", "Section 5: Lessons 41-50", 41,
             Arrays.asList(new Section("Worked Examples", "Add fractions with same denominator.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 41", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 41", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 41", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 41", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 41", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("adding-fractions-unlike-denom", "Adding Fractions (Unlike Denom)", "42", "Find LCD and add fractions.", "Section 5: Lessons 41-50", 42,
             Arrays.asList(new Section("Worked Examples", "Find LCD and add fractions.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 42", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 42", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 42", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 42", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 42", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("adding-mixed-numbers", "Adding Mixed Numbers", "43", "Add mixed numbers.", "Section 5: Lessons 41-50", 43,
             Arrays.asList(new Section("Worked Examples", "Add mixed numbers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 43", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 43", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 43", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 43", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 43", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Add: 2/3 + 1/4", Arrays.asList("LCD=12: 8/12 + 3/12 = 11/12"), "11/12"),
+            new WorkedExample("Subtract: 5/6 - 1/3", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6 = 1/2"), "1/2"),
+            new WorkedExample("Multiply: 3/4 x 2/5", Arrays.asList("3x2=6, 4x5=20, simplify: 3/10"), "3/10"),
+            new WorkedExample("Divide: 2/3 / 4/5", Arrays.asList("Flip: 2/3 x 5/4 = 10/12 = 5/6"), "5/6"),
+            new WorkedExample("Convert 2 3/8 to improper", Arrays.asList("2x8+3=19, keep 8"), "19/8")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -513,55 +513,55 @@ public class LessonContentService {
         lessons.add(new LessonContent("fraction-decimal-percent", "Fraction-Decimal-Percent", "46", "Convert between representations.", "Section 5: Lessons 41-50", 46,
             Arrays.asList(new Section("Worked Examples", "Convert between representations.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 46", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 46", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 46", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 46", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 46", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("percent-of-a-number", "Percent of a Number", "47", "Calculate a percent of a number.", "Section 5: Lessons 41-50", 47,
             Arrays.asList(new Section("Worked Examples", "Calculate a percent of a number.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 47", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 47", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 47", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 47", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 47", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("probability", "Probability", "48", "Find probability of events.", "Section 5: Lessons 41-50", 48,
             Arrays.asList(new Section("Worked Examples", "Find probability of events.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 48", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 48", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 48", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 48", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 48", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("mean-median-mode-range", "Mean, Median, Mode, Range", "49", "Calculate measures of center.", "Section 5: Lessons 41-50", 49,
             Arrays.asList(new Section("Worked Examples", "Calculate measures of center.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 49", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 49", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 49", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 49", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 49", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("circle-graphs", "Circle Graphs", "50", "Read and interpret circle graphs.", "Section 5: Lessons 41-50", 50,
             Arrays.asList(new Section("Worked Examples", "Read and interpret circle graphs.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 50", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 50", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 50", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 50", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 50", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -579,143 +579,143 @@ public class LessonContentService {
         lessons.add(new LessonContent("divisibility-rules", "Divisibility Rules", "52", "Test divisibility.", "Section 6: Lessons 51-60", 52,
             Arrays.asList(new Section("Worked Examples", "Test divisibility.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 52", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 52", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 52", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 52", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 52", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("prime-and-composite", "Prime and Composite", "53", "Identify primes.", "Section 6: Lessons 51-60", 53,
             Arrays.asList(new Section("Worked Examples", "Identify primes.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 53", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 53", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 53", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 53", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 53", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("greatest-common-factor", "Greatest Common Factor", "54", "Find GCF.", "Section 6: Lessons 51-60", 54,
             Arrays.asList(new Section("Worked Examples", "Find GCF.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 54", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 54", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 54", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 54", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 54", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("least-common-multiple", "Least Common Multiple", "55", "Find LCM.", "Section 6: Lessons 51-60", 55,
             Arrays.asList(new Section("Worked Examples", "Find LCM.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 55", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 55", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 55", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 55", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 55", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find the next 3 terms: 4, 8, 12, 16, ...", Arrays.asList("Add 4 each time", "16+4=20, 20+4=24, 24+4=28"), "20, 24, 28"),
+            new WorkedExample("What is the rule: 100, 91, 82, 73, ...?", Arrays.asList("Subtract 9 each time", "100-9=91, 91-9=82"), "Subtract 9"),
+            new WorkedExample("Find the 8th term: 3, 6, 9, 12, ...", Arrays.asList("Rule: position x 3", "8th = 8 x 3 = 24"), "24"),
+            new WorkedExample("Pattern: 1, 4, 9, 16, 25, __", Arrays.asList("Perfect squares: 1^2, 2^2, 3^2...", "Next: 6^2 = 36"), "36"),
+            new WorkedExample("Find missing: 5, __, 20, 40, 80", Arrays.asList("Each doubles: 5x2=10"), "10")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("ratio", "Ratio", "56", "Write and simplify ratios.", "Section 6: Lessons 51-60", 56,
             Arrays.asList(new Section("Worked Examples", "Write and simplify ratios.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 56", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 56", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 56", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 56", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 56", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("rate", "Rate", "57", "Calculate unit rates.", "Section 6: Lessons 51-60", 57,
             Arrays.asList(new Section("Worked Examples", "Calculate unit rates.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 57", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 57", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 57", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 57", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 57", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("proportions", "Proportions", "58", "Solve proportions.", "Section 6: Lessons 51-60", 58,
             Arrays.asList(new Section("Worked Examples", "Solve proportions.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 58", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 58", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 58", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 58", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 58", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("scale-drawings", "Scale Drawings", "59", "Use scales.", "Section 6: Lessons 51-60", 59,
             Arrays.asList(new Section("Worked Examples", "Use scales.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 59", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 59", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 59", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 59", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 59", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("choosing-measures", "Choosing Measures", "60", "Choose appropriate measures.", "Section 6: Lessons 51-60", 60,
             Arrays.asList(new Section("Worked Examples", "Choose appropriate measures.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 60", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 60", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 60", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 60", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 60", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("complementary-and-supplementary", "Complementary and Supplementary", "61", "Find missing angles.", "Section 7: Lessons 61-70", 61,
             Arrays.asList(new Section("Worked Examples", "Find missing angles.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 61", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 61", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 61", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 61", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 61", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("parallel-and-perpendicular", "Parallel and Perpendicular", "62", "Identify line relationships.", "Section 7: Lessons 61-70", 62,
             Arrays.asList(new Section("Worked Examples", "Identify line relationships.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 62", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 62", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 62", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 62", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 62", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("polygons", "Polygons", "63", "Classify polygons.", "Section 7: Lessons 61-70", 63,
             Arrays.asList(new Section("Worked Examples", "Classify polygons.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 63", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 63", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 63", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 63", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 63", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("circles", "Circles", "64", "Parts of a circle.", "Section 7: Lessons 61-70", 64,
             Arrays.asList(new Section("Worked Examples", "Parts of a circle.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 64", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 64", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 64", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 64", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 64", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -733,22 +733,22 @@ public class LessonContentService {
         lessons.add(new LessonContent("area-of-triangles", "Area of Triangles", "66", "Use area formulas.", "Section 7: Lessons 61-70", 66,
             Arrays.asList(new Section("Worked Examples", "Use area formulas.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 66", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 66", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 66", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 66", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 66", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("area-of-circles", "Area of Circles", "67", "Calculate circle area.", "Section 7: Lessons 61-70", 67,
             Arrays.asList(new Section("Worked Examples", "Calculate circle area.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 67", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 67", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 67", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 67", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 67", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -766,33 +766,33 @@ public class LessonContentService {
         lessons.add(new LessonContent("surface-area", "Surface Area", "69", "Find surface area.", "Section 7: Lessons 61-70", 69,
             Arrays.asList(new Section("Worked Examples", "Find surface area.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 69", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 69", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 69", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 69", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 69", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("geometric-solids", "Geometric Solids", "70", "Identify 3D shapes.", "Section 7: Lessons 61-70", 70,
             Arrays.asList(new Section("Worked Examples", "Identify 3D shapes.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 70", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 70", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 70", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 70", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 70", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Triangle angles: 45, 65, ?. Find missing.", Arrays.asList("180-45-65=70"), "70 degrees"),
+            new WorkedExample("Perimeter of rectangle 12 x 8", Arrays.asList("P=2(12+8)=2(20)=40"), "40 units"),
+            new WorkedExample("Area of triangle: base 10, height 6", Arrays.asList("A=(1/2)(10)(6)=30"), "30 sq units"),
+            new WorkedExample("Volume of box 5 x 4 x 3", Arrays.asList("V=5x4x3=60"), "60 cubic units"),
+            new WorkedExample("Circumference: diameter 10", Arrays.asList("C=3.14x10=31.4"), "31.4 units")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("integers-on-number-line", "Integers on Number Line", "71", "Locate integers.", "Section 8: Lessons 71-80", 71,
             Arrays.asList(new Section("Worked Examples", "Locate integers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 71", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 71", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 71", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 71", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 71", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -810,77 +810,77 @@ public class LessonContentService {
         lessons.add(new LessonContent("subtracting-integers", "Subtracting Integers", "73", "Subtract integers.", "Section 8: Lessons 71-80", 73,
             Arrays.asList(new Section("Worked Examples", "Subtract integers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 73", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 73", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 73", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 73", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 73", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("multiplyingdividing-integers", "Multiplying/Dividing Integers", "74", "Sign rules.", "Section 8: Lessons 71-80", 74,
             Arrays.asList(new Section("Worked Examples", "Sign rules.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 74", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 74", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 74", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 74", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 74", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("coordinate-plane", "Coordinate Plane", "75", "Plot ordered pairs.", "Section 8: Lessons 71-80", 75,
             Arrays.asList(new Section("Worked Examples", "Plot ordered pairs.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 75", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 75", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 75", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 75", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 75", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("translations", "Translations", "76", "Translate figures.", "Section 8: Lessons 71-80", 76,
             Arrays.asList(new Section("Worked Examples", "Translate figures.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 76", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 76", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 76", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 76", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 76", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("reflections", "Reflections", "77", "Reflect across axes.", "Section 8: Lessons 71-80", 77,
             Arrays.asList(new Section("Worked Examples", "Reflect across axes.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 77", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 77", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 77", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 77", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 77", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("rotations", "Rotations", "78", "Rotate figures.", "Section 8: Lessons 71-80", 78,
             Arrays.asList(new Section("Worked Examples", "Rotate figures.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 78", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 78", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 78", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 78", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 78", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("scientific-notation", "Scientific Notation", "79", "Write in scientific notation.", "Section 8: Lessons 71-80", 79,
             Arrays.asList(new Section("Worked Examples", "Write in scientific notation.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 79", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 79", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 79", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 79", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 79", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find: -5 + (-3)", Arrays.asList("Same sign: add, keep negative: -8"), "-8"),
+            new WorkedExample("Find: -8 + 12", Arrays.asList("Different signs: 12-8=4, positive wins"), "4"),
+            new WorkedExample("Find: 7 - (-4)", Arrays.asList("Subtract negative=add: 7+4=11"), "11"),
+            new WorkedExample("Find: (-6) x (-3)", Arrays.asList("Negative x negative = positive: 18"), "18"),
+            new WorkedExample("Find: (-20) / 4", Arrays.asList("Negative / positive = negative: -5"), "-5")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -898,22 +898,22 @@ public class LessonContentService {
         lessons.add(new LessonContent("variables-and-expressions", "Variables and Expressions", "81", "Evaluate expressions.", "Section 9: Lessons 81-90", 81,
             Arrays.asList(new Section("Worked Examples", "Evaluate expressions.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 81", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 81", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 81", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 81", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 81", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Solve: x + 7 = 15", Arrays.asList("Subtract 7: x = 15-7 = 8", "Check: 8+7=15"), "x = 8"),
+            new WorkedExample("Solve: 3x = 24", Arrays.asList("Divide by 3: x = 24/3 = 8", "Check: 3(8)=24"), "x = 8"),
+            new WorkedExample("Solve: 2x + 5 = 17", Arrays.asList("Subtract 5: 2x=12", "Divide by 2: x=6", "Check: 2(6)+5=17"), "x = 6"),
+            new WorkedExample("Evaluate 4n-3 when n=5", Arrays.asList("4(5)-3 = 20-3 = 17"), "17"),
+            new WorkedExample("Find slope: (1,2) to (4,11)", Arrays.asList("(11-2)/(4-1) = 9/3 = 3"), "3")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("writing-expressions", "Writing Expressions", "82", "Translate words to algebra.", "Section 9: Lessons 81-90", 82,
             Arrays.asList(new Section("Worked Examples", "Translate words to algebra.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 82", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 82", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 82", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 82", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 82", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Solve: x + 7 = 15", Arrays.asList("Subtract 7: x = 15-7 = 8", "Check: 8+7=15"), "x = 8"),
+            new WorkedExample("Solve: 3x = 24", Arrays.asList("Divide by 3: x = 24/3 = 8", "Check: 3(8)=24"), "x = 8"),
+            new WorkedExample("Solve: 2x + 5 = 17", Arrays.asList("Subtract 5: 2x=12", "Divide by 2: x=6", "Check: 2(6)+5=17"), "x = 6"),
+            new WorkedExample("Evaluate 4n-3 when n=5", Arrays.asList("4(5)-3 = 20-3 = 17"), "17"),
+            new WorkedExample("Find slope: (1,2) to (4,11)", Arrays.asList("(11-2)/(4-1) = 9/3 = 3"), "3")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -953,33 +953,33 @@ public class LessonContentService {
         lessons.add(new LessonContent("inequalities", "Inequalities", "86", "Solve and graph.", "Section 9: Lessons 81-90", 86,
             Arrays.asList(new Section("Worked Examples", "Solve and graph.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 86", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 86", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 86", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 86", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 86", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Solve: x + 7 = 15", Arrays.asList("Subtract 7: x = 15-7 = 8", "Check: 8+7=15"), "x = 8"),
+            new WorkedExample("Solve: 3x = 24", Arrays.asList("Divide by 3: x = 24/3 = 8", "Check: 3(8)=24"), "x = 8"),
+            new WorkedExample("Solve: 2x + 5 = 17", Arrays.asList("Subtract 5: 2x=12", "Divide by 2: x=6", "Check: 2(6)+5=17"), "x = 6"),
+            new WorkedExample("Evaluate 4n-3 when n=5", Arrays.asList("4(5)-3 = 20-3 = 17"), "17"),
+            new WorkedExample("Find slope: (1,2) to (4,11)", Arrays.asList("(11-2)/(4-1) = 9/3 = 3"), "3")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("functions", "Functions", "87", "Complete function tables.", "Section 9: Lessons 81-90", 87,
             Arrays.asList(new Section("Worked Examples", "Complete function tables.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 87", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 87", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 87", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 87", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 87", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Solve: x + 7 = 15", Arrays.asList("Subtract 7: x = 15-7 = 8", "Check: 8+7=15"), "x = 8"),
+            new WorkedExample("Solve: 3x = 24", Arrays.asList("Divide by 3: x = 24/3 = 8", "Check: 3(8)=24"), "x = 8"),
+            new WorkedExample("Solve: 2x + 5 = 17", Arrays.asList("Subtract 5: 2x=12", "Divide by 2: x=6", "Check: 2(6)+5=17"), "x = 6"),
+            new WorkedExample("Evaluate 4n-3 when n=5", Arrays.asList("4(5)-3 = 20-3 = 17"), "17"),
+            new WorkedExample("Find slope: (1,2) to (4,11)", Arrays.asList("(11-2)/(4-1) = 9/3 = 3"), "3")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("graphing-functions", "Graphing Functions", "88", "Graph on coordinate plane.", "Section 9: Lessons 81-90", 88,
             Arrays.asList(new Section("Worked Examples", "Graph on coordinate plane.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 88", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 88", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 88", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 88", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 88", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Solve: x + 7 = 15", Arrays.asList("Subtract 7: x = 15-7 = 8", "Check: 8+7=15"), "x = 8"),
+            new WorkedExample("Solve: 3x = 24", Arrays.asList("Divide by 3: x = 24/3 = 8", "Check: 3(8)=24"), "x = 8"),
+            new WorkedExample("Solve: 2x + 5 = 17", Arrays.asList("Subtract 5: 2x=12", "Divide by 2: x=6", "Check: 2(6)+5=17"), "x = 6"),
+            new WorkedExample("Evaluate 4n-3 when n=5", Arrays.asList("4(5)-3 = 20-3 = 17"), "17"),
+            new WorkedExample("Find slope: (1,2) to (4,11)", Arrays.asList("(11-2)/(4-1) = 9/3 = 3"), "3")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -997,121 +997,121 @@ public class LessonContentService {
         lessons.add(new LessonContent("equations-from-word-problems", "Equations from Word Problems", "90", "Write and solve.", "Section 9: Lessons 81-90", 90,
             Arrays.asList(new Section("Worked Examples", "Write and solve.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 90", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 90", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 90", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 90", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 90", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Solve: x + 7 = 15", Arrays.asList("Subtract 7: x = 15-7 = 8", "Check: 8+7=15"), "x = 8"),
+            new WorkedExample("Solve: 3x = 24", Arrays.asList("Divide by 3: x = 24/3 = 8", "Check: 3(8)=24"), "x = 8"),
+            new WorkedExample("Solve: 2x + 5 = 17", Arrays.asList("Subtract 5: 2x=12", "Divide by 2: x=6", "Check: 2(6)+5=17"), "x = 6"),
+            new WorkedExample("Evaluate 4n-3 when n=5", Arrays.asList("4(5)-3 = 20-3 = 17"), "17"),
+            new WorkedExample("Find slope: (1,2) to (4,11)", Arrays.asList("(11-2)/(4-1) = 9/3 = 3"), "3")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("proportional-relationships", "Proportional Relationships", "91", "Identify proportional tables.", "Section 10: Lessons 91-100", 91,
             Arrays.asList(new Section("Worked Examples", "Identify proportional tables.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 91", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 91", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 91", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 91", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 91", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("percent-increasedecrease", "Percent Increase/Decrease", "92", "Calculate percent change.", "Section 10: Lessons 91-100", 92,
             Arrays.asList(new Section("Worked Examples", "Calculate percent change.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 92", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 92", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 92", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 92", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 92", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("simple-interest", "Simple Interest", "93", "I=Prt.", "Section 10: Lessons 91-100", 93,
             Arrays.asList(new Section("Worked Examples", "I=Prt.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 93", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 93", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 93", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 93", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 93", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("discount-and-tax", "Discount and Tax", "94", "Calculate prices.", "Section 10: Lessons 91-100", 94,
             Arrays.asList(new Section("Worked Examples", "Calculate prices.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 94", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 94", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 94", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 94", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 94", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("similar-figures", "Similar Figures", "95", "Find missing measures.", "Section 10: Lessons 91-100", 95,
             Arrays.asList(new Section("Worked Examples", "Find missing measures.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 95", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 95", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 95", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 95", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 95", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("indirect-measurement", "Indirect Measurement", "96", "Use proportions.", "Section 10: Lessons 91-100", 96,
             Arrays.asList(new Section("Worked Examples", "Use proportions.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 96", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 96", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 96", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 96", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 96", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("compound-events", "Compound Events", "97", "Independent/dependent.", "Section 10: Lessons 91-100", 97,
             Arrays.asList(new Section("Worked Examples", "Independent/dependent.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 97", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 97", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 97", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 97", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 97", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("permutationscombinations", "Permutations/Combinations", "98", "Count arrangements.", "Section 10: Lessons 91-100", 98,
             Arrays.asList(new Section("Worked Examples", "Count arrangements.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 98", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 98", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 98", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 98", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 98", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("stem-and-leaf-plots", "Stem-and-Leaf Plots", "99", "Create displays.", "Section 10: Lessons 91-100", 99,
             Arrays.asList(new Section("Worked Examples", "Create displays.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 99", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 99", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 99", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 99", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 99", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("box-and-whisker-plots", "Box-and-Whisker Plots", "100", "Create box plots.", "Section 10: Lessons 91-100", 100,
             Arrays.asList(new Section("Worked Examples", "Create box plots.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 100", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 100", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 100", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 100", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 100", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Find 25% of 80", Arrays.asList("25/100 x 80 = 0.25 x 80 = 20"), "20"),
+            new WorkedExample("What percent is 15 of 60?", Arrays.asList("15/60 = 0.25 = 25%"), "25%"),
+            new WorkedExample("Convert 3/5 to percent", Arrays.asList("3/5 = 0.6 = 60%"), "60%"),
+            new WorkedExample("Item costs $45, 20% off. Sale price?", Arrays.asList("20% of 45 = 9", "45-9=36"), "$36"),
+            new WorkedExample("Tax 8% on $75. Total?", Arrays.asList("8% of 75 = 6", "75+6=81"), "$81")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
@@ -1129,209 +1129,209 @@ public class LessonContentService {
         lessons.add(new LessonContent("distance-formula", "Distance Formula", "102", "Find distance.", "Section 11: Lessons 101-110", 102,
             Arrays.asList(new Section("Worked Examples", "Find distance.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 102", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 102", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 102", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 102", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 102", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("irrational-numbers", "Irrational Numbers", "103", "Identify irrationals.", "Section 11: Lessons 101-110", 103,
             Arrays.asList(new Section("Worked Examples", "Identify irrationals.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 103", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 103", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 103", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 103", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 103", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("exponent-rules", "Exponent Rules", "104", "Multiply/divide powers.", "Section 11: Lessons 101-110", 104,
             Arrays.asList(new Section("Worked Examples", "Multiply/divide powers.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 104", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 104", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 104", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 104", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 104", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("negative-exponents", "Negative Exponents", "105", "Evaluate neg exponents.", "Section 11: Lessons 101-110", 105,
             Arrays.asList(new Section("Worked Examples", "Evaluate neg exponents.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 105", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 105", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 105", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 105", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 105", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("scatter-plots", "Scatter Plots", "106", "Create and interpret.", "Section 11: Lessons 101-110", 106,
             Arrays.asList(new Section("Worked Examples", "Create and interpret.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 106", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 106", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 106", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 106", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 106", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("line-of-best-fit", "Line of Best Fit", "107", "Draw trend lines.", "Section 11: Lessons 101-110", 107,
             Arrays.asList(new Section("Worked Examples", "Draw trend lines.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 107", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 107", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 107", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 107", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 107", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("two-step-inequalities", "Two-Step Inequalities", "108", "Solve and graph.", "Section 11: Lessons 101-110", 108,
             Arrays.asList(new Section("Worked Examples", "Solve and graph.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 108", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 108", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 108", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 108", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 108", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("systems-introduction", "Systems Introduction", "109", "Two equations.", "Section 11: Lessons 101-110", 109,
             Arrays.asList(new Section("Worked Examples", "Two equations.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 109", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 109", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 109", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 109", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 109", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("geometric-probability", "Geometric Probability", "110", "Area-based probability.", "Section 11: Lessons 101-110", 110,
             Arrays.asList(new Section("Worked Examples", "Area-based probability.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 110", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 110", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 110", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 110", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 110", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Pythagorean: legs 6 and 8. Hypotenuse?", Arrays.asList("36+64=100, sqrt(100)=10"), "10"),
+            new WorkedExample("sqrt(144) = ?", Arrays.asList("12x12=144"), "12"),
+            new WorkedExample("Write 45,000 in scientific notation", Arrays.asList("4.5 x 10^4"), "4.5 x 10^4"),
+            new WorkedExample("5^(-2) = ?", Arrays.asList("1/5^2 = 1/25"), "1/25"),
+            new WorkedExample("Distance (0,0) to (5,12)?", Arrays.asList("sqrt(25+144)=sqrt(169)=13"), "13")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("multi-step-word-problems", "Multi-Step Word Problems", "111", "Complex problems.", "Section 12: Lessons 111-120", 111,
             Arrays.asList(new Section("Worked Examples", "Complex problems.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 111", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 111", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 111", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 111", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 111", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("rates-of-change", "Rates of Change", "112", "Interpret rates.", "Section 12: Lessons 111-120", 112,
             Arrays.asList(new Section("Worked Examples", "Interpret rates.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 112", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 112", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 112", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 112", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 112", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("unit-conversions", "Unit Conversions", "113", "Dimensional analysis.", "Section 12: Lessons 111-120", 113,
             Arrays.asList(new Section("Worked Examples", "Dimensional analysis.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 113", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 113", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 113", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 113", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 113", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("unusual-percents", "Unusual Percents", "114", ">100% and <1%.", "Section 12: Lessons 111-120", 114,
             Arrays.asList(new Section("Worked Examples", ">100% and <1%.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 114", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 114", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 114", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 114", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 114", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("compound-interest", "Compound Interest", "115", "Compound vs simple.", "Section 12: Lessons 111-120", 115,
             Arrays.asList(new Section("Worked Examples", "Compound vs simple.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 115", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 115", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 115", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 115", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 115", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("tessellations", "Tessellations", "116", "Shapes that tile.", "Section 12: Lessons 111-120", 116,
             Arrays.asList(new Section("Worked Examples", "Shapes that tile.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 116", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 116", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 116", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 116", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 116", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("nets-and-surface-area", "Nets and Surface Area", "117", "Unfold 3D shapes.", "Section 12: Lessons 111-120", 117,
             Arrays.asList(new Section("Worked Examples", "Unfold 3D shapes.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 117", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 117", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 117", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 117", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 117", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("volume-of-cylinders", "Volume of Cylinders", "118", "V=pi*r^2*h.", "Section 12: Lessons 111-120", 118,
             Arrays.asList(new Section("Worked Examples", "V=pi*r^2*h.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 118", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 118", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 118", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 118", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 118", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("data-predictions", "Data Predictions", "119", "Predict from trends.", "Section 12: Lessons 111-120", 119,
             Arrays.asList(new Section("Worked Examples", "Predict from trends.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 119", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 119", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 119", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 119", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 119", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
         lessons.add(new LessonContent("problem-solving-review", "Problem Solving Review", "120", "All strategies.", "Section 12: Lessons 111-120", 120,
             Arrays.asList(new Section("Worked Examples", "All strategies.",
                 Arrays.asList(
-            new WorkedExample("Problem 1 for Lesson 120", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 1"),
-            new WorkedExample("Problem 2 for Lesson 120", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 2"),
-            new WorkedExample("Problem 3 for Lesson 120", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 3"),
-            new WorkedExample("Problem 4 for Lesson 120", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 4"),
-            new WorkedExample("Problem 5 for Lesson 120", Arrays.asList("Step 1", "Step 2", "Step 3", "Step 4"), "Solution 5")
+            new WorkedExample("Simplify ratio 24:16", Arrays.asList("GCF=8, divide both"), "3:2"),
+            new WorkedExample("Solve: 3/5 = x/20", Arrays.asList("Cross multiply: 5x=60, x=12"), "12"),
+            new WorkedExample("Unit rate: $12 for 4 pounds", Arrays.asList("12/4 = $3 per pound"), "$3/lb"),
+            new WorkedExample("Scale 1cm=50km. Map shows 7cm.", Arrays.asList("7x50=350"), "350 km"),
+            new WorkedExample("8 workers finish in 6 days. Workers for 4 days?", Arrays.asList("48 worker-days / 4 = 12"), "12 workers")
             ))),
             Arrays.asList("Practice daily for mastery", "Show all work", "Check your answer")
         ));
