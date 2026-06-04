@@ -101,5 +101,10 @@
             </div>
         </main>
     </div>
+    <script>
+        // Scroll active TOC item into view
+        const active = document.querySelector('.toc-item.active');
+        if (active) active.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    </script>
 </body>
 </html>

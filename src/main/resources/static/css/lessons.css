@@ -78,9 +78,15 @@
 }
 
 .toc-item.active a {
-    background: #f0edff;
-    color: #6c5ce7;
+    background: #6c5ce7;
+    color: white;
     font-weight: 600;
+    border-radius: 6px;
+}
+
+.toc-item.active a .toc-section-num {
+    background: white;
+    color: #6c5ce7;
 }
 
 .toc-section-num {
@@ -273,8 +279,8 @@
 .worked-examples {
     margin-top: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
 }
 
 .example-card {
