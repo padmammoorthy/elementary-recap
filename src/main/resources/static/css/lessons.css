@@ -195,12 +195,12 @@
 /* Lesson Detail */
 .lesson-detail {
     padding: 2rem;
-    max-width: 850px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
 }
 
 .lesson-detail-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .lesson-num {
@@ -258,36 +258,61 @@
 .section-illustration {
     margin: 1.5rem 0;
     text-align: center;
+    background: #f8f7ff;
+    border-radius: 12px;
+    padding: 1rem;
 }
 
 .section-illustration svg {
     max-width: 100%;
     height: auto;
+    max-height: 200px;
 }
 
 /* Worked Examples */
 .worked-examples {
     margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 1rem;
 }
 
 .example-card {
     background: white;
     border-radius: 10px;
-    padding: 1.25rem;
-    margin-bottom: 1rem;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    padding: 1.5rem;
+    border-left: 4px solid #6c5ce7;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
 }
 
 .example-problem {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: 600;
     margin-bottom: 0.75rem;
     padding-bottom: 0.75rem;
     border-bottom: 1px dashed #dfe6e9;
+    color: #2d3436;
+}
+
+.example-problem strong {
+    color: #6c5ce7;
 }
 
 .example-steps {
     margin-bottom: 0.75rem;
+    flex: 1;
+}
+
+.example-steps strong {
+    color: #636e72;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
 }
 
 .example-steps ol {
@@ -296,7 +321,7 @@
 }
 
 .example-steps li {
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.4rem;
     font-size: 0.93rem;
     color: #2d3436;
 }
@@ -344,5 +369,9 @@
 
     .lessons-layout {
         flex-direction: column;
+    }
+
+    .worked-examples {
+        grid-template-columns: 1fr;
     }
 }
