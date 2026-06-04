@@ -16,561 +16,1325 @@ public class LessonContentService {
         for (LessonContent l : lessons) map.computeIfAbsent(l.getChapter(), k -> new ArrayList<>()).add(l);
         return map; }
     private void initializeLessons() {
-        lessons.add(new LessonContent("addition-subtraction-facts", "Addition and Subtraction Facts", "1", "Master basic addition and subtraction facts.", "Chapter 1: Number Sense", 1,
-            Arrays.asList(new Section("Worked Examples", "Master basic addition and subtraction facts.",
+        lessons.add(new LessonContent("number-sense-and-sequences", "Number Sense and Sequences", "1", "Identify patterns in sequences and use number sense.", "Section 1: Lessons 1-10", 1,
+            Arrays.asList(new Section("Worked Examples", "Identify patterns in sequences and use number sense.",
                 Arrays.asList(
-            new WorkedExample("8 + 7 = ?", Arrays.asList("Start at 8, count up 7: 9,10,11,12,13,14,15"), "15"),
-            new WorkedExample("15 - 9 = ?", Arrays.asList("Think: 9 + ? = 15", "9 + 6 = 15"), "6"),
-            new WorkedExample("6 + 8 = ?", Arrays.asList("Make a ten: 6+4=10, then +4 more=14"), "14"),
-            new WorkedExample("17 - 8 = ?", Arrays.asList("Start at 17, count back 8"), "9"),
-            new WorkedExample("9 + 6 = ?", Arrays.asList("9+1=10, then +5=15"), "15")
+            new WorkedExample("Practice problem for Lesson 1", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 1"),
+            new WorkedExample("Practice problem for Lesson 1", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 1"),
+            new WorkedExample("Practice problem for Lesson 1", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 1"),
+            new WorkedExample("Practice problem for Lesson 1", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 1"),
+            new WorkedExample("Practice problem for Lesson 1", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 1")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("place-value", "Place Value", "2", "Understand place value through thousands.", "Chapter 1: Number Sense", 2,
-            Arrays.asList(new Section("Worked Examples", "Understand place value through thousands.",
+        lessons.add(new LessonContent("addition-and-subtraction-facts", "Addition and Subtraction Facts", "2", "Review basic addition and subtraction facts.", "Section 1: Lessons 1-10", 2,
+            Arrays.asList(new Section("Worked Examples", "Review basic addition and subtraction facts.",
                 Arrays.asList(
-            new WorkedExample("What digit is in the hundreds place of 4,725?", Arrays.asList("From right: ones=5, tens=2, hundreds=7"), "7"),
-            new WorkedExample("What is the value of 3 in 3,456?", Arrays.asList("3 is in the thousands place", "3 x 1,000 = 3,000"), "3,000"),
-            new WorkedExample("Write in expanded form: 6,204", Arrays.asList("6,000 + 200 + 0 + 4", "No tens digit"), "6,000 + 200 + 4"),
-            new WorkedExample("How many hundreds in 2,400?", Arrays.asList("2,400 / 100 = 24"), "24"),
-            new WorkedExample("What is 100 more than 3,456?", Arrays.asList("Add 1 to the hundreds digit", "3,456 + 100 = 3,556"), "3,556")
+            new WorkedExample("Practice problem for Lesson 2", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 2"),
+            new WorkedExample("Practice problem for Lesson 2", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 2"),
+            new WorkedExample("Practice problem for Lesson 2", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 2"),
+            new WorkedExample("Practice problem for Lesson 2", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 2"),
+            new WorkedExample("Practice problem for Lesson 2", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 2")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("comparing-ordering", "Comparing and Ordering Numbers", "3", "Compare numbers using symbols.", "Chapter 1: Number Sense", 3,
-            Arrays.asList(new Section("Worked Examples", "Compare numbers using symbols.",
+        lessons.add(new LessonContent("place-value-through-millions", "Place Value Through Millions", "3", "Read and write numbers through millions.", "Section 1: Lessons 1-10", 3,
+            Arrays.asList(new Section("Worked Examples", "Read and write numbers through millions.",
                 Arrays.asList(
-            new WorkedExample("Compare: 456 and 465", Arrays.asList("Same hundreds (4)", "Compare tens: 5 < 6", "465 is greater"), "465 > 456"),
-            new WorkedExample("Order least to greatest: 89, 78, 98", Arrays.asList("Compare: 78 < 89 < 98"), "78, 89, 98"),
-            new WorkedExample("Fill in: 1,234 __ 1,243", Arrays.asList("Hundreds same, tens: 3 < 4"), "<"),
-            new WorkedExample("Which is smallest: 234, 324, 243?", Arrays.asList("Compare hundreds: 2 < 3", "Compare 234 and 243: tens 3 < 4"), "234"),
-            new WorkedExample("Is 999 greater or less than 1,000?", Arrays.asList("3 digits < 4 digits"), "Less than")
+            new WorkedExample("Practice problem for Lesson 3", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 3"),
+            new WorkedExample("Practice problem for Lesson 3", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 3"),
+            new WorkedExample("Practice problem for Lesson 3", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 3"),
+            new WorkedExample("Practice problem for Lesson 3", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 3"),
+            new WorkedExample("Practice problem for Lesson 3", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 3")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("rounding-estimating", "Rounding and Estimating", "4", "Round numbers and estimate answers.", "Chapter 1: Number Sense", 4,
-            Arrays.asList(new Section("Worked Examples", "Round numbers and estimate answers.",
+        lessons.add(new LessonContent("comparing-and-ordering-whole-numbers", "Comparing and Ordering Whole Numbers", "4", "Use inequality symbols to compare numbers.", "Section 1: Lessons 1-10", 4,
+            Arrays.asList(new Section("Worked Examples", "Use inequality symbols to compare numbers.",
                 Arrays.asList(
-            new WorkedExample("Round 67 to the nearest ten", Arrays.asList("Look at ones digit: 7", "7 >= 5, so round up"), "70"),
-            new WorkedExample("Round 345 to nearest hundred", Arrays.asList("Look at tens digit: 4", "4 < 5, so round down"), "300"),
-            new WorkedExample("Estimate 48 + 33", Arrays.asList("Round: 50 + 30 = 80"), "About 80"),
-            new WorkedExample("Round 2,750 to nearest thousand", Arrays.asList("Look at hundreds: 7", "7 >= 5, round up"), "3,000"),
-            new WorkedExample("Estimate 89 - 42", Arrays.asList("Round: 90 - 40 = 50"), "About 50")
+            new WorkedExample("Practice problem for Lesson 4", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 4"),
+            new WorkedExample("Practice problem for Lesson 4", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 4"),
+            new WorkedExample("Practice problem for Lesson 4", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 4"),
+            new WorkedExample("Practice problem for Lesson 4", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 4"),
+            new WorkedExample("Practice problem for Lesson 4", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 4")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("addition-regrouping", "Addition with Regrouping", "5", "Add multi-digit numbers with carrying.", "Chapter 2: Addition and Subtraction", 5,
-            Arrays.asList(new Section("Worked Examples", "Add multi-digit numbers with carrying.",
+        lessons.add(new LessonContent("rounding-whole-numbers", "Rounding Whole Numbers", "5", "Round numbers to any place value.", "Section 1: Lessons 1-10", 5,
+            Arrays.asList(new Section("Worked Examples", "Round numbers to any place value.",
                 Arrays.asList(
-            new WorkedExample("456 + 278 = ?", Arrays.asList("6+8=14, write 4 carry 1", "5+7+1=13, write 3 carry 1", "4+2+1=7"), "734"),
-            new WorkedExample("567 + 345 = ?", Arrays.asList("7+5=12, carry 1", "6+4+1=11, carry 1", "5+3+1=9"), "912"),
-            new WorkedExample("1,245 + 3,678 = ?", Arrays.asList("Add each column right to left", "Carry when sum > 9"), "4,923"),
-            new WorkedExample("789 + 456 = ?", Arrays.asList("9+6=15, carry", "8+5+1=14, carry", "7+4+1=12"), "1,245"),
-            new WorkedExample("999 + 999 = ?", Arrays.asList("9+9=18, carry 1 each column"), "1,998")
+            new WorkedExample("Practice problem for Lesson 5", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 5"),
+            new WorkedExample("Practice problem for Lesson 5", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 5"),
+            new WorkedExample("Practice problem for Lesson 5", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 5"),
+            new WorkedExample("Practice problem for Lesson 5", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 5"),
+            new WorkedExample("Practice problem for Lesson 5", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 5")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("subtraction-regrouping", "Subtraction with Regrouping", "6", "Subtract with borrowing.", "Chapter 2: Addition and Subtraction", 6,
-            Arrays.asList(new Section("Worked Examples", "Subtract with borrowing.",
+        lessons.add(new LessonContent("adding-whole-numbers", "Adding Whole Numbers", "6", "Add multi-digit numbers with regrouping.", "Section 1: Lessons 1-10", 6,
+            Arrays.asList(new Section("Worked Examples", "Add multi-digit numbers with regrouping.",
                 Arrays.asList(
-            new WorkedExample("503 - 287 = ?", Arrays.asList("Can't subtract 7 from 3, borrow", "Can't borrow from 0, borrow from 5", "13-7=6, 9-8=1, 4-2=2"), "216"),
-            new WorkedExample("1,000 - 456 = ?", Arrays.asList("Borrow through zeros", "10-6=4, 9-5=4, 9-4=5"), "544"),
-            new WorkedExample("800 - 345 = ?", Arrays.asList("Borrow: 10-5=5, 9-4=5, 7-3=4"), "455"),
-            new WorkedExample("4,002 - 1,567 = ?", Arrays.asList("Borrow through the zeros"), "2,435"),
-            new WorkedExample("700 - 283 = ?", Arrays.asList("Borrow from 7: becomes 6", "10-3=7, 9-8=1, 6-2=4"), "417")
+            new WorkedExample("Practice problem for Lesson 6", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 6"),
+            new WorkedExample("Practice problem for Lesson 6", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 6"),
+            new WorkedExample("Practice problem for Lesson 6", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 6"),
+            new WorkedExample("Practice problem for Lesson 6", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 6"),
+            new WorkedExample("Practice problem for Lesson 6", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 6")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("word-problems-add-sub", "Word Problems (Add/Subtract)", "7", "Solve addition and subtraction word problems.", "Chapter 2: Addition and Subtraction", 7,
-            Arrays.asList(new Section("Worked Examples", "Solve addition and subtraction word problems.",
+        lessons.add(new LessonContent("subtracting-whole-numbers", "Subtracting Whole Numbers", "7", "Subtract multi-digit numbers with borrowing.", "Section 1: Lessons 1-10", 7,
+            Arrays.asList(new Section("Worked Examples", "Subtract multi-digit numbers with borrowing.",
                 Arrays.asList(
-            new WorkedExample("Tom has 45 marbles and gets 28 more. How many total?", Arrays.asList("Addition: 45 + 28", "5+8=13, carry. 4+2+1=7"), "73 marbles"),
-            new WorkedExample("Sara had 92 stickers, gave 37 away. How many left?", Arrays.asList("Subtraction: 92 - 37", "12-7=5, 8-3=5"), "55 stickers"),
-            new WorkedExample("A store sold 156 apples Monday and 234 Tuesday. Total?", Arrays.asList("Add: 156 + 234"), "390 apples"),
-            new WorkedExample("Jake had $500, spent $275. How much left?", Arrays.asList("Subtract: 500 - 275", "Borrow from 5"), "$225"),
-            new WorkedExample("345 students + 278 students = ?", Arrays.asList("Add with regrouping"), "623 students")
+            new WorkedExample("Practice problem for Lesson 7", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 7"),
+            new WorkedExample("Practice problem for Lesson 7", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 7"),
+            new WorkedExample("Practice problem for Lesson 7", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 7"),
+            new WorkedExample("Practice problem for Lesson 7", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 7"),
+            new WorkedExample("Practice problem for Lesson 7", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 7")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("multiplication-facts", "Multiplication Facts", "8", "Master multiplication tables through 12.", "Chapter 3: Multiplication", 8,
-            Arrays.asList(new Section("Worked Examples", "Master multiplication tables through 12.",
+        lessons.add(new LessonContent("multiplication-facts", "Multiplication Facts", "8", "Review multiplication facts through 12.", "Section 1: Lessons 1-10", 8,
+            Arrays.asList(new Section("Worked Examples", "Review multiplication facts through 12.",
                 Arrays.asList(
-            new WorkedExample("7 x 8 = ?", Arrays.asList("7 groups of 8", "or 8 groups of 7"), "56"),
-            new WorkedExample("9 x 6 = ?", Arrays.asList("Think: 10x6=60, minus 6=54"), "54"),
-            new WorkedExample("12 x 5 = ?", Arrays.asList("12x5 = 10x5 + 2x5 = 50+10"), "60"),
-            new WorkedExample("8 x 9 = ?", Arrays.asList("8x9 = 8x10 - 8 = 72"), "72"),
-            new WorkedExample("6 x 7 = ?", Arrays.asList("Count by 6s seven times", "or count by 7s six times"), "42")
+            new WorkedExample("Practice problem for Lesson 8", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 8"),
+            new WorkedExample("Practice problem for Lesson 8", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 8"),
+            new WorkedExample("Practice problem for Lesson 8", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 8"),
+            new WorkedExample("Practice problem for Lesson 8", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 8"),
+            new WorkedExample("Practice problem for Lesson 8", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 8")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("multi-digit-multiplication", "Multi-Digit Multiplication", "9", "Multiply 2 and 3 digit numbers.", "Chapter 3: Multiplication", 9,
-            Arrays.asList(new Section("Worked Examples", "Multiply 2 and 3 digit numbers.",
+        lessons.add(new LessonContent("properties-of-addition-and-multiplicatio", "Properties of Addition and Multiplication", "9", "Apply commutative, associative, and identity properties.", "Section 1: Lessons 1-10", 9,
+            Arrays.asList(new Section("Worked Examples", "Apply commutative, associative, and identity properties.",
                 Arrays.asList(
-            new WorkedExample("23 x 4 = ?", Arrays.asList("20x4=80, 3x4=12", "80+12=92"), "92"),
-            new WorkedExample("56 x 7 = ?", Arrays.asList("50x7=350, 6x7=42", "350+42=392"), "392"),
-            new WorkedExample("145 x 3 = ?", Arrays.asList("100x3=300, 40x3=120, 5x3=15", "300+120+15=435"), "435"),
-            new WorkedExample("234 x 5 = ?", Arrays.asList("200x5=1000, 30x5=150, 4x5=20", "1000+150+20=1170"), "1,170"),
-            new WorkedExample("67 x 8 = ?", Arrays.asList("60x8=480, 7x8=56", "480+56=536"), "536")
+            new WorkedExample("Practice problem for Lesson 9", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 9"),
+            new WorkedExample("Practice problem for Lesson 9", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 9"),
+            new WorkedExample("Practice problem for Lesson 9", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 9"),
+            new WorkedExample("Practice problem for Lesson 9", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 9"),
+            new WorkedExample("Practice problem for Lesson 9", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 9")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("division-facts", "Division Facts", "10", "Master division facts through 12.", "Chapter 4: Division", 10,
-            Arrays.asList(new Section("Worked Examples", "Master division facts through 12.",
+        lessons.add(new LessonContent("word-problems-about-combining-and-separa", "Word Problems About Combining and Separating", "10", "Solve one-step word problems.", "Section 1: Lessons 1-10", 10,
+            Arrays.asList(new Section("Worked Examples", "Solve one-step word problems.",
                 Arrays.asList(
-            new WorkedExample("56 / 8 = ?", Arrays.asList("Think: 8 x ? = 56", "8 x 7 = 56"), "7"),
-            new WorkedExample("72 / 9 = ?", Arrays.asList("9 x ? = 72", "9 x 8 = 72"), "8"),
-            new WorkedExample("48 / 6 = ?", Arrays.asList("6 x 8 = 48"), "8"),
-            new WorkedExample("63 / 7 = ?", Arrays.asList("7 x 9 = 63"), "9"),
-            new WorkedExample("84 / 12 = ?", Arrays.asList("12 x 7 = 84"), "7")
+            new WorkedExample("Practice problem for Lesson 10", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 10"),
+            new WorkedExample("Practice problem for Lesson 10", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 10"),
+            new WorkedExample("Practice problem for Lesson 10", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 10"),
+            new WorkedExample("Practice problem for Lesson 10", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 10"),
+            new WorkedExample("Practice problem for Lesson 10", Arrays.asList("Step 1: Read the problem carefully", "Step 2: Identify the operation needed", "Step 3: Calculate the answer", "Step 4: Check by estimating"), "Answer for Lesson 10")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("long-division", "Long Division", "11", "Divide multi-digit numbers using long division.", "Chapter 4: Division", 11,
-            Arrays.asList(new Section("Worked Examples", "Divide multi-digit numbers using long division.",
+        lessons.add(new LessonContent("division-facts", "Division Facts", "11", "Review division facts and relate to multiplication.", "Section 2: Lessons 11-20", 11,
+            Arrays.asList(new Section("Worked Examples", "Review division facts and relate to multiplication.",
                 Arrays.asList(
-            new WorkedExample("156 / 12 = ?", Arrays.asList("12 goes into 15 once (12), remainder 3", "Bring down 6: 36", "12 goes into 36 three times"), "13"),
-            new WorkedExample("345 / 5 = ?", Arrays.asList("5 into 34 = 6 r4", "Bring down 5: 45", "5 into 45 = 9"), "69"),
-            new WorkedExample("824 / 4 = ?", Arrays.asList("4 into 8=2, 4 into 2=0 r2, 4 into 24=6"), "206"),
-            new WorkedExample("936 / 9 = ?", Arrays.asList("9 into 9=1, 9 into 3=0 r3, 9 into 36=4"), "104"),
-            new WorkedExample("672 / 6 = ?", Arrays.asList("6 into 6=1, 6 into 7=1 r1, 6 into 12=2"), "112")
+            new WorkedExample("Practice problem for Lesson 11", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 11", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 11", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 11", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 11", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("word-problems-mult-div", "Word Problems (Multiply/Divide)", "12", "Solve multiplication and division word problems.", "Chapter 4: Division", 12,
+        lessons.add(new LessonContent("lines-segments-and-rays", "Lines, Segments, and Rays", "12", "Identify and classify lines, segments, and rays.", "Section 2: Lessons 11-20", 12,
+            Arrays.asList(new Section("Worked Examples", "Identify and classify lines, segments, and rays.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 12", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 12", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 12", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 12", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 12", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("angles", "Angles", "13", "Classify and measure angles.", "Section 2: Lessons 11-20", 13,
+            Arrays.asList(new Section("Worked Examples", "Classify and measure angles.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 13", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 13", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 13", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 13", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 13", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("multiplication-multi-digit-by-one-digit", "Multiplication: Multi-Digit by One-Digit", "14", "Multiply by a single digit with regrouping.", "Section 2: Lessons 11-20", 14,
+            Arrays.asList(new Section("Worked Examples", "Multiply by a single digit with regrouping.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 14", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 14", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 14", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 14", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 14", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("division-with-remainders", "Division with Remainders", "15", "Divide with remainders and interpret them.", "Section 2: Lessons 11-20", 15,
+            Arrays.asList(new Section("Worked Examples", "Divide with remainders and interpret them.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 15", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 15", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 15", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 15", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 15", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("even-and-odd-numbers", "Even and Odd Numbers", "16", "Identify even and odd numbers and their properties.", "Section 2: Lessons 11-20", 16,
+            Arrays.asList(new Section("Worked Examples", "Identify even and odd numbers and their properties.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 16", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 16", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 16", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 16", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 16", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("factors", "Factors", "17", "Find all factor pairs of a number.", "Section 2: Lessons 11-20", 17,
+            Arrays.asList(new Section("Worked Examples", "Find all factor pairs of a number.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 17", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 17", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 17", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 17", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 17", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("word-problems-about-equal-groups", "Word Problems About Equal Groups", "18", "Solve multiplication and division word problems.", "Section 2: Lessons 11-20", 18,
             Arrays.asList(new Section("Worked Examples", "Solve multiplication and division word problems.",
                 Arrays.asList(
-            new WorkedExample("5 boxes with 12 items each. Total?", Arrays.asList("Multiply: 5 x 12 = 60"), "60 items"),
-            new WorkedExample("84 cookies shared among 7 friends. Each gets?", Arrays.asList("Divide: 84 / 7 = 12"), "12 cookies"),
-            new WorkedExample("3 bags of 24 apples. Total apples?", Arrays.asList("3 x 24 = 72"), "72 apples"),
-            new WorkedExample("144 stickers into boxes of 12. How many boxes?", Arrays.asList("144 / 12 = 12"), "12 boxes"),
-            new WorkedExample("9 rows of 15 seats. Total seats?", Arrays.asList("9 x 15 = 135"), "135 seats")
+            new WorkedExample("Practice problem for Lesson 18", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 18", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 18", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 18", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 18", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("factors-multiples", "Factors and Multiples", "13", "Find factors, multiples, GCF, and LCM.", "Chapter 5: Number Theory", 13,
-            Arrays.asList(new Section("Worked Examples", "Find factors, multiples, GCF, and LCM.",
+        lessons.add(new LessonContent("fractions-parts-of-a-whole", "Fractions: Parts of a Whole", "19", "Represent and identify fractions.", "Section 2: Lessons 11-20", 19,
+            Arrays.asList(new Section("Worked Examples", "Represent and identify fractions.",
                 Arrays.asList(
-            new WorkedExample("List all factors of 12", Arrays.asList("1x12=12, 2x6=12, 3x4=12"), "1, 2, 3, 4, 6, 12"),
-            new WorkedExample("Find GCF of 8 and 12", Arrays.asList("Factors of 8: 1,2,4,8", "Factors of 12: 1,2,3,4,6,12", "Common: 1,2,4. Greatest=4"), "4"),
-            new WorkedExample("Find LCM of 4 and 6", Arrays.asList("Multiples of 4: 4,8,12,16...", "Multiples of 6: 6,12,18...", "First common: 12"), "12"),
-            new WorkedExample("First 5 multiples of 7", Arrays.asList("7x1=7, 7x2=14, 7x3=21, 7x4=28, 7x5=35"), "7, 14, 21, 28, 35"),
-            new WorkedExample("GCF of 18 and 24", Arrays.asList("Factors of 18: 1,2,3,6,9,18", "Factors of 24: 1,2,3,4,6,8,12,24", "GCF=6"), "6")
+            new WorkedExample("Practice problem for Lesson 19", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 19", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 19", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 19", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 19", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("prime-composite", "Prime and Composite Numbers", "14", "Identify prime and composite numbers.", "Chapter 5: Number Theory", 14,
-            Arrays.asList(new Section("Worked Examples", "Identify prime and composite numbers.",
+        lessons.add(new LessonContent("fractions-parts-of-a-set", "Fractions: Parts of a Set", "20", "Find a fraction of a group of objects.", "Section 2: Lessons 11-20", 20,
+            Arrays.asList(new Section("Worked Examples", "Find a fraction of a group of objects.",
                 Arrays.asList(
-            new WorkedExample("Is 7 prime or composite?", Arrays.asList("Factors of 7: only 1 and 7", "Only 2 factors = prime"), "Prime"),
-            new WorkedExample("Is 12 prime or composite?", Arrays.asList("12 = 2x6 = 3x4", "More than 2 factors = composite"), "Composite"),
-            new WorkedExample("List primes less than 20", Arrays.asList("Check each: 2,3,5,7,11,13,17,19"), "2,3,5,7,11,13,17,19"),
-            new WorkedExample("Prime factorization of 12", Arrays.asList("12 = 2x6 = 2x2x3"), "2 x 2 x 3"),
-            new WorkedExample("Is 1 prime?", Arrays.asList("1 has only ONE factor (itself)", "Need exactly 2 factors to be prime"), "Neither prime nor composite")
+            new WorkedExample("Practice problem for Lesson 20", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 20", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 20", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 20", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 20", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("divisibility-rules", "Divisibility Rules", "15", "Apply rules for 2, 3, 5, 9, and 10.", "Chapter 5: Number Theory", 15,
-            Arrays.asList(new Section("Worked Examples", "Apply rules for 2, 3, 5, 9, and 10.",
+        lessons.add(new LessonContent("fractions-on-a-number-line", "Fractions on a Number Line", "21", "Locate fractions on a number line.", "Section 3: Lessons 21-30", 21,
+            Arrays.asList(new Section("Worked Examples", "Locate fractions on a number line.",
                 Arrays.asList(
-            new WorkedExample("Is 234 divisible by 2?", Arrays.asList("Last digit is 4 (even)", "Even numbers are divisible by 2"), "Yes"),
-            new WorkedExample("Is 345 divisible by 5?", Arrays.asList("Last digit is 5", "Ends in 0 or 5 = divisible by 5"), "Yes"),
-            new WorkedExample("Is 123 divisible by 3?", Arrays.asList("Add digits: 1+2+3=6", "6 is divisible by 3"), "Yes"),
-            new WorkedExample("Is 450 divisible by 9?", Arrays.asList("Add digits: 4+5+0=9", "9 is divisible by 9"), "Yes"),
-            new WorkedExample("Is 370 divisible by 10?", Arrays.asList("Last digit is 0", "Ends in 0 = divisible by 10"), "Yes")
+            new WorkedExample("Practice problem for Lesson 21", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 21", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 21", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 21", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 21", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("fraction-basics", "Understanding Fractions", "16", "Identify parts of a fraction and represent on number line.", "Chapter 6: Fractions", 16,
-            Arrays.asList(new Section("Worked Examples", "Identify parts of a fraction and represent on number line.",
+        lessons.add(new LessonContent("equivalent-fractions", "Equivalent Fractions", "22", "Generate equivalent fractions.", "Section 3: Lessons 21-30", 22,
+            Arrays.asList(new Section("Worked Examples", "Generate equivalent fractions.",
                 Arrays.asList(
-            new WorkedExample("What fraction is shaded if 3 of 8 parts are colored?", Arrays.asList("Numerator = shaded parts = 3", "Denominator = total parts = 8"), "3/8"),
-            new WorkedExample("Name the numerator in 5/7", Arrays.asList("Top number is the numerator"), "5"),
-            new WorkedExample("Name the denominator in 2/9", Arrays.asList("Bottom number is the denominator"), "9"),
-            new WorkedExample("What fraction of a pizza is 1 slice out of 6?", Arrays.asList("1 part out of 6 total"), "1/6"),
-            new WorkedExample("Place 1/2 on a number line", Arrays.asList("Halfway between 0 and 1"), "At the 0.5 mark")
+            new WorkedExample("Practice problem for Lesson 22", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 22", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 22", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 22", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 22", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("equivalent-fractions", "Equivalent Fractions", "17", "Find equivalent fractions by multiplying or dividing.", "Chapter 6: Fractions", 17,
-            Arrays.asList(new Section("Worked Examples", "Find equivalent fractions by multiplying or dividing.",
+        lessons.add(new LessonContent("reducing-fractions", "Reducing Fractions", "23", "Simplify fractions to lowest terms.", "Section 3: Lessons 21-30", 23,
+            Arrays.asList(new Section("Worked Examples", "Simplify fractions to lowest terms.",
                 Arrays.asList(
-            new WorkedExample("Find a fraction equivalent to 1/2", Arrays.asList("Multiply top and bottom by 2", "1x2=2, 2x2=4"), "2/4"),
-            new WorkedExample("Simplify 6/8", Arrays.asList("Divide both by 2", "6/2=3, 8/2=4"), "3/4"),
-            new WorkedExample("Are 2/3 and 4/6 equivalent?", Arrays.asList("2x2=4, 3x2=6", "4/6 = 4/6. Yes!"), "Yes"),
-            new WorkedExample("Find equivalent: 3/5 = ?/10", Arrays.asList("5x2=10, so 3x2=6"), "6/10"),
-            new WorkedExample("Simplify 10/15", Arrays.asList("Divide both by 5"), "2/3")
+            new WorkedExample("Practice problem for Lesson 23", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 23", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 23", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 23", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 23", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("comparing-fractions", "Comparing Fractions", "18", "Compare fractions with like and unlike denominators.", "Chapter 6: Fractions", 18,
-            Arrays.asList(new Section("Worked Examples", "Compare fractions with like and unlike denominators.",
+        lessons.add(new LessonContent("comparing-fractions", "Comparing Fractions", "24", "Compare fractions with unlike denominators.", "Section 3: Lessons 21-30", 24,
+            Arrays.asList(new Section("Worked Examples", "Compare fractions with unlike denominators.",
                 Arrays.asList(
-            new WorkedExample("Compare 3/4 and 1/4", Arrays.asList("Same denominator", "Compare numerators: 3 > 1"), "3/4 > 1/4"),
-            new WorkedExample("Compare 1/3 and 1/5", Arrays.asList("Same numerator", "Smaller denominator = larger fraction"), "1/3 > 1/5"),
-            new WorkedExample("Compare 2/3 and 3/4", Arrays.asList("LCD=12: 8/12 vs 9/12"), "2/3 < 3/4"),
-            new WorkedExample("Order: 1/2, 1/4, 3/4", Arrays.asList("Convert to fourths: 2/4, 1/4, 3/4"), "1/4, 1/2, 3/4"),
-            new WorkedExample("Which is greater: 5/6 or 7/8?", Arrays.asList("LCD=24: 20/24 vs 21/24"), "7/8")
+            new WorkedExample("Practice problem for Lesson 24", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 24", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 24", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 24", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 24", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("adding-fractions", "Adding Fractions", "19", "Add fractions with like and unlike denominators.", "Chapter 7: Fraction Operations", 19,
-            Arrays.asList(new Section("Worked Examples", "Add fractions with like and unlike denominators.",
-                Arrays.asList(
-            new WorkedExample("1/4 + 2/4 = ?", Arrays.asList("Same denominator: add numerators", "1+2=3, keep denominator 4"), "3/4"),
-            new WorkedExample("1/3 + 1/6 = ?", Arrays.asList("LCD=6: 2/6 + 1/6 = 3/6"), "3/6 = 1/2"),
-            new WorkedExample("2/5 + 1/5 = ?", Arrays.asList("Same denom: 2+1=3"), "3/5"),
-            new WorkedExample("1/2 + 1/3 = ?", Arrays.asList("LCD=6: 3/6 + 2/6 = 5/6"), "5/6"),
-            new WorkedExample("3/8 + 1/4 = ?", Arrays.asList("LCD=8: 3/8 + 2/8 = 5/8"), "5/8")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("subtracting-fractions", "Subtracting Fractions", "20", "Subtract fractions with like and unlike denominators.", "Chapter 7: Fraction Operations", 20,
-            Arrays.asList(new Section("Worked Examples", "Subtract fractions with like and unlike denominators.",
-                Arrays.asList(
-            new WorkedExample("3/4 - 1/4 = ?", Arrays.asList("Same denom: 3-1=2"), "2/4 = 1/2"),
-            new WorkedExample("5/6 - 1/3 = ?", Arrays.asList("LCD=6: 5/6 - 2/6 = 3/6"), "3/6 = 1/2"),
-            new WorkedExample("7/8 - 3/8 = ?", Arrays.asList("Same denom: 7-3=4"), "4/8 = 1/2"),
-            new WorkedExample("2/3 - 1/6 = ?", Arrays.asList("LCD=6: 4/6 - 1/6 = 3/6"), "3/6 = 1/2"),
-            new WorkedExample("1 - 2/5 = ?", Arrays.asList("1 = 5/5: 5/5 - 2/5 = 3/5"), "3/5")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("multiplying-fractions", "Multiplying Fractions", "21", "Multiply fractions and mixed numbers.", "Chapter 7: Fraction Operations", 21,
-            Arrays.asList(new Section("Worked Examples", "Multiply fractions and mixed numbers.",
-                Arrays.asList(
-            new WorkedExample("1/2 x 1/3 = ?", Arrays.asList("Multiply numerators: 1x1=1", "Multiply denominators: 2x3=6"), "1/6"),
-            new WorkedExample("2/3 x 3/4 = ?", Arrays.asList("2x3=6, 3x4=12", "6/12 = 1/2"), "1/2"),
-            new WorkedExample("3/5 x 2/7 = ?", Arrays.asList("3x2=6, 5x7=35"), "6/35"),
-            new WorkedExample("1/4 x 8 = ?", Arrays.asList("1/4 x 8/1 = 8/4 = 2"), "2"),
-            new WorkedExample("2/3 x 6 = ?", Arrays.asList("2/3 x 6/1 = 12/3 = 4"), "4")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("dividing-fractions", "Dividing Fractions", "22", "Divide fractions using reciprocals.", "Chapter 7: Fraction Operations", 22,
-            Arrays.asList(new Section("Worked Examples", "Divide fractions using reciprocals.",
-                Arrays.asList(
-            new WorkedExample("1/2 / 1/4 = ?", Arrays.asList("Flip second: 1/2 x 4/1 = 4/2"), "2"),
-            new WorkedExample("3/4 / 1/2 = ?", Arrays.asList("Flip: 3/4 x 2/1 = 6/4 = 3/2"), "1 1/2"),
-            new WorkedExample("2/5 / 2 = ?", Arrays.asList("2/5 x 1/2 = 2/10 = 1/5"), "1/5"),
-            new WorkedExample("6 / 1/3 = ?", Arrays.asList("6 x 3/1 = 18"), "18"),
-            new WorkedExample("3/8 / 3/4 = ?", Arrays.asList("3/8 x 4/3 = 12/24 = 1/2"), "1/2")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("mixed-numbers", "Mixed Numbers", "23", "Convert between mixed numbers and improper fractions.", "Chapter 7: Fraction Operations", 23,
+        lessons.add(new LessonContent("mixed-numbers-and-improper-fractions", "Mixed Numbers and Improper Fractions", "25", "Convert between mixed numbers and improper fractions.", "Section 3: Lessons 21-30", 25,
             Arrays.asList(new Section("Worked Examples", "Convert between mixed numbers and improper fractions.",
                 Arrays.asList(
-            new WorkedExample("Convert 7/4 to a mixed number", Arrays.asList("7 / 4 = 1 remainder 3", "Whole=1, fraction=3/4"), "1 3/4"),
-            new WorkedExample("Convert 2 1/3 to improper", Arrays.asList("2x3+1=7, keep denom 3"), "7/3"),
-            new WorkedExample("Convert 11/5 to mixed", Arrays.asList("11/5 = 2 remainder 1"), "2 1/5"),
-            new WorkedExample("Convert 3 2/5 to improper", Arrays.asList("3x5+2=17, over 5"), "17/5"),
-            new WorkedExample("Add: 1 1/2 + 2 1/4", Arrays.asList("Convert: 3/2+9/4=6/4+9/4=15/4"), "3 3/4")
+            new WorkedExample("Practice problem for Lesson 25", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 25", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 25", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 25", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 25", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("decimal-basics", "Understanding Decimals", "24", "Read, write, and represent decimals.", "Chapter 8: Decimals", 24,
-            Arrays.asList(new Section("Worked Examples", "Read, write, and represent decimals.",
+        lessons.add(new LessonContent("elapsed-time", "Elapsed Time", "26", "Calculate elapsed time between events.", "Section 3: Lessons 21-30", 26,
+            Arrays.asList(new Section("Worked Examples", "Calculate elapsed time between events.",
                 Arrays.asList(
-            new WorkedExample("Write 0.7 in words", Arrays.asList("7 is in the tenths place"), "Seven tenths"),
-            new WorkedExample("Write 2.35 in words", Arrays.asList("2 ones, 3 tenths, 5 hundredths"), "Two and thirty-five hundredths"),
-            new WorkedExample("What place is the 4 in 3.45?", Arrays.asList("After decimal: tenths, hundredths", "4 is in the tenths place"), "Tenths"),
-            new WorkedExample("Write three and two tenths as decimal", Arrays.asList("3 + 2/10"), "3.2"),
-            new WorkedExample("0.05 as a fraction", Arrays.asList("5 in hundredths place"), "5/100 = 1/20")
+            new WorkedExample("Practice problem for Lesson 26", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 26", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 26", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 26", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 26", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("comparing-decimals", "Comparing Decimals", "25", "Compare decimals using place value.", "Chapter 8: Decimals", 25,
-            Arrays.asList(new Section("Worked Examples", "Compare decimals using place value.",
+        lessons.add(new LessonContent("multiplying-by-multiples-of-10-and-100", "Multiplying by Multiples of 10 and 100", "27", "Use patterns to multiply by 10, 100, 1000.", "Section 3: Lessons 21-30", 27,
+            Arrays.asList(new Section("Worked Examples", "Use patterns to multiply by 10, 100, 1000.",
                 Arrays.asList(
-            new WorkedExample("Compare: 0.4 and 0.45", Arrays.asList("0.4 = 0.40", "0.40 < 0.45"), "0.4 < 0.45"),
-            new WorkedExample("Order: 0.3, 0.31, 0.29", Arrays.asList("0.29 < 0.30 < 0.31"), "0.29, 0.3, 0.31"),
-            new WorkedExample("Which is greater: 0.5 or 0.50?", Arrays.asList("They are the same value"), "Equal"),
-            new WorkedExample("Compare: 1.2 and 1.19", Arrays.asList("1.20 vs 1.19", "1.20 > 1.19"), "1.2 > 1.19"),
-            new WorkedExample("Order: 2.5, 2.05, 2.55", Arrays.asList("Compare tenths: 0<5=5", "Then hundredths"), "2.05, 2.5, 2.55")
+            new WorkedExample("Practice problem for Lesson 27", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 27", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 27", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 27", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 27", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("adding-subtracting-decimals", "Adding/Subtracting Decimals", "26", "Add and subtract decimal numbers.", "Chapter 8: Decimals", 26,
-            Arrays.asList(new Section("Worked Examples", "Add and subtract decimal numbers.",
+        lessons.add(new LessonContent("two-digit-multiplication", "Two-Digit Multiplication", "28", "Multiply two 2-digit numbers.", "Section 3: Lessons 21-30", 28,
+            Arrays.asList(new Section("Worked Examples", "Multiply two 2-digit numbers.",
                 Arrays.asList(
-            new WorkedExample("3.45 + 2.31 = ?", Arrays.asList("Line up decimals", "5+1=6, 4+3=7, 3+2=5"), "5.76"),
-            new WorkedExample("5.8 - 2.3 = ?", Arrays.asList("Line up: 8-3=5, 5-2=3"), "3.5"),
-            new WorkedExample("1.25 + 0.75 = ?", Arrays.asList("5+5=10 carry, 2+7+1=10 carry, 1+0+1=2"), "2.00"),
-            new WorkedExample("10 - 3.45 = ?", Arrays.asList("10.00 - 3.45, borrow"), "6.55"),
-            new WorkedExample("4.56 + 3.44 = ?", Arrays.asList("6+4=10 carry, 5+4+1=10 carry, 4+3+1=8"), "8.00")
+            new WorkedExample("Practice problem for Lesson 28", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 28", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 28", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 28", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 28", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("multiplying-decimals", "Multiplying Decimals", "27", "Multiply decimals and count decimal places.", "Chapter 8: Decimals", 27,
+        lessons.add(new LessonContent("area-of-rectangles", "Area of Rectangles", "29", "Calculate area using length times width.", "Section 3: Lessons 21-30", 29,
+            Arrays.asList(new Section("Worked Examples", "Calculate area using length times width.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 29", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 29", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 29", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 29", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 29", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("word-problems-about-comparison", "Word Problems About Comparison", "30", "Solve comparison word problems.", "Section 3: Lessons 21-30", 30,
+            Arrays.asList(new Section("Worked Examples", "Solve comparison word problems.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 30", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 30", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 30", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 30", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 30", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("long-division-one-digit-divisors", "Long Division: One-Digit Divisors", "31", "Divide multi-digit numbers by one digit.", "Section 4: Lessons 31-40", 31,
+            Arrays.asList(new Section("Worked Examples", "Divide multi-digit numbers by one digit.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 31", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 31", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 31", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 31", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 31", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("perimeter", "Perimeter", "32", "Calculate perimeter of polygons.", "Section 4: Lessons 31-40", 32,
+            Arrays.asList(new Section("Worked Examples", "Calculate perimeter of polygons.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 32", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 32", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 32", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 32", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 32", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("decimal-place-value", "Decimal Place Value", "33", "Read and write decimals through thousandths.", "Section 4: Lessons 31-40", 33,
+            Arrays.asList(new Section("Worked Examples", "Read and write decimals through thousandths.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 33", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 33", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 33", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 33", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 33", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("comparing-decimals", "Comparing Decimals", "34", "Compare and order decimal numbers.", "Section 4: Lessons 31-40", 34,
+            Arrays.asList(new Section("Worked Examples", "Compare and order decimal numbers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 34", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 34", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 34", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 34", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 34", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("adding-and-subtracting-decimals", "Adding and Subtracting Decimals", "35", "Add and subtract decimals by lining up points.", "Section 4: Lessons 31-40", 35,
+            Arrays.asList(new Section("Worked Examples", "Add and subtract decimals by lining up points.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 35", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 35", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 35", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 35", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 35", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("multiplying-decimals", "Multiplying Decimals", "36", "Multiply decimals and count decimal places.", "Section 4: Lessons 31-40", 36,
             Arrays.asList(new Section("Worked Examples", "Multiply decimals and count decimal places.",
                 Arrays.asList(
-            new WorkedExample("0.3 x 4 = ?", Arrays.asList("3x4=12, one decimal place"), "1.2"),
-            new WorkedExample("2.5 x 3 = ?", Arrays.asList("25x3=75, one decimal place"), "7.5"),
-            new WorkedExample("0.6 x 0.2 = ?", Arrays.asList("6x2=12, two decimal places"), "0.12"),
-            new WorkedExample("1.5 x 1.5 = ?", Arrays.asList("15x15=225, two decimal places"), "2.25"),
-            new WorkedExample("0.4 x 5 = ?", Arrays.asList("4x5=20, one decimal place"), "2.0")
+            new WorkedExample("Practice problem for Lesson 36", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 36", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 36", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 36", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 36", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("dividing-decimals", "Dividing Decimals", "28", "Divide decimals by whole numbers and decimals.", "Chapter 8: Decimals", 28,
-            Arrays.asList(new Section("Worked Examples", "Divide decimals by whole numbers and decimals.",
+        lessons.add(new LessonContent("dividing-decimals", "Dividing Decimals", "37", "Divide decimals by whole numbers.", "Section 4: Lessons 31-40", 37,
+            Arrays.asList(new Section("Worked Examples", "Divide decimals by whole numbers.",
                 Arrays.asList(
-            new WorkedExample("6.4 / 2 = ?", Arrays.asList("64/2=32, one decimal place"), "3.2"),
-            new WorkedExample("7.5 / 5 = ?", Arrays.asList("75/5=15, one decimal place"), "1.5"),
-            new WorkedExample("0.36 / 4 = ?", Arrays.asList("36/4=9, two decimal places"), "0.09"),
-            new WorkedExample("4.8 / 0.6 = ?", Arrays.asList("Move decimal: 48/6=8"), "8"),
-            new WorkedExample("1.44 / 1.2 = ?", Arrays.asList("Move decimal: 14.4/12=1.2"), "1.2")
+            new WorkedExample("Practice problem for Lesson 37", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 37", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 37", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 37", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 37", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("percent-basics", "Understanding Percents", "29", "Convert between fractions, decimals, and percents.", "Chapter 9: Percents and Ratios", 29,
+        lessons.add(new LessonContent("triangles", "Triangles", "38", "Classify triangles by sides and angles.", "Section 4: Lessons 31-40", 38,
+            Arrays.asList(new Section("Worked Examples", "Classify triangles by sides and angles.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 38", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 38", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 38", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 38", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 38", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("quadrilaterals", "Quadrilaterals", "39", "Identify and classify quadrilaterals.", "Section 4: Lessons 31-40", 39,
+            Arrays.asList(new Section("Worked Examples", "Identify and classify quadrilaterals.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 39", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 39", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 39", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 39", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 39", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("powers-and-exponents", "Powers and Exponents", "40", "Write and evaluate numbers with exponents.", "Section 4: Lessons 31-40", 40,
+            Arrays.asList(new Section("Worked Examples", "Write and evaluate numbers with exponents.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 40", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 40", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 40", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 40", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 40", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("adding-and-subtracting-fractions-like-de", "Adding and Subtracting Fractions (Like Denominators)", "41", "Add and subtract fractions with same denominator.", "Section 5: Lessons 41-50", 41,
+            Arrays.asList(new Section("Worked Examples", "Add and subtract fractions with same denominator.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 41", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 41", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 41", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 41", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 41", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("adding-and-subtracting-fractions-unlike-", "Adding and Subtracting Fractions (Unlike Denominators)", "42", "Find LCD and add/subtract fractions.", "Section 5: Lessons 41-50", 42,
+            Arrays.asList(new Section("Worked Examples", "Find LCD and add/subtract fractions.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 42", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 42", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 42", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 42", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 42", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("adding-and-subtracting-mixed-numbers", "Adding and Subtracting Mixed Numbers", "43", "Work with mixed numbers in addition and subtraction.", "Section 5: Lessons 41-50", 43,
+            Arrays.asList(new Section("Worked Examples", "Work with mixed numbers in addition and subtraction.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 43", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 43", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 43", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 43", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 43", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("multiplying-fractions", "Multiplying Fractions", "44", "Multiply fractions and simplify.", "Section 5: Lessons 41-50", 44,
+            Arrays.asList(new Section("Worked Examples", "Multiply fractions and simplify.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 44", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 44", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 44", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 44", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 44", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("dividing-fractions", "Dividing Fractions", "45", "Divide fractions using reciprocals.", "Section 5: Lessons 41-50", 45,
+            Arrays.asList(new Section("Worked Examples", "Divide fractions using reciprocals.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 45", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 45", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 45", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 45", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 45", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("fraction-decimal-percent-conversions", "Fraction-Decimal-Percent Conversions", "46", "Convert between fractions, decimals, and percents.", "Section 5: Lessons 41-50", 46,
             Arrays.asList(new Section("Worked Examples", "Convert between fractions, decimals, and percents.",
                 Arrays.asList(
-            new WorkedExample("Write 50% as a fraction", Arrays.asList("50 per 100 = 50/100"), "1/2"),
-            new WorkedExample("Write 0.75 as a percent", Arrays.asList("Move decimal 2 right"), "75%"),
-            new WorkedExample("What is 25% of 80?", Arrays.asList("25/100 x 80 = 20", "or 80/4 = 20"), "20"),
-            new WorkedExample("Write 1/5 as a percent", Arrays.asList("1/5 = 0.20 = 20%"), "20%"),
-            new WorkedExample("10% of 250 = ?", Arrays.asList("Move decimal left: 25.0"), "25")
+            new WorkedExample("Practice problem for Lesson 46", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 46", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 46", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 46", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 46", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("ratios-rates", "Ratios and Rates", "30", "Write and simplify ratios. Calculate unit rates.", "Chapter 9: Percents and Ratios", 30,
-            Arrays.asList(new Section("Worked Examples", "Write and simplify ratios. Calculate unit rates.",
+        lessons.add(new LessonContent("percent-of-a-number", "Percent of a Number", "47", "Calculate a percent of a given number.", "Section 5: Lessons 41-50", 47,
+            Arrays.asList(new Section("Worked Examples", "Calculate a percent of a given number.",
                 Arrays.asList(
-            new WorkedExample("Write ratio of 3 cats to 5 dogs", Arrays.asList("cats:dogs = 3:5"), "3:5 or 3/5"),
-            new WorkedExample("Simplify ratio 12:8", Arrays.asList("Divide both by 4"), "3:2"),
-            new WorkedExample("Unit rate: 120 miles in 2 hours", Arrays.asList("120/2 = 60"), "60 miles per hour"),
-            new WorkedExample("Ratio of 4 red to 6 blue. Simplify.", Arrays.asList("Divide by 2"), "2:3"),
-            new WorkedExample("15 apples cost $3. Price per apple?", Arrays.asList("3/15 = $0.20"), "$0.20 each")
+            new WorkedExample("Practice problem for Lesson 47", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 47", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 47", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 47", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 47", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("proportions", "Proportions", "31", "Solve proportions using cross multiplication.", "Chapter 9: Percents and Ratios", 31,
-            Arrays.asList(new Section("Worked Examples", "Solve proportions using cross multiplication.",
+        lessons.add(new LessonContent("probability", "Probability", "48", "Find probability of simple and compound events.", "Section 5: Lessons 41-50", 48,
+            Arrays.asList(new Section("Worked Examples", "Find probability of simple and compound events.",
                 Arrays.asList(
-            new WorkedExample("Solve: 2/3 = x/12", Arrays.asList("Cross multiply: 2x12=3x", "24=3x, x=8"), "x = 8"),
-            new WorkedExample("Solve: 4/5 = 8/x", Arrays.asList("Cross multiply: 4x=40", "x=10"), "x = 10"),
-            new WorkedExample("Solve: x/6 = 5/3", Arrays.asList("Cross multiply: 3x=30", "x=10"), "x = 10"),
-            new WorkedExample("If 3 pencils cost $1.50, how much for 7?", Arrays.asList("1.50/3 = 0.50 each", "0.50 x 7 = 3.50"), "$3.50"),
-            new WorkedExample("Scale: 1 inch = 5 miles. 3 inches = ?", Arrays.asList("3 x 5 = 15"), "15 miles")
+            new WorkedExample("Practice problem for Lesson 48", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 48", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 48", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 48", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 48", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("geometry-lines-angles", "Lines and Angles", "32", "Identify types of lines and measure angles.", "Chapter 10: Geometry", 32,
-            Arrays.asList(new Section("Worked Examples", "Lines are straight paths that go on forever. A ray has one endpoint. A segment has two endpoints. Angles are formed where two rays meet at a vertex.",
-                "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"200\" fill=\"#f8f7ff\" rx=\"8\"/><line x1=\"20\" y1=\"40\" x2=\"180\" y2=\"40\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"40\" r=\"3\" fill=\"#6c5ce7\"/><circle cx=\"180\" cy=\"40\" r=\"3\" fill=\"#6c5ce7\"/><text x=\"100\" y=\"30\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">Line Segment</text><line x1=\"220\" y1=\"40\" x2=\"380\" y2=\"40\" stroke=\"#e17055\" stroke-width=\"2\"/><line x1=\"220\" y1=\"40\" x2=\"320\" y2=\"100\" stroke=\"#e17055\" stroke-width=\"2\"/><path d=\"M 250 40 A 30 30 0 0 1 240 60\" stroke=\"#00b894\" stroke-width=\"2\" fill=\"none\"/><text x=\"260\" y=\"65\" font-size=\"10\" fill=\"#00b894\">angle</text><text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"11\" fill=\"#e17055\">Angle</text><line x1=\"50\" y1=\"130\" x2=\"180\" y2=\"130\" stroke=\"#0984e3\" stroke-width=\"2\"/><line x1=\"50\" y1=\"160\" x2=\"180\" y2=\"160\" stroke=\"#0984e3\" stroke-width=\"2\"/><text x=\"115\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" fill=\"#0984e3\">Parallel Lines</text><line x1=\"250\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#d63031\" stroke-width=\"2\"/><line x1=\"300\" y1=\"100\" x2=\"300\" y2=\"180\" stroke=\"#d63031\" stroke-width=\"2\"/><rect x=\"300\" y=\"120\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#d63031\"/><text x=\"300\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" fill=\"#d63031\">Perpendicular</text></svg>",
-                Arrays.asList(
-            new WorkedExample("Classify this angle: 90 degrees", Arrays.asList("A right angle measures exactly 90 degrees", "It looks like the corner of a book or paper", "We mark it with a small square symbol"), "Right angle"),
-            new WorkedExample("Classify this angle: 45 degrees", Arrays.asList("45 is less than 90 degrees", "Angles less than 90 are called acute", "Think: acute means sharp/small"), "Acute angle"),
-            new WorkedExample("Classify this angle: 135 degrees", Arrays.asList("135 is greater than 90 degrees", "135 is less than 180 degrees", "Angles between 90 and 180 are obtuse", "Think: obtuse means wide/blunt"), "Obtuse angle"),
-            new WorkedExample("Are these lines parallel? Two lines that never cross.", Arrays.asList("Parallel lines go in the same direction", "They stay the same distance apart forever", "Like railroad tracks or lined paper", "Symbol: two vertical lines ||"), "Yes, parallel (they never intersect)"),
-            new WorkedExample("Two lines cross at 90 degrees. What are they?", Arrays.asList("Lines that cross at exactly 90 degrees are perpendicular", "They form right angles where they meet", "Like the corner of a room or a plus sign (+)", "Symbol: upside-down T"), "Perpendicular lines")
-            ))),
-            Arrays.asList("Acute < 90, Right = 90, Obtuse > 90, Straight = 180", "Parallel lines never cross", "Perpendicular lines form right angles", "Use a protractor to measure angles")
-        ));
-        lessons.add(new LessonContent("triangles", "Triangles", "33", "Classify triangles by sides and angles. Find missing angles using the 180-degree rule.", "Chapter 10: Geometry", 33,
-            Arrays.asList(new Section("Worked Examples", "A triangle has 3 sides and 3 angles. The angles always add up to 180 degrees. Triangles can be classified by their sides (equilateral, isosceles, scalene) or angles (acute, right, obtuse).",
-                "<svg viewBox=\"0 0 400 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"180\" fill=\"#f8f7ff\" rx=\"8\"/><polygon points=\"60,140 110,40 160,140\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"110\" y=\"160\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6c5ce7\">Equilateral</text><text x=\"110\" y=\"172\" text-anchor=\"middle\" font-size=\"9\" fill=\"#636e72\">3 equal sides</text><polygon points=\"200,140 250,40 300,140\" fill=\"none\" stroke=\"#e17055\" stroke-width=\"2\"/><text x=\"250\" y=\"160\" text-anchor=\"middle\" font-size=\"10\" fill=\"#e17055\">Isosceles</text><text x=\"250\" y=\"172\" text-anchor=\"middle\" font-size=\"9\" fill=\"#636e72\">2 equal sides</text><polygon points=\"330,140 360,50 400,140\" fill=\"none\" stroke=\"#00b894\" stroke-width=\"2\"/><rect x=\"330\" y=\"130\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"#00b894\"/><text x=\"365\" y=\"160\" text-anchor=\"middle\" font-size=\"10\" fill=\"#00b894\">Right</text><text x=\"365\" y=\"172\" text-anchor=\"middle\" font-size=\"9\" fill=\"#636e72\">one 90-deg angle</text></svg>",
-                Arrays.asList(
-            new WorkedExample("The three angles of a triangle are 50, 60, and ?. Find the missing angle.", Arrays.asList("Rule: all three angles add up to 180 degrees", "Add known angles: 50 + 60 = 110", "Subtract from 180: 180 - 110 = 70", "The missing angle is 70 degrees"), "70 degrees"),
-            new WorkedExample("Classify a triangle with sides 5 cm, 5 cm, 5 cm", Arrays.asList("Count equal sides: all 3 sides are equal (5=5=5)", "A triangle with ALL sides equal is equilateral", "Equilateral triangles also have all angles = 60 degrees"), "Equilateral triangle"),
-            new WorkedExample("A triangle has angles 90, 45, and 45. Classify by angles.", Arrays.asList("Look for the largest angle: 90 degrees", "Since one angle is exactly 90 degrees, this is a right triangle", "Check: 90 + 45 + 45 = 180. Correct!"), "Right triangle"),
-            new WorkedExample("Classify a triangle with sides 7, 7, and 4 cm", Arrays.asList("Count equal sides: two sides are equal (7=7)", "A triangle with exactly 2 equal sides is isosceles", "The two equal sides are called legs"), "Isosceles triangle"),
-            new WorkedExample("Can a triangle have angles 60, 70, and 60?", Arrays.asList("Add all angles: 60 + 70 + 60 = 190", "This is MORE than 180", "Triangle angles must sum to exactly 180", "This triangle is impossible!"), "No - angles must sum to 180")
-            ))),
-            Arrays.asList("Triangle angles ALWAYS sum to 180 degrees", "Equilateral: 3 equal sides, Isosceles: 2 equal, Scalene: all different", "Right triangle has one 90-degree angle", "Acute: all angles < 90, Obtuse: one angle > 90")
-        ));
-        lessons.add(new LessonContent("quadrilaterals", "Quadrilaterals", "34", "Identify and classify quadrilaterals: squares, rectangles, parallelograms, trapezoids, and rhombuses.", "Chapter 10: Geometry", 34,
-            Arrays.asList(new Section("Worked Examples", "A quadrilateral is any shape with exactly 4 sides and 4 angles. The angles sum to 360 degrees. Special types include squares, rectangles, parallelograms, trapezoids, and rhombuses.",
-                "<svg viewBox=\"0 0 400 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"160\" fill=\"#f8f7ff\" rx=\"8\"/><rect x=\"20\" y=\"30\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"50\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6c5ce7\">Square</text><rect x=\"110\" y=\"40\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"#e17055\" stroke-width=\"2\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" fill=\"#e17055\">Rectangle</text><polygon points=\"230,80 260,30 340,30 310,80\" fill=\"none\" stroke=\"#00b894\" stroke-width=\"2\"/><text x=\"285\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" fill=\"#00b894\">Parallelogram</text><polygon points=\"350,80 370,30 400,30 380,80\" fill=\"none\" stroke=\"#d63031\" stroke-width=\"2\"/><text x=\"375\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" fill=\"#d63031\">Rhombus</text></svg>",
-                Arrays.asList(
-            new WorkedExample("What makes a shape a quadrilateral?", Arrays.asList("Must have exactly 4 sides", "Must have exactly 4 angles", "Must be a closed shape (sides connect)", "All 4 angles sum to 360 degrees"), "4 sides, 4 angles, closed, angles sum to 360"),
-            new WorkedExample("How is a square different from a rectangle?", Arrays.asList("Both have 4 right angles (90 degrees each)", "Rectangle: opposite sides equal (length and width can differ)", "Square: ALL 4 sides are equal AND all angles are 90", "A square IS a special rectangle!"), "Square has 4 equal sides; rectangle has opposite sides equal"),
-            new WorkedExample("Identify: a shape with 2 pairs of parallel sides but no right angles", Arrays.asList("Has 4 sides (quadrilateral)", "2 pairs of parallel sides = parallelogram", "No right angles means it is NOT a rectangle", "It looks like a slanted rectangle"), "Parallelogram"),
-            new WorkedExample("A quadrilateral has exactly one pair of parallel sides. What is it?", Arrays.asList("Only ONE pair of parallel sides (not two)", "This defines a trapezoid", "The parallel sides are called bases", "The non-parallel sides are called legs"), "Trapezoid"),
-            new WorkedExample("Find missing angle: rectangle has angles 90, 90, 90, ?", Arrays.asList("Quadrilateral angles sum to 360", "90 + 90 + 90 = 270", "360 - 270 = 90", "All rectangle angles are 90!"), "90 degrees")
-            ))),
-            Arrays.asList("All quadrilaterals have 4 sides and angles summing to 360", "Square: 4 equal sides + 4 right angles", "Rectangle: opposite sides equal + 4 right angles", "Parallelogram: 2 pairs of parallel sides", "Trapezoid: exactly 1 pair of parallel sides")
-        ));
-        lessons.add(new LessonContent("perimeter", "Perimeter", "35", "Perimeter is the distance around a shape. Add up all the side lengths.", "Chapter 11: Measurement", 35,
-            Arrays.asList(new Section("Worked Examples", "Perimeter is the total distance around the outside of a shape. To find it, add up the lengths of ALL sides. For rectangles use P=2(l+w). For squares use P=4s.",
-                "<svg viewBox=\"0 0 400 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"150\" fill=\"#f8f7ff\" rx=\"8\"/><rect x=\"30\" y=\"30\" width=\"100\" height=\"60\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/><text x=\"80\" y=\"25\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">10</text><text x=\"80\" y=\"105\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">10</text><text x=\"20\" y=\"65\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">6</text><text x=\"140\" y=\"65\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">6</text><text x=\"80\" y=\"125\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6c5ce7\">P = 10+6+10+6 = 32</text><rect x=\"200\" y=\"30\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"#e17055\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/><text x=\"235\" y=\"25\" text-anchor=\"middle\" font-size=\"11\" fill=\"#e17055\">5</text><text x=\"235\" y=\"125\" text-anchor=\"middle\" font-size=\"10\" fill=\"#e17055\">P = 4 x 5 = 20</text><polygon points=\"310,90 350,30 390,90\" fill=\"none\" stroke=\"#00b894\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/><text x=\"325\" y=\"65\" font-size=\"10\" fill=\"#00b894\">5</text><text x=\"375\" y=\"65\" font-size=\"10\" fill=\"#00b894\">5</text><text x=\"350\" y=\"105\" font-size=\"10\" fill=\"#00b894\">6</text><text x=\"350\" y=\"125\" text-anchor=\"middle\" font-size=\"10\" fill=\"#00b894\">P = 5+5+6 = 16</text></svg>",
-                Arrays.asList(
-            new WorkedExample("Find the perimeter of a rectangle with length 8 and width 5", Arrays.asList("Perimeter = distance around the outside", "Rectangle has 2 lengths and 2 widths", "P = length + width + length + width", "P = 8 + 5 + 8 + 5 = 26", "Or use formula: P = 2(8+5) = 2(13) = 26"), "26 units"),
-            new WorkedExample("Find the perimeter of a square with side 6 cm", Arrays.asList("A square has 4 equal sides", "P = side + side + side + side", "P = 6 + 6 + 6 + 6 = 24", "Shortcut: P = 4 x side = 4 x 6 = 24"), "24 cm"),
-            new WorkedExample("A triangle has sides 7 cm, 8 cm, and 10 cm. Find perimeter.", Arrays.asList("Add ALL side lengths", "P = 7 + 8 + 10", "P = 25 cm"), "25 cm"),
-            new WorkedExample("A garden is 12 m long and 4 m wide. How much fence is needed?", Arrays.asList("Fence goes around the outside = perimeter", "P = 2(length + width)", "P = 2(12 + 4) = 2(16) = 32", "You need 32 meters of fence"), "32 meters of fence"),
-            new WorkedExample("Find perimeter of a regular pentagon with side 9 in", Arrays.asList("Regular = all sides equal", "Pentagon = 5 sides", "P = 5 x 9 = 45 inches"), "45 inches")
-            ))),
-            Arrays.asList("Perimeter = distance around (add all sides)", "Rectangle: P = 2(length + width)", "Square: P = 4 x side", "Regular polygon: P = number of sides x side length", "Always include units in your answer!")
-        ));
-        lessons.add(new LessonContent("area", "Area", "36", "Area measures the space inside a flat shape. Use formulas for rectangles, squares, and triangles.", "Chapter 11: Measurement", 36,
-            Arrays.asList(new Section("Worked Examples", "Area is the amount of space inside a 2D shape, measured in square units. Rectangle: A = length x width. Square: A = side x side. Triangle: A = (1/2) x base x height.",
-                "<svg viewBox=\"0 0 400 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"180\" fill=\"#f8f7ff\" rx=\"8\"/><rect x=\"20\" y=\"30\" width=\"100\" height=\"60\" fill=\"#a29bfe\" fill-opacity=\"0.3\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"70\" y=\"25\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">8 cm</text><text x=\"5\" y=\"65\" font-size=\"11\" fill=\"#6c5ce7\">5</text><text x=\"70\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6c5ce7\">A = 8 x 5 = 40 sq cm</text><rect x=\"160\" y=\"30\" width=\"60\" height=\"60\" fill=\"#fab1a0\" fill-opacity=\"0.3\" stroke=\"#e17055\" stroke-width=\"2\"/><text x=\"190\" y=\"25\" text-anchor=\"middle\" font-size=\"11\" fill=\"#e17055\">6</text><text x=\"190\" y=\"110\" text-anchor=\"middle\" font-size=\"10\" fill=\"#e17055\">A = 6 x 6 = 36</text><polygon points=\"270,90 350,90 310,30\" fill=\"#55efc4\" fill-opacity=\"0.3\" stroke=\"#00b894\" stroke-width=\"2\"/><line x1=\"310\" y1=\"30\" x2=\"310\" y2=\"90\" stroke=\"#00b894\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"310\" y=\"105\" text-anchor=\"middle\" font-size=\"11\" fill=\"#00b894\">base=8</text><text x=\"320\" y=\"60\" font-size=\"10\" fill=\"#00b894\">h=6</text><text x=\"310\" y=\"130\" text-anchor=\"middle\" font-size=\"10\" fill=\"#00b894\">A = (1/2)(8)(6) = 24</text></svg>",
-                Arrays.asList(
-            new WorkedExample("Find the area of a rectangle 8 cm long and 5 cm wide", Arrays.asList("Area = length x width", "Area = 8 x 5", "Area = 40", "Units: square centimeters (sq cm or cm squared)", "Think of it as 8 rows of 5 unit squares = 40 squares"), "40 square cm"),
-            new WorkedExample("Find the area of a square with side 7 inches", Arrays.asList("A square has all sides equal", "Area = side x side", "Area = 7 x 7 = 49", "Units: square inches"), "49 square inches"),
-            new WorkedExample("Find the area of a triangle with base 10 and height 6", Arrays.asList("Triangle area = half of a rectangle", "Formula: A = (1/2) x base x height", "A = (1/2) x 10 x 6", "A = (1/2) x 60 = 30", "Think: the rectangle would be 60, triangle is half"), "30 square units"),
-            new WorkedExample("A room is 12 feet by 9 feet. How much carpet is needed?", Arrays.asList("Carpet covers the floor = area", "Area = length x width", "Area = 12 x 9 = 108", "You need 108 square feet of carpet"), "108 square feet"),
-            new WorkedExample("A triangular sail has base 4 m and height 6 m. Find area.", Arrays.asList("Use triangle formula: A = (1/2) x b x h", "A = (1/2) x 4 x 6", "A = (1/2) x 24", "A = 12 square meters"), "12 square meters")
-            ))),
-            Arrays.asList("Area = space INSIDE a flat shape (measured in square units)", "Rectangle: A = length x width", "Square: A = side x side (or s squared)", "Triangle: A = (1/2) x base x height", "Always write sq units (sq cm, sq ft, etc.)")
-        ));
-        lessons.add(new LessonContent("volume", "Volume", "37", "Volume measures the space inside a 3D shape. Use V = length x width x height for rectangular prisms.", "Chapter 11: Measurement", 37,
-            Arrays.asList(new Section("Worked Examples", "Volume is the amount of space inside a 3D (solid) shape, measured in cubic units. For rectangular prisms (boxes): V = length x width x height. For cubes: V = side x side x side.",
-                "<svg viewBox=\"0 0 400 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"180\" fill=\"#f8f7ff\" rx=\"8\"/><polygon points=\"50,120 150,120 170,90 70,90\" fill=\"#a29bfe\" fill-opacity=\"0.3\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"150,120 170,90 170,50 150,80\" fill=\"#a29bfe\" fill-opacity=\"0.2\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"70,90 170,90 170,50 70,50\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"50\" y1=\"120\" x2=\"50\" y2=\"80\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"50\" y1=\"80\" x2=\"70\" y2=\"50\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"100\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6c5ce7\">length=5</text><text x=\"170\" y=\"110\" font-size=\"10\" fill=\"#6c5ce7\">w=3</text><text x=\"40\" y=\"100\" font-size=\"10\" fill=\"#6c5ce7\">h=4</text><text x=\"110\" y=\"160\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6c5ce7\">V = 5x3x4 = 60 cubic units</text><polygon points=\"250,120 310,120 325,95 265,95\" fill=\"#55efc4\" fill-opacity=\"0.3\" stroke=\"#00b894\" stroke-width=\"2\"/><polygon points=\"310,120 325,95 325,55 310,80\" fill=\"#55efc4\" fill-opacity=\"0.2\" stroke=\"#00b894\" stroke-width=\"2\"/><polygon points=\"265,95 325,95 325,55 265,55\" fill=\"#55efc4\" fill-opacity=\"0.15\" stroke=\"#00b894\" stroke-width=\"2\"/><line x1=\"250\" y1=\"120\" x2=\"250\" y2=\"80\" stroke=\"#00b894\" stroke-width=\"2\"/><line x1=\"250\" y1=\"80\" x2=\"265\" y2=\"55\" stroke=\"#00b894\" stroke-width=\"2\"/><text x=\"285\" y=\"160\" text-anchor=\"middle\" font-size=\"11\" fill=\"#00b894\">Cube: V = 4x4x4 = 64</text></svg>",
-                Arrays.asList(
-            new WorkedExample("Find volume of a box: length 5, width 3, height 4", Arrays.asList("Volume = length x width x height", "V = 5 x 3 x 4", "First: 5 x 3 = 15 (area of base)", "Then: 15 x 4 = 60 (stack 4 layers)", "V = 60 cubic units"), "60 cubic units"),
-            new WorkedExample("Find volume of a cube with side 3 cm", Arrays.asList("A cube has all edges equal", "V = side x side x side", "V = 3 x 3 x 3", "V = 9 x 3 = 27", "Think: 3 layers of 9 unit cubes each"), "27 cubic cm"),
-            new WorkedExample("A fish tank is 20 in long, 10 in wide, 12 in tall. Volume?", Arrays.asList("V = length x width x height", "V = 20 x 10 x 12", "20 x 10 = 200 (base area)", "200 x 12 = 2,400", "The tank holds 2,400 cubic inches"), "2,400 cubic inches"),
-            new WorkedExample("A shipping box is 8 x 6 x 4 feet. What is its volume?", Arrays.asList("V = l x w x h", "V = 8 x 6 x 4", "8 x 6 = 48", "48 x 4 = 192"), "192 cubic feet"),
-            new WorkedExample("Which has more volume: a 5x5x5 cube or a 3x4x12 box?", Arrays.asList("Cube: V = 5x5x5 = 125 cubic units", "Box: V = 3x4x12 = 144 cubic units", "Compare: 144 > 125", "The box has more volume!"), "The box (144 > 125)")
-            ))),
-            Arrays.asList("Volume = space INSIDE a 3D shape (measured in cubic units)", "Rectangular prism: V = length x width x height", "Cube: V = side x side x side (side cubed)", "Think of volume as layers: base area x number of layers", "Always write cubic units (cubic cm, cubic ft, etc.)")
-        ));
-        lessons.add(new LessonContent("measurement-units", "Measurement Conversions", "38", "Convert between units of length, weight, capacity.", "Chapter 11: Measurement", 38,
-            Arrays.asList(new Section("Worked Examples", "Convert between units of length, weight, capacity.",
-                Arrays.asList(
-            new WorkedExample("How many centimeters in 1 meter?", Arrays.asList("1 meter = 100 centimeters"), "100 cm"),
-            new WorkedExample("How many inches in 1 foot?", Arrays.asList("1 foot = 12 inches"), "12 inches"),
-            new WorkedExample("Convert 3 feet to inches", Arrays.asList("3 x 12 = 36"), "36 inches"),
-            new WorkedExample("How many grams in 1 kilogram?", Arrays.asList("1 kg = 1,000 grams"), "1,000 grams"),
-            new WorkedExample("Convert 2 meters to centimeters", Arrays.asList("2 x 100 = 200"), "200 cm")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("time-elapsed", "Time and Elapsed Time", "39", "Calculate elapsed time and read schedules.", "Chapter 11: Measurement", 39,
-            Arrays.asList(new Section("Worked Examples", "Calculate elapsed time and read schedules.",
-                Arrays.asList(
-            new WorkedExample("Movie starts at 2:30, lasts 1 hour 45 min. Ends?", Arrays.asList("2:30 + 1:45", "Add minutes: 30+45=75=1hr15min", "2:30+1:45 = 4:15"), "4:15"),
-            new WorkedExample("From 9:15 AM to 11:45 AM is how long?", Arrays.asList("9:15 to 11:15 = 2 hours", "11:15 to 11:45 = 30 min"), "2 hours 30 minutes"),
-            new WorkedExample("School starts at 8:00, lunch at 11:30. How long?", Arrays.asList("8:00 to 11:00 = 3 hours", "11:00 to 11:30 = 30 min"), "3 hours 30 minutes"),
-            new WorkedExample("How many minutes in 2 hours?", Arrays.asList("1 hour = 60 minutes", "2 x 60 = 120"), "120 minutes"),
-            new WorkedExample("3:50 PM + 25 minutes = ?", Arrays.asList("50+25=75 minutes=1hr15min", "3:50+0:25=4:15"), "4:15 PM")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("data-graphs", "Data and Graphs", "40", "Read and create bar graphs, line graphs, pictographs.", "Chapter 12: Data and Probability", 40,
-            Arrays.asList(new Section("Worked Examples", "Read and create bar graphs, line graphs, pictographs.",
-                Arrays.asList(
-            new WorkedExample("A bar graph shows 5 students like pizza, 3 like tacos. How many more like pizza?", Arrays.asList("5 - 3 = 2"), "2 more"),
-            new WorkedExample("Read a pictograph where each symbol = 2. If 4 symbols shown:", Arrays.asList("4 x 2 = 8"), "8"),
-            new WorkedExample("Which graph best shows change over time?", Arrays.asList("Line graph shows trends"), "Line graph"),
-            new WorkedExample("A tally of IIII II means:", Arrays.asList("4 + 2 = 6"), "6"),
-            new WorkedExample("How many total if bar graph shows: Mon=5, Tue=3, Wed=7?", Arrays.asList("5+3+7=15"), "15")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("mean-median-mode", "Mean, Median, Mode", "41", "Calculate measures of central tendency.", "Chapter 12: Data and Probability", 41,
+        lessons.add(new LessonContent("mean-median-mode-and-range", "Mean, Median, Mode, and Range", "49", "Calculate measures of central tendency.", "Section 5: Lessons 41-50", 49,
             Arrays.asList(new Section("Worked Examples", "Calculate measures of central tendency.",
                 Arrays.asList(
-            new WorkedExample("Mean of 4, 6, 8, 10, 12", Arrays.asList("Sum: 4+6+8+10+12=40", "Count: 5", "40/5=8"), "8"),
-            new WorkedExample("Median of 3, 7, 1, 9, 5", Arrays.asList("Order: 1,3,5,7,9", "Middle value: 5"), "5"),
-            new WorkedExample("Mode of 2, 3, 3, 4, 5", Arrays.asList("3 appears most often"), "3"),
-            new WorkedExample("Range of 10, 25, 15, 30", Arrays.asList("Highest - Lowest", "30 - 10 = 20"), "20"),
-            new WorkedExample("Mean of 10, 20, 30", Arrays.asList("Sum=60, count=3", "60/3=20"), "20")
+            new WorkedExample("Practice problem for Lesson 49", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 49", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 49", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 49", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 49", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("probability", "Probability", "42", "Find probability of simple events.", "Chapter 12: Data and Probability", 42,
-            Arrays.asList(new Section("Worked Examples", "Find probability of simple events.",
+        lessons.add(new LessonContent("circle-graphs", "Circle Graphs", "50", "Read and interpret circle graphs.", "Section 5: Lessons 41-50", 50,
+            Arrays.asList(new Section("Worked Examples", "Read and interpret circle graphs.",
                 Arrays.asList(
-            new WorkedExample("Probability of heads on a coin flip", Arrays.asList("1 favorable out of 2 possible"), "1/2"),
-            new WorkedExample("P(rolling a 3 on a die)", Arrays.asList("1 favorable out of 6 possible"), "1/6"),
-            new WorkedExample("Bag: 3 red, 7 blue. P(red)?", Arrays.asList("3 red out of 10 total"), "3/10"),
-            new WorkedExample("P(rolling even on a die)", Arrays.asList("Even: 2,4,6 = 3 outcomes", "3 out of 6"), "1/2"),
-            new WorkedExample("Spinner with 4 equal sections. P(landing on blue)?", Arrays.asList("1 out of 4"), "1/4")
+            new WorkedExample("Practice problem for Lesson 50", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 50", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 50", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 50", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 50", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("patterns-sequences", "Patterns and Sequences", "43", "Identify and extend number patterns.", "Chapter 13: Pre-Algebra", 43,
-            Arrays.asList(new Section("Worked Examples", "Identify and extend number patterns.",
-                Arrays.asList(
-            new WorkedExample("Next in pattern: 2, 4, 6, 8, __", Arrays.asList("Add 2 each time"), "10"),
-            new WorkedExample("Next: 1, 4, 9, 16, __", Arrays.asList("Perfect squares: 1,4,9,16,25"), "25"),
-            new WorkedExample("Next: 3, 6, 12, 24, __", Arrays.asList("Double each time"), "48"),
-            new WorkedExample("Pattern rule: 5, 10, 15, 20", Arrays.asList("Add 5 each time", "Rule: multiply position by 5"), "Add 5"),
-            new WorkedExample("Next: 1, 1, 2, 3, 5, 8, __", Arrays.asList("Add last two numbers", "5+8=13"), "13")
-            ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
-        ));
-        lessons.add(new LessonContent("order-of-operations", "Order of Operations", "44", "Apply PEMDAS to evaluate expressions.", "Chapter 13: Pre-Algebra", 44,
+        lessons.add(new LessonContent("order-of-operations", "Order of Operations", "51", "Apply PEMDAS to evaluate expressions.", "Section 6: Lessons 51-60", 51,
             Arrays.asList(new Section("Worked Examples", "Apply PEMDAS to evaluate expressions.",
                 Arrays.asList(
-            new WorkedExample("Evaluate: 3 + 2 x 4", Arrays.asList("Multiply first: 2x4=8", "Then add: 3+8=11"), "11 (not 20)"),
-            new WorkedExample("Evaluate: (5+3) x 2", Arrays.asList("Parentheses first: 5+3=8", "Then multiply: 8x2=16"), "16"),
-            new WorkedExample("Evaluate: 12 / 4 + 2", Arrays.asList("Divide first: 12/4=3", "Then add: 3+2=5"), "5"),
-            new WorkedExample("Evaluate: 2 + 3^2", Arrays.asList("Exponent first: 3^2=9", "Then add: 2+9=11"), "11"),
-            new WorkedExample("Evaluate: (8-2) x (4+1)", Arrays.asList("Parentheses: 6 x 5"), "30")
+            new WorkedExample("Practice problem for Lesson 51", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 51", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 51", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 51", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 51", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("variables-expressions", "Variables and Expressions", "45", "Evaluate algebraic expressions.", "Chapter 13: Pre-Algebra", 45,
+        lessons.add(new LessonContent("divisibility-rules", "Divisibility Rules", "52", "Test divisibility by 2, 3, 5, 6, 9, and 10.", "Section 6: Lessons 51-60", 52,
+            Arrays.asList(new Section("Worked Examples", "Test divisibility by 2, 3, 5, 6, 9, and 10.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 52", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 52", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 52", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 52", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 52", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("prime-and-composite-numbers", "Prime and Composite Numbers", "53", "Identify primes and find prime factorization.", "Section 6: Lessons 51-60", 53,
+            Arrays.asList(new Section("Worked Examples", "Identify primes and find prime factorization.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 53", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 53", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 53", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 53", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 53", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("greatest-common-factor", "Greatest Common Factor", "54", "Find GCF of two or more numbers.", "Section 6: Lessons 51-60", 54,
+            Arrays.asList(new Section("Worked Examples", "Find GCF of two or more numbers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 54", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 54", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 54", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 54", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 54", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("least-common-multiple", "Least Common Multiple", "55", "Find LCM of two or more numbers.", "Section 6: Lessons 51-60", 55,
+            Arrays.asList(new Section("Worked Examples", "Find LCM of two or more numbers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 55", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 55", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 55", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 55", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 55", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("ratio", "Ratio", "56", "Write and simplify ratios.", "Section 6: Lessons 51-60", 56,
+            Arrays.asList(new Section("Worked Examples", "Write and simplify ratios.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 56", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 56", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 56", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 56", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 56", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("rate", "Rate", "57", "Calculate unit rates and compare rates.", "Section 6: Lessons 51-60", 57,
+            Arrays.asList(new Section("Worked Examples", "Calculate unit rates and compare rates.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 57", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 57", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 57", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 57", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 57", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("proportions", "Proportions", "58", "Solve proportions using cross-multiplication.", "Section 6: Lessons 51-60", 58,
+            Arrays.asList(new Section("Worked Examples", "Solve proportions using cross-multiplication.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 58", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 58", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 58", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 58", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 58", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("scale-drawings-and-maps", "Scale Drawings and Maps", "59", "Use scales to find actual distances.", "Section 6: Lessons 51-60", 59,
+            Arrays.asList(new Section("Worked Examples", "Use scales to find actual distances.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 59", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 59", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 59", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 59", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 59", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("measures-of-central-tendency", "Measures of Central Tendency", "60", "Choose appropriate measures for data sets.", "Section 6: Lessons 51-60", 60,
+            Arrays.asList(new Section("Worked Examples", "Choose appropriate measures for data sets.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 60", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 60", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 60", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 60", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 60", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("angles-complementary-and-supplementary", "Angles: Complementary and Supplementary", "61", "Find missing angle measures.", "Section 7: Lessons 61-70", 61,
+            Arrays.asList(new Section("Worked Examples", "Find missing angle measures.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 61", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 61", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 61", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 61", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 61", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("parallel-and-perpendicular-lines", "Parallel and Perpendicular Lines", "62", "Identify parallel and perpendicular relationships.", "Section 7: Lessons 61-70", 62,
+            Arrays.asList(new Section("Worked Examples", "Identify parallel and perpendicular relationships.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 62", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 62", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 62", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 62", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 62", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("polygons", "Polygons", "63", "Classify and find angle sums of polygons.", "Section 7: Lessons 61-70", 63,
+            Arrays.asList(new Section("Worked Examples", "Classify and find angle sums of polygons.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 63", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 63", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 63", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 63", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 63", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("circles", "Circles", "64", "Identify radius, diameter, chord, circumference.", "Section 7: Lessons 61-70", 64,
+            Arrays.asList(new Section("Worked Examples", "Identify radius, diameter, chord, circumference.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 64", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 64", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 64", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 64", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 64", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("circumference-of-circles", "Circumference of Circles", "65", "Calculate circumference using C=pi*d.", "Section 7: Lessons 61-70", 65,
+            Arrays.asList(new Section("Worked Examples", "Calculate circumference using C=pi*d.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 65", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 65", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 65", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 65", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 65", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("area-of-triangles-and-parallelograms", "Area of Triangles and Parallelograms", "66", "Use formulas for triangle and parallelogram area.", "Section 7: Lessons 61-70", 66,
+            Arrays.asList(new Section("Worked Examples", "Use formulas for triangle and parallelogram area.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 66", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 66", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 66", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 66", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 66", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("area-of-circles", "Area of Circles", "67", "Calculate area using A=pi*r^2.", "Section 7: Lessons 61-70", 67,
+            Arrays.asList(new Section("Worked Examples", "Calculate area using A=pi*r^2.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 67", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 67", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 67", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 67", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 67", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("volume-of-rectangular-prisms", "Volume of Rectangular Prisms", "68", "Calculate volume using l*w*h.", "Section 7: Lessons 61-70", 68,
+            Arrays.asList(new Section("Worked Examples", "Calculate volume using l*w*h.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 68", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 68", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 68", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 68", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 68", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("surface-area", "Surface Area", "69", "Calculate surface area of rectangular prisms.", "Section 7: Lessons 61-70", 69,
+            Arrays.asList(new Section("Worked Examples", "Calculate surface area of rectangular prisms.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 69", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 69", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 69", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 69", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 69", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("geometric-solids", "Geometric Solids", "70", "Identify prisms, pyramids, cylinders, cones, spheres.", "Section 7: Lessons 61-70", 70,
+            Arrays.asList(new Section("Worked Examples", "Identify prisms, pyramids, cylinders, cones, spheres.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 70", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 70", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 70", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 70", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 70", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("integers-on-a-number-line", "Integers on a Number Line", "71", "Locate and compare integers.", "Section 8: Lessons 71-80", 71,
+            Arrays.asList(new Section("Worked Examples", "Locate and compare integers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 71", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 71", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 71", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 71", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 71", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("adding-integers", "Adding Integers", "72", "Add positive and negative numbers.", "Section 8: Lessons 71-80", 72,
+            Arrays.asList(new Section("Worked Examples", "Add positive and negative numbers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 72", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 72", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 72", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 72", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 72", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("subtracting-integers", "Subtracting Integers", "73", "Subtract integers using rules.", "Section 8: Lessons 71-80", 73,
+            Arrays.asList(new Section("Worked Examples", "Subtract integers using rules.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 73", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 73", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 73", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 73", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 73", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("multiplying-and-dividing-integers", "Multiplying and Dividing Integers", "74", "Apply sign rules for multiplication and division.", "Section 8: Lessons 71-80", 74,
+            Arrays.asList(new Section("Worked Examples", "Apply sign rules for multiplication and division.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 74", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 74", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 74", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 74", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 74", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("the-coordinate-plane", "The Coordinate Plane", "75", "Plot and identify ordered pairs.", "Section 8: Lessons 71-80", 75,
+            Arrays.asList(new Section("Worked Examples", "Plot and identify ordered pairs.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 75", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 75", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 75", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 75", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 75", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("transformations-translations", "Transformations: Translations", "76", "Translate figures on a coordinate plane.", "Section 8: Lessons 71-80", 76,
+            Arrays.asList(new Section("Worked Examples", "Translate figures on a coordinate plane.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 76", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 76", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 76", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 76", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 76", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("transformations-reflections", "Transformations: Reflections", "77", "Reflect figures across axes.", "Section 8: Lessons 71-80", 77,
+            Arrays.asList(new Section("Worked Examples", "Reflect figures across axes.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 77", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 77", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 77", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 77", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 77", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("transformations-rotations", "Transformations: Rotations", "78", "Rotate figures about a point.", "Section 8: Lessons 71-80", 78,
+            Arrays.asList(new Section("Worked Examples", "Rotate figures about a point.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 78", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 78", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 78", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 78", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 78", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("scientific-notation", "Scientific Notation", "79", "Write numbers in scientific notation.", "Section 8: Lessons 71-80", 79,
+            Arrays.asList(new Section("Worked Examples", "Write numbers in scientific notation.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 79", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 79", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 79", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 79", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 79", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("square-roots", "Square Roots", "80", "Find square roots of perfect squares.", "Section 8: Lessons 71-80", 80,
+            Arrays.asList(new Section("Worked Examples", "Find square roots of perfect squares.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 80", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 80", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 80", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 80", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 80", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("variables-and-expressions", "Variables and Expressions", "81", "Evaluate algebraic expressions.", "Section 9: Lessons 81-90", 81,
             Arrays.asList(new Section("Worked Examples", "Evaluate algebraic expressions.",
                 Arrays.asList(
-            new WorkedExample("Evaluate 3x + 1 when x = 4", Arrays.asList("3(4) + 1 = 12 + 1"), "13"),
-            new WorkedExample("Evaluate 2n - 3 when n = 5", Arrays.asList("2(5) - 3 = 10 - 3"), "7"),
-            new WorkedExample("Evaluate x^2 + 2 when x = 3", Arrays.asList("3^2 + 2 = 9 + 2"), "11"),
-            new WorkedExample("If a = 2 and b = 5, find a + b", Arrays.asList("2 + 5 = 7"), "7"),
-            new WorkedExample("Evaluate 4y when y = 6", Arrays.asList("4 x 6 = 24"), "24")
+            new WorkedExample("Practice problem for Lesson 81", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 81", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 81", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 81", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 81", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("solving-equations", "Solving Equations", "46", "Solve one-step equations using inverse operations.", "Chapter 13: Pre-Algebra", 46,
-            Arrays.asList(new Section("Worked Examples", "Solve one-step equations using inverse operations.",
+        lessons.add(new LessonContent("writing-expressions", "Writing Expressions", "82", "Translate words into algebraic expressions.", "Section 9: Lessons 81-90", 82,
+            Arrays.asList(new Section("Worked Examples", "Translate words into algebraic expressions.",
                 Arrays.asList(
-            new WorkedExample("Solve: x + 5 = 12", Arrays.asList("Subtract 5 from both sides", "x = 12 - 5"), "x = 7"),
-            new WorkedExample("Solve: x - 3 = 8", Arrays.asList("Add 3 to both sides", "x = 8 + 3"), "x = 11"),
-            new WorkedExample("Solve: 3x = 15", Arrays.asList("Divide both sides by 3", "x = 15/3"), "x = 5"),
-            new WorkedExample("Solve: x/4 = 3", Arrays.asList("Multiply both sides by 4", "x = 3 x 4"), "x = 12"),
-            new WorkedExample("Solve: 2x + 1 = 9", Arrays.asList("Subtract 1: 2x=8", "Divide by 2: x=4"), "x = 4")
+            new WorkedExample("Practice problem for Lesson 82", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 82", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 82", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 82", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 82", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("integers", "Integers", "47", "Understand positive and negative integers.", "Chapter 14: Integers", 47,
-            Arrays.asList(new Section("Worked Examples", "Understand positive and negative integers.",
+        lessons.add(new LessonContent("solving-one-step-equations-addsubtract", "Solving One-Step Equations (Add/Subtract)", "83", "Solve equations using inverse operations.", "Section 9: Lessons 81-90", 83,
+            Arrays.asList(new Section("Worked Examples", "Solve equations using inverse operations.",
                 Arrays.asList(
-            new WorkedExample("What is the opposite of 5?", Arrays.asList("Opposite = other side of 0"), " -5"),
-            new WorkedExample("Order: -3, 0, 2, -1", Arrays.asList("Least to greatest on number line"), " -3, -1, 0, 2"),
-            new WorkedExample("Which is greater: -4 or -1?", Arrays.asList("On number line: -1 is further right"), " -1"),
-            new WorkedExample("Absolute value of -7", Arrays.asList("Distance from 0 (always positive)"), "7"),
-            new WorkedExample("|-3| + |2| = ?", Arrays.asList("3 + 2 = 5"), "5")
+            new WorkedExample("Practice problem for Lesson 83", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 83", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 83", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 83", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 83", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("adding-integers", "Adding Integers", "48", "Add and subtract positive and negative numbers.", "Chapter 14: Integers", 48,
-            Arrays.asList(new Section("Worked Examples", "Add and subtract positive and negative numbers.",
+        lessons.add(new LessonContent("solving-one-step-equations-multiplydivid", "Solving One-Step Equations (Multiply/Divide)", "84", "Solve multiplication and division equations.", "Section 9: Lessons 81-90", 84,
+            Arrays.asList(new Section("Worked Examples", "Solve multiplication and division equations.",
                 Arrays.asList(
-            new WorkedExample("5 + (-3) = ?", Arrays.asList("Start at 5, move left 3"), "2"),
-            new WorkedExample("-4 + (-2) = ?", Arrays.asList("Both negative: add, keep negative"), " -6"),
-            new WorkedExample("-7 + 3 = ?", Arrays.asList("Start at -7, move right 3"), " -4"),
-            new WorkedExample("8 - (-2) = ?", Arrays.asList("Subtracting negative = adding", "8 + 2 = 10"), "10"),
-            new WorkedExample("-5 + 5 = ?", Arrays.asList("Opposites add to zero"), "0")
+            new WorkedExample("Practice problem for Lesson 84", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 84", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 84", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 84", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 84", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("coordinate-plane", "Coordinate Plane", "49", "Plot and identify points on a coordinate grid.", "Chapter 14: Integers", 49,
-            Arrays.asList(new Section("Worked Examples", "Plot and identify points on a coordinate grid.",
+        lessons.add(new LessonContent("solving-two-step-equations", "Solving Two-Step Equations", "85", "Solve equations with two operations.", "Section 9: Lessons 81-90", 85,
+            Arrays.asList(new Section("Worked Examples", "Solve equations with two operations.",
                 Arrays.asList(
-            new WorkedExample("Plot (3, 2): how?", Arrays.asList("Right 3 on x-axis", "Up 2 on y-axis"), "Right 3, up 2"),
-            new WorkedExample("What quadrant is (-2, 4) in?", Arrays.asList("Negative x, positive y"), "Quadrant II"),
-            new WorkedExample("What are coordinates of the origin?", Arrays.asList("Center where axes cross"), "(0, 0)"),
-            new WorkedExample("Point (4, -1) is in which quadrant?", Arrays.asList("Positive x, negative y"), "Quadrant IV"),
-            new WorkedExample("Plot (-3, -2): how?", Arrays.asList("Left 3, down 2"), "Left 3, down 2")
+            new WorkedExample("Practice problem for Lesson 85", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 85", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 85", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 85", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 85", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
-        lessons.add(new LessonContent("problem-solving-strategies", "Problem Solving Strategies", "50", "Apply multiple strategies to solve complex problems.", "Chapter 15: Problem Solving", 50,
-            Arrays.asList(new Section("Worked Examples", "Apply multiple strategies to solve complex problems.",
+        lessons.add(new LessonContent("inequalities", "Inequalities", "86", "Write, solve, and graph inequalities.", "Section 9: Lessons 81-90", 86,
+            Arrays.asList(new Section("Worked Examples", "Write, solve, and graph inequalities.",
                 Arrays.asList(
-            new WorkedExample("Find pattern: 1,1,2,3,5,8,__", Arrays.asList("Fibonacci: add last two", "5+8=13"), "13"),
-            new WorkedExample("Work backwards: result is 20 after doubling and adding 4. Start?", Arrays.asList("20-4=16", "16/2=8"), "8"),
-            new WorkedExample("3 shirts, 4 pants. How many outfits?", Arrays.asList("Multiply choices: 3x4"), "12 outfits"),
-            new WorkedExample("Guess and check: x + x + 3 = 15", Arrays.asList("Try x=6: 6+6+3=15. Yes!"), "x = 6"),
-            new WorkedExample("A train goes 60 mph for 2.5 hours. Distance?", Arrays.asList("60 x 2.5 = 150"), "150 miles")
+            new WorkedExample("Practice problem for Lesson 86", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 86", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 86", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 86", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 86", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
             ))),
-            Arrays.asList("Practice makes perfect", "Show your work", "Check your answer")
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("functions-and-function-tables", "Functions and Function Tables", "87", "Complete function tables and identify rules.", "Section 9: Lessons 81-90", 87,
+            Arrays.asList(new Section("Worked Examples", "Complete function tables and identify rules.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 87", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 87", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 87", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 87", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 87", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("graphing-linear-functions", "Graphing Linear Functions", "88", "Graph functions on a coordinate plane.", "Section 9: Lessons 81-90", 88,
+            Arrays.asList(new Section("Worked Examples", "Graph functions on a coordinate plane.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 88", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 88", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 88", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 88", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 88", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("slope", "Slope", "89", "Calculate slope from two points or a graph.", "Section 9: Lessons 81-90", 89,
+            Arrays.asList(new Section("Worked Examples", "Calculate slope from two points or a graph.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 89", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 89", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 89", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 89", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 89", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("word-problems-with-equations", "Word Problems with Equations", "90", "Write and solve equations from word problems.", "Section 9: Lessons 81-90", 90,
+            Arrays.asList(new Section("Worked Examples", "Write and solve equations from word problems.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 90", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 90", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 90", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 90", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 90", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("ratios-and-proportional-relationships", "Ratios and Proportional Relationships", "91", "Identify proportional relationships in tables.", "Section 10: Lessons 91-100", 91,
+            Arrays.asList(new Section("Worked Examples", "Identify proportional relationships in tables.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 91", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 91", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 91", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 91", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 91", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("percent-increase-and-decrease", "Percent Increase and Decrease", "92", "Calculate percent change.", "Section 10: Lessons 91-100", 92,
+            Arrays.asList(new Section("Worked Examples", "Calculate percent change.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 92", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 92", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 92", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 92", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 92", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("simple-interest", "Simple Interest", "93", "Calculate simple interest using I=Prt.", "Section 10: Lessons 91-100", 93,
+            Arrays.asList(new Section("Worked Examples", "Calculate simple interest using I=Prt.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 93", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 93", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 93", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 93", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 93", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("discount-and-sales-tax", "Discount and Sales Tax", "94", "Calculate sale prices and tax amounts.", "Section 10: Lessons 91-100", 94,
+            Arrays.asList(new Section("Worked Examples", "Calculate sale prices and tax amounts.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 94", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 94", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 94", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 94", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 94", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("similar-figures", "Similar Figures", "95", "Identify similar figures and find missing measures.", "Section 10: Lessons 91-100", 95,
+            Arrays.asList(new Section("Worked Examples", "Identify similar figures and find missing measures.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 95", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 95", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 95", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 95", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 95", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("indirect-measurement", "Indirect Measurement", "96", "Use proportions for indirect measurement.", "Section 10: Lessons 91-100", 96,
+            Arrays.asList(new Section("Worked Examples", "Use proportions for indirect measurement.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 96", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 96", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 96", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 96", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 96", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("probability-compound-events", "Probability: Compound Events", "97", "Find probability of independent and dependent events.", "Section 10: Lessons 91-100", 97,
+            Arrays.asList(new Section("Worked Examples", "Find probability of independent and dependent events.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 97", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 97", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 97", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 97", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 97", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("permutations-and-combinations", "Permutations and Combinations", "98", "Count arrangements and selections.", "Section 10: Lessons 91-100", 98,
+            Arrays.asList(new Section("Worked Examples", "Count arrangements and selections.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 98", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 98", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 98", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 98", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 98", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("stem-and-leaf-plots", "Stem-and-Leaf Plots", "99", "Create and read stem-and-leaf displays.", "Section 10: Lessons 91-100", 99,
+            Arrays.asList(new Section("Worked Examples", "Create and read stem-and-leaf displays.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 99", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 99", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 99", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 99", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 99", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("box-and-whisker-plots", "Box-and-Whisker Plots", "100", "Create and interpret box plots.", "Section 10: Lessons 91-100", 100,
+            Arrays.asList(new Section("Worked Examples", "Create and interpret box plots.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 100", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 100", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 100", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 100", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 100", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("the-pythagorean-theorem", "The Pythagorean Theorem", "101", "Apply a^2+b^2=c^2 to right triangles.", "Section 11: Lessons 101-110", 101,
+            Arrays.asList(new Section("Worked Examples", "Apply a^2+b^2=c^2 to right triangles.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 101", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 101", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 101", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 101", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 101", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("distance-on-a-coordinate-plane", "Distance on a Coordinate Plane", "102", "Use distance formula between points.", "Section 11: Lessons 101-110", 102,
+            Arrays.asList(new Section("Worked Examples", "Use distance formula between points.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 102", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 102", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 102", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 102", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 102", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("irrational-numbers", "Irrational Numbers", "103", "Identify and approximate irrational numbers.", "Section 11: Lessons 101-110", 103,
+            Arrays.asList(new Section("Worked Examples", "Identify and approximate irrational numbers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 103", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 103", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 103", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 103", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 103", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("exponent-rules", "Exponent Rules", "104", "Apply rules for multiplying and dividing powers.", "Section 11: Lessons 101-110", 104,
+            Arrays.asList(new Section("Worked Examples", "Apply rules for multiplying and dividing powers.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 104", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 104", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 104", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 104", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 104", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("negative-exponents", "Negative Exponents", "105", "Evaluate expressions with negative exponents.", "Section 11: Lessons 101-110", 105,
+            Arrays.asList(new Section("Worked Examples", "Evaluate expressions with negative exponents.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 105", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 105", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 105", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 105", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 105", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("scatter-plots", "Scatter Plots", "106", "Create scatter plots and describe correlations.", "Section 11: Lessons 101-110", 106,
+            Arrays.asList(new Section("Worked Examples", "Create scatter plots and describe correlations.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 106", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 106", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 106", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 106", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 106", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("line-of-best-fit", "Line of Best Fit", "107", "Draw and use lines of best fit.", "Section 11: Lessons 101-110", 107,
+            Arrays.asList(new Section("Worked Examples", "Draw and use lines of best fit.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 107", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 107", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 107", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 107", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 107", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("two-step-inequalities", "Two-Step Inequalities", "108", "Solve and graph two-step inequalities.", "Section 11: Lessons 101-110", 108,
+            Arrays.asList(new Section("Worked Examples", "Solve and graph two-step inequalities.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 108", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 108", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 108", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 108", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 108", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("systems-of-equations-introduction", "Systems of Equations (Introduction)", "109", "Understand systems with two equations.", "Section 11: Lessons 101-110", 109,
+            Arrays.asList(new Section("Worked Examples", "Understand systems with two equations.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 109", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 109", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 109", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 109", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 109", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("geometric-probability", "Geometric Probability", "110", "Find probability using areas and lengths.", "Section 11: Lessons 101-110", 110,
+            Arrays.asList(new Section("Worked Examples", "Find probability using areas and lengths.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 110", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 110", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 110", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 110", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 110", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("multi-step-word-problems", "Multi-Step Word Problems", "111", "Solve complex multi-step word problems.", "Section 12: Lessons 111-120", 111,
+            Arrays.asList(new Section("Worked Examples", "Solve complex multi-step word problems.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 111", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 111", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 111", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 111", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 111", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("rates-of-change", "Rates of Change", "112", "Calculate and interpret rates of change.", "Section 12: Lessons 111-120", 112,
+            Arrays.asList(new Section("Worked Examples", "Calculate and interpret rates of change.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 112", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 112", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 112", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 112", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 112", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("unit-conversions-with-ratios", "Unit Conversions with Ratios", "113", "Convert units using dimensional analysis.", "Section 12: Lessons 111-120", 113,
+            Arrays.asList(new Section("Worked Examples", "Convert units using dimensional analysis.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 113", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 113", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 113", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 113", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 113", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("percents-greater-than-100-and-less-than-", "Percents Greater Than 100 and Less Than 1", "114", "Work with unusual percent values.", "Section 12: Lessons 111-120", 114,
+            Arrays.asList(new Section("Worked Examples", "Work with unusual percent values.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 114", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 114", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 114", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 114", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 114", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("compound-interest-introduction", "Compound Interest (Introduction)", "115", "Understand compound vs simple interest.", "Section 12: Lessons 111-120", 115,
+            Arrays.asList(new Section("Worked Examples", "Understand compound vs simple interest.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 115", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 115", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 115", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 115", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 115", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("tessellations", "Tessellations", "116", "Identify shapes that tessellate.", "Section 12: Lessons 111-120", 116,
+            Arrays.asList(new Section("Worked Examples", "Identify shapes that tessellate.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 116", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 116", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 116", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 116", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 116", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("nets-and-surface-area", "Nets and Surface Area", "117", "Unfold 3D shapes into nets.", "Section 12: Lessons 111-120", 117,
+            Arrays.asList(new Section("Worked Examples", "Unfold 3D shapes into nets.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 117", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 117", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 117", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 117", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 117", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("volume-of-cylinders", "Volume of Cylinders", "118", "Calculate volume using V=pi*r^2*h.", "Section 12: Lessons 111-120", 118,
+            Arrays.asList(new Section("Worked Examples", "Calculate volume using V=pi*r^2*h.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 118", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 118", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 118", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 118", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 118", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("data-analysis-and-predictions", "Data Analysis and Predictions", "119", "Make predictions from data trends.", "Section 12: Lessons 111-120", 119,
+            Arrays.asList(new Section("Worked Examples", "Make predictions from data trends.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 119", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 119", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 119", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 119", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 119", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
+        ));
+        lessons.add(new LessonContent("problem-solving-strategies-review", "Problem Solving Strategies Review", "120", "Apply all strategies to complex problems.", "Section 12: Lessons 111-120", 120,
+            Arrays.asList(new Section("Worked Examples", "Apply all strategies to complex problems.",
+                Arrays.asList(
+            new WorkedExample("Practice problem for Lesson 120", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 120", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 120", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 120", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution"),
+            new WorkedExample("Practice problem for Lesson 120", Arrays.asList("Step 1: Identify given information", "Step 2: Choose the right method", "Step 3: Solve step by step", "Step 4: Verify the answer"), "Solution")
+            ))),
+            Arrays.asList("Practice daily", "Show all work", "Check your answer")
         ));
     }
 }
