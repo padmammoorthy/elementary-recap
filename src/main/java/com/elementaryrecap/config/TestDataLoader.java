@@ -91,45 +91,35 @@ public class TestDataLoader implements CommandLineRunner {
         int a, b, c, result;
         switch (seed % 50) {
             case 0:
-                a = 100 + seed; b = 50 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 3 + seed % 7; b = 5 + seed % 20; result = a * b + (seed % 5);
+                return new String[]{"Solve: " + a + "x + " + (seed%5) + " = " + result, "x=" + b, "x=" + (b+1), "x=" + (b-1), "x=" + (b*2), "A", "Subtract " + (seed%5) + " then divide by " + a + ".", a + "x=" + (result-seed%5) + ", x=" + b};
             case 1:
-                a = 137 + seed; b = 73 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 5 + seed % 10; b = 3 + seed % 8; result = a * a + b * b;
+                return new String[]{"Right triangle legs " + a + " and " + b + ". Find c^2.", String.valueOf(result), String.valueOf(result+1), String.valueOf(result-1), String.valueOf(a*b), "A", "Use Pythagorean: a^2+b^2=c^2.", a + "^2+" + b + "^2=" + result};
             case 2:
-                a = 174 + seed; b = 96 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 4 + seed % 12; b = 3 + seed % 8; result = 2*(a+b);
+                return new String[]{"Perimeter of rectangle " + a + " by " + b + "?", String.valueOf(result), String.valueOf(a*b), String.valueOf(a+b), String.valueOf(result+2), "A", "P=2(l+w).", "2(" + a + "+" + b + ")=" + result};
             case 3:
-                a = 211 + seed; b = 119 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 2 + seed % 5; b = 10 + seed % 30; result = b / a;
+                return new String[]{"Solve: " + a + "x = " + (a*result), "x=" + result, "x=" + (result+2), "x=" + (result-1), "x=" + (a*result), "A", "Divide both sides by " + a + ".", a + "x=" + (a*result) + ", x=" + result};
             case 4:
-                a = 248 + seed; b = 142 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 6 + seed % 15; b = 4 + seed % 10; result = (a * b) / 2;
+                return new String[]{"Area of triangle base " + a + " height " + b + "?", String.valueOf(result), String.valueOf(a*b), String.valueOf(a+b), String.valueOf(result*2), "A", "A=(1/2)bh.", "(1/2)(" + a + ")(" + b + ")=" + result};
             case 5:
-                a = 285 + seed; b = 165 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 3 + seed % 8; b = a + 2 + seed % 5; c = a + b;
+                return new String[]{"Ratio " + a + ":" + b + ". Total " + (c*5) + ". Larger part?", String.valueOf(b*5), String.valueOf(a*5), String.valueOf(c*5), String.valueOf(b*3), "A", "Total/sum of ratio parts x larger.", (c*5) + "/" + c + "=" + 5 + ". " + b + "x5=" + (b*5)};
             case 6:
-                a = 322 + seed; b = 188 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 3 + seed % 6; b = 10 + seed % 40; result = b - (seed % 5);
+                return new String[]{"Solve: x/" + a + " + " + (seed%5) + " = " + (result/a + seed%5), "x=" + result, "x=" + (result+a), "x=" + (result-a), "x=" + (result*2), "A", "Subtract then multiply by " + a + ".", "x/" + a + "=" + (result/a) + ", x=" + result};
             case 7:
-                a = 359 + seed; b = 211 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 5 + seed % 10; result = a * a;
+                return new String[]{"Area of square side " + a + "?", String.valueOf(result), String.valueOf(a*4), String.valueOf(a*2), String.valueOf(result+a), "A", "A = side x side.", a + " x " + a + " = " + result};
             case 8:
-                a = 396 + seed; b = 234 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 20 + seed % 30; b = 100;
+                return new String[]{"What percent of " + b + " is " + a + "?", a + "%", (a+5) + "%", (a-5) + "%", (a*2) + "%", "A", "Divide by total, multiply by 100.", a + "/" + b + " = " + a + "%"};
             case 9:
-                a = 433 + seed; b = 257 + seed/2;
-                result = a + b;
-                return new String[]{a + " + " + b + " = ?", String.valueOf(result), String.valueOf(result+10), String.valueOf(result-5), String.valueOf(result+3), "A", "Add carefully.", a + "+" + b + "=" + result};
+                a = 4 + seed % 8; b = a + 3; result = a * b;
+                return new String[]{"Solve proportion: " + a + "/x = " + b + "/" + result, "x=" + (a*a*1/1), "x=" + (result/a), "x=" + b, "x=" + (a+b), "A", "Cross multiply: " + a + "*" + result + "=" + b + "*x.", a + "*" + result + "=" + (a*result) + ". " + b + "*x=" + (a*result) + ". x=" + (a*result/b)};
             case 10:
                 a = 2 + seed % 8; b = a + 2 + seed % 4;
                 return new String[]{"Reduce " + a + "/" + b + " to lowest terms", "Use GCF to simplify", String.valueOf(a) + "/" + String.valueOf(b+1), String.valueOf(a-1) + "/" + b, "Cannot reduce", "A", "Find the GCF.", "Divide numerator and denominator by their GCF"};
