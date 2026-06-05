@@ -71,9 +71,9 @@ public class TestDataLoader implements CommandLineRunner {
         int seed = testIdx * 53 + qIdx * 7; // unique per test+question
         String[] q;
         if (diff == Test.Difficulty.EASY) {
-            q = mediumQuestion(seed + 500); // Easy tests now use medium-level questions with different seed
+            q = hardQuestion(seed + 1000); // Easy tests now use hard questions with unique seeds
         } else if (diff == Test.Difficulty.MEDIUM) {
-            q = mediumQuestion(seed);
+            q = hardQuestion(seed + 500); // Medium tests also use hard questions with different seeds
         } else {
             q = hardQuestion(seed);
         }
@@ -117,37 +117,6 @@ public class TestDataLoader implements CommandLineRunner {
             return "<svg viewBox=\"0 0 200 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"80\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,65 30,20 150,20 170,65\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"65\" stroke=\"#e17055\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"20\" y=\"45\" font-size=\"9\" fill=\"#e17055\">h</text></svg>";
         }
         return null; // No illustration for non-geometry questions
-    }
-
-    private String[] mediumQuestion(int seed) {
-        int a, b, c;
-        switch (seed % 25) {
-            case 0: a=3+seed%8; b=5+seed%15; c=a*b+(seed%5); return s("Solve: "+a+"x+"+seed%5+"="+c, "x="+b, "x="+(b+1), "x="+(b-1), "x="+c, "Subtract "+seed%5+" then divide by "+a, a+"x="+(c-seed%5)+", x="+b);
-            case 1: a=5+seed%8; b=12+seed%10; c=a*a+b*b; return s("Right triangle legs "+a+","+b+". Hypotenuse^2?", ""+c, ""+(c+1), ""+(a*b), ""+(c-1), "a^2+b^2=c^2", a+"^2+"+b+"^2="+c);
-            case 2: a=1000+seed*200; b=5+seed%5; c=2+seed%3; return s("Interest: $"+a+" at "+b+"% for "+c+" years?", "$"+(a*b*c/100), "$"+(a*b/100), "$"+a, "$"+(a*b*c/10), "I=Prt", a+"*"+b+"/100*"+c+"="+(a*b*c/100));
-            case 3: a=30+seed%60; b=50+seed%40; c=180-a-b; return s("Triangle: angles "+a+","+b+",?", ""+c, ""+(180-a), ""+b, "90", "Sum=180", "180-"+a+"-"+b+"="+c);
-            case 4: a=4+seed%6; b=6+seed%8; c=(a+b)*(3+seed%4)/2; return s("Trapezoid: bases "+a+","+b+" height "+(3+seed%4)+". Area?", ""+c, ""+(a*b), ""+(a+b), ""+(c*2), "A=(b1+b2)/2*h", "("+a+"+"+b+")/2*"+(3+seed%4)+"="+c);
-            case 5: a=3+seed%5; b=4+seed%6; c=a*b*(2+seed%3); return s("Volume: "+a+"x"+b+"x"+(2+seed%3)+"?", ""+c, ""+(a*b), ""+(a+b), ""+(c+10), "V=lwh", a+"*"+b+"*"+(2+seed%3)+"="+c);
-            case 6: a=5+seed%10; c=6*a*a; return s("Surface area cube edge "+a+"?", ""+c, ""+(a*a*a), ""+(a*a), ""+(4*a*a), "SA=6s^2", "6*"+a+"^2="+c);
-            case 7: a=4+seed%8; c=(int)(3.14*a*a); return s("Circle area r="+a+" (pi=3.14)?", ""+c, ""+(2*a), ""+(a*a), ""+(c*2), "A=pi*r^2", "3.14*"+a+"^2="+c);
-            case 8: a=7+seed%10; c=(int)(3.14*2*a); return s("Circumference r="+a+" (pi=3.14)?", ""+c, ""+(a*2), ""+(a*a), ""+a, "C=2*pi*r", "2*3.14*"+a+"="+c);
-            case 9: a=40+seed%40; b=100; c=b-b*a/100; return s("$"+b+" after "+a+"% discount?", "$"+c, "$"+a, "$"+(b-a), "$"+(c+5), "Subtract discount", b+"-"+b+"*"+a+"/100="+c);
-            case 10: a=3+seed%5; b=5+seed%7; return s("Ratio "+a+":"+b+". Total "+(a+b)*6+". Larger?", ""+(b*6), ""+(a*6), ""+((a+b)*6), ""+(b*3), "Divide total by sum", (a+b)*6+"/"+(a+b)+"=6. "+b+"*6="+b*6);
-            case 11: a=3+seed%7; b=a+2; return s("Scale 1:"+b+". Model "+a+" cm. Actual?", ""+(a*b)+" cm", ""+a+" cm", ""+b+" cm", ""+(a+b)+" cm", "Multiply by scale", a+"*"+b+"="+(a*b));
-            case 12: a=3+seed%5; b=10+seed%10; return s("Solve: x/"+a+"+"+seed%3+"="+(b/a+seed%3), "x="+b, "x="+(b+a), "x="+(b-a), "x="+(b*a), "Subtract then multiply", "x/"+a+"="+b/a+", x="+b);
-            case 13: a=20+seed%30; b=a+10+seed%15; return s("Percent increase "+a+" to "+b+"?", ""+((b-a)*100/a)+"%", ""+(b-a)+"%", ""+a+"%", ""+b+"%", "(change/original)*100", "("+b+"-"+a+")/"+a+"*100="+((b-a)*100/a)+"%");
-            case 14: a=5+seed%5; return s("Interior angle sum "+(a+3)+"-gon?", ""+((a+1)*180), ""+((a+2)*180), "360", ""+((a)*180), "(n-2)*180", "("+(a+3)+"-2)*180="+(a+1)*180);
-            case 15: a=45+seed%45; return s("Isosceles: base angles "+a+" each. Vertex?", ""+(180-2*a), ""+a, ""+(90-a), "90", "180-2*base", "180-2*"+a+"="+(180-2*a));
-            case 16: a=4+seed%6; b=3+seed%4; return s(a+"(x-"+b+")="+(a*(7+seed%8))+". Solve.", "x="+(b+7+seed%8), "x="+(7+seed%8), "x="+b, "x="+(a*b), "Divide then add", "x-"+b+"="+(7+seed%8)+", x="+(b+7+seed%8));
-            case 17: a=3+seed%5; b=a*2+1; return s("Solve: 2x+1="+b, "x="+((b-1)/2), "x="+b, "x="+(b-1), "x="+(b+1), "Subtract 1, divide 2", "2x="+(b-1)+", x="+((b-1)/2));
-            case 18: a=6+seed%8; b=8+seed%8; return s("Diagonal rectangle "+a+"x"+b+"? (c^2)", ""+(a*a+b*b), ""+(a+b), ""+(a*b), ""+(2*(a+b)), "Pythagorean", a+"^2+"+b+"^2="+(a*a+b*b));
-            case 19: a=5+seed%10; return s("sqrt("+a*a+")=?", ""+a, ""+(a+1), ""+(a-1), ""+(a*a/2), "What^2="+a*a+"?", a+"*"+a+"="+a*a);
-            case 20: a=1500+seed*300; b=6+seed%4; c=3; return s("Compound yr1: $"+a+" at "+b+"%?", "$"+(a+a*b/100), "$"+(a*b/100), "$"+a, "$"+(a*2), "A=P(1+r)", a+"*1.0"+b+"="+(a+a*b/100));
-            case 21: a=3+seed%5; b=7+seed%8; return s("Proportion: "+a+"/"+b+" = x/"+(b*(2+seed%3)), "x="+(a*(2+seed%3)), "x="+b, "x="+a, "x="+(a+b), "Cross multiply", a+"*"+(b*(2+seed%3))+"="+b+"*x");
-            case 22: a=5+seed%8; b=a+3; return s("Similar triangles: side "+a+" maps to "+b+". Side 12 maps to?", ""+(12*b/a), ""+12, ""+(12+b-a), ""+(12*a/b), "Scale factor "+b+"/"+a, "12*"+b+"/"+a+"="+(12*b/a));
-            case 23: a=60+seed%30; return s("Exterior angle of polygon = "+(360/(3+seed%3))+". How many sides?", ""+(3+seed%3), ""+(4+seed%3), ""+(2+seed%3), "12", "360/ext=sides", "360/"+(360/(3+seed%3))+"="+(3+seed%3));
-            default: a=8+seed%12; b=6+seed%10; return s("Parallelogram base "+a+" height "+b+". Area?", ""+(a*b), ""+(2*(a+b)), ""+(a+b), ""+(a*b/2), "A=bh", a+"*"+b+"="+(a*b));
-        }
     }
 
     private String[] hardQuestion(int seed) {
