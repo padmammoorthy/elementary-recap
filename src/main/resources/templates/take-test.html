@@ -51,6 +51,7 @@
                             <span class="question-num" th:text="'Question ' + (${iterStat.index} + 1)"></span>
                         </div>
                         <p class="question-text" th:text="${question.questionText}"></p>
+                        <div th:if="${question.illustration}" class="question-illustration" th:utext="${question.illustration}"></div>
 
                         <div class="radio-choices">
                             <label class="radio-choice">

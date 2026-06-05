@@ -87,7 +87,36 @@ public class TestDataLoader implements CommandLineRunner {
         tq.setCorrectAnswer("A");
         tq.setHint(q[5]);
         tq.setSolutionExplanation(q[6]);
+        tq.setIllustration(getSvg(q[0]));
         return tq;
+    }
+
+    private String getSvg(String questionText) {
+        String t = questionText.toLowerCase();
+        if (t.contains("right triangle") || t.contains("legs") || t.contains("hypotenuse") || t.contains("ladder") || t.contains("pythagorean")) {
+            return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"30,100 30,30 150,100\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"30\" y=\"90\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"20\" y=\"70\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"85\" y=\"115\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"85\" y=\"55\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>";
+        } else if (t.contains("triangle") && (t.contains("angle") || t.contains("isosceles"))) {
+            return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"30,85 100,15 170,85\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 85 A 20 20 0 0 0 45 70\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 150 85 A 20 20 0 0 1 155 70\" stroke=\"#00b894\" stroke-width=\"1.5\" fill=\"none\"/></svg>";
+        } else if (t.contains("rectangle") && (t.contains("area") || t.contains("perimeter") || t.contains("diagonal"))) {
+            return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><rect x=\"30\" y=\"20\" width=\"120\" height=\"60\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"90\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6c5ce7\">l</text><text x=\"20\" y=\"55\" font-size=\"10\" fill=\"#6c5ce7\">w</text></svg>";
+        } else if (t.contains("circle") || t.contains("circumference") || t.contains("semicircle") || t.contains("sector")) {
+            return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"100\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"100\" y1=\"50\" x2=\"135\" y2=\"50\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"115\" y=\"45\" font-size=\"9\" fill=\"#e17055\">r</text></svg>";
+        } else if (t.contains("cube") || t.contains("box") || t.contains("volume") || t.contains("surface area") && t.contains("prism")) {
+            return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"40,90 120,90 135,65 55,65\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"120,90 135,65 135,35 120,60\" fill=\"#a29bfe\" fill-opacity=\"0.1\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"55,65 135,65 135,35 55,35\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"85\" y=\"105\" font-size=\"9\" fill=\"#6c5ce7\">l x w x h</text></svg>";
+        } else if (t.contains("trapezoid")) {
+            return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,80 30,30 150,30 170,80\" fill=\"#55efc4\" fill-opacity=\"0.15\" stroke=\"#00b894\" stroke-width=\"2\"/><text x=\"90\" y=\"25\" font-size=\"9\" fill=\"#00b894\">b1</text><text x=\"100\" y=\"95\" font-size=\"9\" fill=\"#00b894\">b2</text></svg>";
+        } else if (t.contains("angle") || t.contains("supplement") || t.contains("complement") || t.contains("exterior") || t.contains("interior")) {
+            return "<svg viewBox=\"0 0 200 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"80\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"30\" y1=\"60\" x2=\"170\" y2=\"60\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"30\" y1=\"60\" x2=\"120\" y2=\"20\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 55 60 A 25 25 0 0 0 48 45\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>";
+        } else if (t.contains("slope")) {
+            return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"85\" x2=\"180\" y2=\"85\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"85\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"40\" y1=\"70\" x2=\"160\" y2=\"25\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"40\" cy=\"70\" r=\"3\" fill=\"#e17055\"/><circle cx=\"160\" cy=\"25\" r=\"3\" fill=\"#e17055\"/></svg>";
+        } else if (t.contains("cylinder")) {
+            return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><ellipse cx=\"100\" cy=\"30\" rx=\"40\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"90\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"140\" y1=\"30\" x2=\"140\" y2=\"90\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><ellipse cx=\"100\" cy=\"90\" rx=\"40\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"9\" fill=\"#6c5ce7\">V=pi*r^2*h</text></svg>";
+        } else if (t.contains("sphere")) {
+            return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"100\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><ellipse cx=\"100\" cy=\"50\" rx=\"35\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"100\" y1=\"50\" x2=\"135\" y2=\"50\" stroke=\"#e17055\" stroke-width=\"1.5\"/></svg>";
+        } else if (t.contains("parallelogram")) {
+            return "<svg viewBox=\"0 0 200 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"80\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,65 30,20 150,20 170,65\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"65\" stroke=\"#e17055\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"20\" y=\"45\" font-size=\"9\" fill=\"#e17055\">h</text></svg>";
+        }
+        return null; // No illustration for non-geometry questions
     }
 
     private String[] easyQuestion(int seed) {
