@@ -8,7 +8,8 @@
   "correctAnswer": "D",
   "hint": "25\u00d74\u00d74=400",
   "solutionExplanation": "25\u00d74\u00d74=400",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 99\u00d77",
@@ -19,7 +20,8 @@
   "correctAnswer": "A",
   "hint": "100\u00d77-7=693",
   "solutionExplanation": "100\u00d77-7=693",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 125\u00d78",
@@ -30,7 +32,8 @@
   "correctAnswer": "C",
   "hint": "125\u00d78=1000",
   "solutionExplanation": "125\u00d78=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 50\u00b2",
@@ -41,7 +44,8 @@
   "correctAnswer": "A",
   "hint": "50\u00d750",
   "solutionExplanation": "50\u00d750",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 0.25\u00d748",
@@ -52,7 +56,8 @@
   "correctAnswer": "B",
   "hint": "1/4 of 48",
   "solutionExplanation": "1/4 of 48",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 1000-567",
@@ -63,7 +68,8 @@
   "correctAnswer": "B",
   "hint": "Count up: 567+433=1000",
   "solutionExplanation": "Count up: 567+433=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 36\u00d725",
@@ -74,7 +80,8 @@
   "correctAnswer": "B",
   "hint": "36\u00d725=9\u00d7100",
   "solutionExplanation": "36\u00d725=9\u00d7100",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 12.5\u00d78",
@@ -85,7 +92,8 @@
   "correctAnswer": "D",
   "hint": "12.5=100/8",
   "solutionExplanation": "12.5=100/8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 75\u00d712",
@@ -96,7 +104,8 @@
   "correctAnswer": "B",
   "hint": "75\u00d74\u00d73=900",
   "solutionExplanation": "75\u00d74\u00d73=900",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 4.5\u00d720",
@@ -107,7 +116,8 @@
   "correctAnswer": "C",
   "hint": "4.5\u00d720=90",
   "solutionExplanation": "4.5\u00d720=90",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 33\u2153% of 120",
@@ -118,7 +128,8 @@
   "correctAnswer": "B",
   "hint": "1/3 of 120",
   "solutionExplanation": "1/3 of 120",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 66\u2154% of 45",
@@ -129,7 +140,8 @@
   "correctAnswer": "A",
   "hint": "2/3 of 45",
   "solutionExplanation": "2/3 of 45",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: \u221a(0.25)",
@@ -140,7 +152,8 @@
   "correctAnswer": "D",
   "hint": "0.5\u00b2=0.25",
   "solutionExplanation": "0.5\u00b2=0.25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 2.5\u00b2",
@@ -151,7 +164,8 @@
   "correctAnswer": "A",
   "hint": "2.5\u00d72.5",
   "solutionExplanation": "2.5\u00d72.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 15\u00b2",
@@ -162,7 +176,8 @@
   "correctAnswer": "B",
   "hint": "15\u00d715",
   "solutionExplanation": "15\u00d715",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 999+456",
@@ -173,7 +188,8 @@
   "correctAnswer": "D",
   "hint": "1000+456-1",
   "solutionExplanation": "1000+456-1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 250\u00f75",
@@ -184,7 +200,8 @@
   "correctAnswer": "A",
   "hint": "250/5",
   "solutionExplanation": "250/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 8\u00d7125",
@@ -195,7 +212,8 @@
   "correctAnswer": "C",
   "hint": "8\u00d7125=1000",
   "solutionExplanation": "8\u00d7125=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 0.75\u00d780",
@@ -206,7 +224,8 @@
   "correctAnswer": "C",
   "hint": "3/4 of 80",
   "solutionExplanation": "3/4 of 80",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 11\u00b2",
@@ -217,7 +236,8 @@
   "correctAnswer": "C",
   "hint": "11\u00d711",
   "solutionExplanation": "11\u00d711",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 400\u00f716",
@@ -228,7 +248,8 @@
   "correctAnswer": "C",
   "hint": "400/16=25",
   "solutionExplanation": "400/16=25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 5.5\u00d74",
@@ -239,7 +260,8 @@
   "correctAnswer": "B",
   "hint": "5\u00d74+0.5\u00d74=22",
   "solutionExplanation": "5\u00d74+0.5\u00d74=22",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 1.5\u00d760",
@@ -250,7 +272,8 @@
   "correctAnswer": "D",
   "hint": "1.5 hours=90 min",
   "solutionExplanation": "1.5 hours=90 min",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 20% of 350",
@@ -261,7 +284,8 @@
   "correctAnswer": "C",
   "hint": "350/5=70",
   "solutionExplanation": "350/5=70",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,4,9,16,25,__",
@@ -272,7 +296,8 @@
   "correctAnswer": "B",
   "hint": "Perfect squares",
   "solutionExplanation": "Perfect squares",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 2,6,18,54,__",
@@ -283,7 +308,8 @@
   "correctAnswer": "B",
   "hint": "\u00d73",
   "solutionExplanation": "\u00d73",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,1,2,3,5,8,13,__",
@@ -294,7 +320,8 @@
   "correctAnswer": "D",
   "hint": "Fibonacci",
   "solutionExplanation": "Fibonacci",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1000,500,250,125,__",
@@ -305,7 +332,8 @@
   "correctAnswer": "C",
   "hint": "\u00f72",
   "solutionExplanation": "\u00f72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 3,5,9,15,23,__",
@@ -316,7 +344,8 @@
   "correctAnswer": "D",
   "hint": "Differences increase by 2",
   "solutionExplanation": "Differences increase by 2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,8,27,64,__",
@@ -327,7 +356,8 @@
   "correctAnswer": "D",
   "hint": "Perfect cubes",
   "solutionExplanation": "Perfect cubes",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "20th triangular number?",
@@ -338,7 +368,8 @@
   "correctAnswer": "D",
   "hint": "n(n+1)/2",
   "solutionExplanation": "n(n+1)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Sum of first 15 odd numbers?",
@@ -349,7 +380,8 @@
   "correctAnswer": "A",
   "hint": "n\u00b2=225",
   "solutionExplanation": "n\u00b2=225",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 2,5,10,17,26,__",
@@ -360,7 +392,8 @@
   "correctAnswer": "C",
   "hint": "Differences: 3,5,7,9,11",
   "solutionExplanation": "Differences: 3,5,7,9,11",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,2,4,8,16,32,__",
@@ -371,7 +404,8 @@
   "correctAnswer": "D",
   "hint": "\u00d72",
   "solutionExplanation": "\u00d72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Sum 1+2+3+...+20?",
@@ -382,7 +416,8 @@
   "correctAnswer": "B",
   "hint": "n(n+1)/2",
   "solutionExplanation": "n(n+1)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 0,3,8,15,24,__",
@@ -393,7 +428,8 @@
   "correctAnswer": "C",
   "hint": "n\u00b2-1: 6\u00b2-1=35",
   "solutionExplanation": "n\u00b2-1: 6\u00b2-1=35",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "How many terms: 5,10,15,...,100?",
@@ -404,7 +440,8 @@
   "correctAnswer": "D",
   "hint": "(100-5)/5+1=20",
   "solutionExplanation": "(100-5)/5+1=20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Next prime after 43?",
@@ -415,7 +452,8 @@
   "correctAnswer": "B",
   "hint": "47 is prime",
   "solutionExplanation": "47 is prime",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "How many squares on a 4\u00d74 grid?",
@@ -426,7 +464,8 @@
   "correctAnswer": "D",
   "hint": "1\u00b2:16+2\u00b2:9+3\u00b2:4+4\u00b2:1=30",
   "solutionExplanation": "1\u00b2:16+2\u00b2:9+3\u00b2:4+4\u00b2:1=30",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Three consecutive odds sum to 81. Largest?",
@@ -437,7 +476,8 @@
   "correctAnswer": "D",
   "hint": "x+x+2+x+4=81, x=25, largest=29",
   "solutionExplanation": "x+x+2+x+4=81, x=25, largest=29",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Clock at 3:45. Angle between hands?",
@@ -448,7 +488,8 @@
   "correctAnswer": "D",
   "hint": "Hour=112.5\u00b0,min=270\u00b0,diff=157.5",
   "solutionExplanation": "Hour=112.5\u00b0,min=270\u00b0,diff=157.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "Product of two consecutive integers=72. Larger?",
@@ -459,7 +500,8 @@
   "correctAnswer": "A",
   "hint": "8\u00d79=72",
   "solutionExplanation": "8\u00d79=72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "x\u00b2=144 and x>0. What is x\u00b3?",
@@ -470,7 +512,8 @@
   "correctAnswer": "C",
   "hint": "12\u00b3=1728",
   "solutionExplanation": "12\u00b3=1728",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Diagonals in a hexagon?",
@@ -481,7 +524,8 @@
   "correctAnswer": "A",
   "hint": "n(n-3)/2=9",
   "solutionExplanation": "n(n-3)/2=9",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "LCM(12,15,20)?",
@@ -492,7 +536,8 @@
   "correctAnswer": "B",
   "hint": "2\u00b2\u00d73\u00d75=60",
   "solutionExplanation": "2\u00b2\u00d73\u00d75=60",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "GCF(84,126)?",
@@ -503,7 +548,8 @@
   "correctAnswer": "D",
   "hint": "2\u00d73\u00d77=42",
   "solutionExplanation": "2\u00d73\u00d77=42",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "5! (factorial)?",
@@ -514,7 +560,8 @@
   "correctAnswer": "C",
   "hint": "5\u00d74\u00d73\u00d72\u00d71",
   "solutionExplanation": "5\u00d74\u00d73\u00d72\u00d71",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Smallest prime >50?",
@@ -525,7 +572,8 @@
   "correctAnswer": "B",
   "hint": "53 is prime",
   "solutionExplanation": "53 is prime",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Integers 1-100 divisible by both 3 and 7?",
@@ -536,7 +584,8 @@
   "correctAnswer": "C",
   "hint": "Div by 21: 21,42,63,84",
   "solutionExplanation": "Div by 21: 21,42,63,84",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Cube SA=150. Edge?",
@@ -547,7 +596,8 @@
   "correctAnswer": "A",
   "hint": "6s\u00b2=150,s=5",
   "solutionExplanation": "6s\u00b2=150,s=5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Two dice. P(sum>9)?",
@@ -558,7 +608,8 @@
   "correctAnswer": "A",
   "hint": "6 outcomes of 36",
   "solutionExplanation": "6 outcomes of 36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mean of first 10 positive integers?",
@@ -569,7 +620,8 @@
   "correctAnswer": "D",
   "hint": "(1+10)/2",
   "solutionExplanation": "(1+10)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "45 minutes is what fraction of hour?",
@@ -580,7 +632,8 @@
   "correctAnswer": "C",
   "hint": "45/60",
   "solutionExplanation": "45/60",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Perimeter regular pentagon=45. Area of square same side?",
@@ -591,7 +644,8 @@
   "correctAnswer": "C",
   "hint": "Side=9, area=81",
   "solutionExplanation": "Side=9, area=81",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Ages: dad 3\u00d7 son, sum=48. Dad?",
@@ -602,7 +656,8 @@
   "correctAnswer": "C",
   "hint": "4x=48,x=12,dad=36",
   "solutionExplanation": "4x=48,x=12,dad=36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "If a/b=3/4 and b/c=2/5, what is a/c?",
@@ -613,7 +668,8 @@
   "correctAnswer": "D",
   "hint": "(3/4)(2/5)=3/10",
   "solutionExplanation": "(3/4)(2/5)=3/10",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "23 coins (nickels+dimes)=$1.85. Dimes?",
@@ -624,7 +680,8 @@
   "correctAnswer": "D",
   "hint": "Solve system",
   "solutionExplanation": "Solve system",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "7\u00d78+6\u00d79?",
@@ -635,7 +692,8 @@
   "correctAnswer": "A",
   "hint": "56+54=110",
   "solutionExplanation": "56+54=110",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "15\u00b2-12\u00b2?",
@@ -646,7 +704,8 @@
   "correctAnswer": "C",
   "hint": "(15-12)(15+12)=81",
   "solutionExplanation": "(15-12)(15+12)=81",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(3/4)\u00b2?",
@@ -657,7 +716,8 @@
   "correctAnswer": "D",
   "hint": "9/16",
   "solutionExplanation": "9/16",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "\u221a(49+576)?",
@@ -668,7 +728,8 @@
   "correctAnswer": "D",
   "hint": "\u221a625=25",
   "solutionExplanation": "\u221a625=25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "2\u2075\u00d73\u00b2?",
@@ -679,7 +740,8 @@
   "correctAnswer": "D",
   "hint": "32\u00d79=288",
   "solutionExplanation": "32\u00d79=288",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "1/2+1/3+1/6?",
@@ -690,7 +752,8 @@
   "correctAnswer": "C",
   "hint": "3/6+2/6+1/6=1",
   "solutionExplanation": "3/6+2/6+1/6=1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(-5)\u00b2+(-2)\u00b3?",
@@ -701,7 +764,8 @@
   "correctAnswer": "C",
   "hint": "25-8=17",
   "solutionExplanation": "25-8=17",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Volume hemisphere r=6 (\u03c0\u22483.14)?",
@@ -712,7 +776,8 @@
   "correctAnswer": "B",
   "hint": "(2/3)\u03c0r\u00b3",
   "solutionExplanation": "(2/3)\u03c0r\u00b3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "A number doubled minus 5 = 31. Number?",
@@ -723,7 +788,8 @@
   "correctAnswer": "A",
   "hint": "2x-5=31",
   "solutionExplanation": "2x-5=31",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 144\u00f712",
@@ -734,7 +800,8 @@
   "correctAnswer": "D",
   "hint": "12\u00d712=144",
   "solutionExplanation": "12\u00d712=144",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 7\u00b2+8\u00b2",
@@ -745,7 +812,8 @@
   "correctAnswer": "B",
   "hint": "49+64",
   "solutionExplanation": "49+64",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 3/5 of 85",
@@ -756,7 +824,8 @@
   "correctAnswer": "D",
   "hint": "85\u00d73/5",
   "solutionExplanation": "85\u00d73/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 20% of 95",
@@ -767,7 +836,8 @@
   "correctAnswer": "D",
   "hint": "95\u00d70.2",
   "solutionExplanation": "95\u00d70.2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: \u221a196",
@@ -778,7 +848,8 @@
   "correctAnswer": "B",
   "hint": "14\u00b2=196",
   "solutionExplanation": "14\u00b2=196",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 0.6\u00d70.8",
@@ -789,7 +860,8 @@
   "correctAnswer": "D",
   "hint": "Multiply, 2 dec places",
   "solutionExplanation": "Multiply, 2 dec places",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 1000\u00f78",
@@ -800,7 +872,8 @@
   "correctAnswer": "B",
   "hint": "8\u00d7125=1000",
   "solutionExplanation": "8\u00d7125=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 17\u00d76",
@@ -811,7 +884,8 @@
   "correctAnswer": "B",
   "hint": "(17\u00d76=102)",
   "solutionExplanation": "(17\u00d76=102)",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 3/8+5/8",
@@ -822,7 +896,8 @@
   "correctAnswer": "A",
   "hint": "Same denom: 8/8=1",
   "solutionExplanation": "Same denom: 8/8=1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 45\u00d74",
@@ -833,7 +908,8 @@
   "correctAnswer": "A",
   "hint": "45\u00d74=180",
   "solutionExplanation": "45\u00d74=180",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 2\u00b3\u00d75\u00b2",
@@ -844,7 +920,8 @@
   "correctAnswer": "A",
   "hint": "8\u00d725=200",
   "solutionExplanation": "8\u00d725=200",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 90\u00f70.5",
@@ -855,7 +932,8 @@
   "correctAnswer": "D",
   "hint": "\u00f70.5 = \u00d72",
   "solutionExplanation": "\u00f70.5 = \u00d72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 16\u00b2",
@@ -866,7 +944,8 @@
   "correctAnswer": "C",
   "hint": "16\u00d716",
   "solutionExplanation": "16\u00d716",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 7/8-3/8",
@@ -877,7 +956,8 @@
   "correctAnswer": "B",
   "hint": "4/8=1/2",
   "solutionExplanation": "4/8=1/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 150% of 40",
@@ -888,7 +968,8 @@
   "correctAnswer": "D",
   "hint": "1.5\u00d740",
   "solutionExplanation": "1.5\u00d740",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: \u221a(81+144)",
@@ -899,7 +980,8 @@
   "correctAnswer": "C",
   "hint": "\u221a225=15",
   "solutionExplanation": "\u221a225=15",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 10\u00b3-10\u00b2",
@@ -910,7 +992,8 @@
   "correctAnswer": "C",
   "hint": "1000-100",
   "solutionExplanation": "1000-100",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 2.5\u00d72.5\u00d72.5",
@@ -921,7 +1004,8 @@
   "correctAnswer": "C",
   "hint": "2.5\u00b3",
   "solutionExplanation": "2.5\u00b3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 4/5\u00f72/3",
@@ -932,7 +1016,8 @@
   "correctAnswer": "C",
   "hint": "4/5\u00d73/2=6/5",
   "solutionExplanation": "4/5\u00d73/2=6/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: (-4)\u00d7(-5)\u00d7(-2)",
@@ -943,7 +1028,8 @@
   "correctAnswer": "B",
   "hint": "Neg\u00d7neg\u00d7neg=neg",
   "solutionExplanation": "Neg\u00d7neg\u00d7neg=neg",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 11\u00d712",
@@ -954,7 +1040,8 @@
   "correctAnswer": "A",
   "hint": "11\u00d712",
   "solutionExplanation": "11\u00d712",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 0.125\u00d724",
@@ -965,7 +1052,8 @@
   "correctAnswer": "B",
   "hint": "1/8\u00d724=3",
   "solutionExplanation": "1/8\u00d724=3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 1-0.375",
@@ -976,7 +1064,8 @@
   "correctAnswer": "D",
   "hint": "1-3/8=5/8",
   "solutionExplanation": "1-3/8=5/8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 25% of 84",
@@ -987,7 +1076,8 @@
   "correctAnswer": "B",
   "hint": "84/4=21",
   "solutionExplanation": "84/4=21",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 13\u00b2",
@@ -998,7 +1088,8 @@
   "correctAnswer": "B",
   "hint": "13\u00d713",
   "solutionExplanation": "13\u00d713",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: \u221a400+\u221a100",
@@ -1009,7 +1100,8 @@
   "correctAnswer": "C",
   "hint": "20+10=30",
   "solutionExplanation": "20+10=30",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 99\u00d77",
@@ -1020,7 +1112,8 @@
   "correctAnswer": "A",
   "hint": "100\u00d77-7=693",
   "solutionExplanation": "100\u00d77-7=693",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 125\u00d78",
@@ -1031,7 +1124,8 @@
   "correctAnswer": "C",
   "hint": "125\u00d78=1000",
   "solutionExplanation": "125\u00d78=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 50\u00b2",
@@ -1042,7 +1136,8 @@
   "correctAnswer": "A",
   "hint": "50\u00d750",
   "solutionExplanation": "50\u00d750",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 0.25\u00d748",
@@ -1053,7 +1148,8 @@
   "correctAnswer": "B",
   "hint": "1/4 of 48",
   "solutionExplanation": "1/4 of 48",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 1000-567",
@@ -1064,7 +1160,8 @@
   "correctAnswer": "B",
   "hint": "Count up: 567+433=1000",
   "solutionExplanation": "Count up: 567+433=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 36\u00d725",
@@ -1075,7 +1172,8 @@
   "correctAnswer": "B",
   "hint": "36\u00d725=9\u00d7100",
   "solutionExplanation": "36\u00d725=9\u00d7100",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 12.5\u00d78",
@@ -1086,7 +1184,8 @@
   "correctAnswer": "D",
   "hint": "12.5=100/8",
   "solutionExplanation": "12.5=100/8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 75\u00d712",
@@ -1097,7 +1196,8 @@
   "correctAnswer": "B",
   "hint": "75\u00d74\u00d73=900",
   "solutionExplanation": "75\u00d74\u00d73=900",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 4.5\u00d720",
@@ -1108,7 +1208,8 @@
   "correctAnswer": "C",
   "hint": "4.5\u00d720=90",
   "solutionExplanation": "4.5\u00d720=90",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 33\u2153% of 120",
@@ -1119,7 +1220,8 @@
   "correctAnswer": "B",
   "hint": "1/3 of 120",
   "solutionExplanation": "1/3 of 120",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 66\u2154% of 45",
@@ -1130,7 +1232,8 @@
   "correctAnswer": "A",
   "hint": "2/3 of 45",
   "solutionExplanation": "2/3 of 45",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: \u221a(0.25)",
@@ -1141,7 +1244,8 @@
   "correctAnswer": "D",
   "hint": "0.5\u00b2=0.25",
   "solutionExplanation": "0.5\u00b2=0.25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 2.5\u00b2",
@@ -1152,7 +1256,8 @@
   "correctAnswer": "A",
   "hint": "2.5\u00d72.5",
   "solutionExplanation": "2.5\u00d72.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 15\u00b2",
@@ -1163,7 +1268,8 @@
   "correctAnswer": "B",
   "hint": "15\u00d715",
   "solutionExplanation": "15\u00d715",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 999+456",
@@ -1174,7 +1280,8 @@
   "correctAnswer": "D",
   "hint": "1000+456-1",
   "solutionExplanation": "1000+456-1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 250\u00f75",
@@ -1185,7 +1292,8 @@
   "correctAnswer": "A",
   "hint": "250/5",
   "solutionExplanation": "250/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 8\u00d7125",
@@ -1196,7 +1304,8 @@
   "correctAnswer": "C",
   "hint": "8\u00d7125=1000",
   "solutionExplanation": "8\u00d7125=1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 0.75\u00d780",
@@ -1207,7 +1316,8 @@
   "correctAnswer": "C",
   "hint": "3/4 of 80",
   "solutionExplanation": "3/4 of 80",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 11\u00b2",
@@ -1218,7 +1328,8 @@
   "correctAnswer": "C",
   "hint": "11\u00d711",
   "solutionExplanation": "11\u00d711",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 400\u00f716",
@@ -1229,7 +1340,8 @@
   "correctAnswer": "C",
   "hint": "400/16=25",
   "solutionExplanation": "400/16=25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 5.5\u00d74",
@@ -1240,7 +1352,8 @@
   "correctAnswer": "B",
   "hint": "5\u00d74+0.5\u00d74=22",
   "solutionExplanation": "5\u00d74+0.5\u00d74=22",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 1.5\u00d760",
@@ -1251,7 +1364,8 @@
   "correctAnswer": "D",
   "hint": "1.5 hours=90 min",
   "solutionExplanation": "1.5 hours=90 min",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mental math: 20% of 350",
@@ -1262,7 +1376,8 @@
   "correctAnswer": "C",
   "hint": "350/5=70",
   "solutionExplanation": "350/5=70",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,4,9,16,25,__",
@@ -1273,7 +1388,8 @@
   "correctAnswer": "B",
   "hint": "Perfect squares",
   "solutionExplanation": "Perfect squares",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 2,6,18,54,__",
@@ -1284,7 +1400,8 @@
   "correctAnswer": "B",
   "hint": "\u00d73",
   "solutionExplanation": "\u00d73",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,1,2,3,5,8,13,__",
@@ -1295,7 +1412,8 @@
   "correctAnswer": "D",
   "hint": "Fibonacci",
   "solutionExplanation": "Fibonacci",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1000,500,250,125,__",
@@ -1306,7 +1424,8 @@
   "correctAnswer": "C",
   "hint": "\u00f72",
   "solutionExplanation": "\u00f72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 3,5,9,15,23,__",
@@ -1317,7 +1436,8 @@
   "correctAnswer": "D",
   "hint": "Differences increase by 2",
   "solutionExplanation": "Differences increase by 2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,8,27,64,__",
@@ -1328,7 +1448,8 @@
   "correctAnswer": "D",
   "hint": "Perfect cubes",
   "solutionExplanation": "Perfect cubes",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "20th triangular number?",
@@ -1339,7 +1460,8 @@
   "correctAnswer": "D",
   "hint": "n(n+1)/2",
   "solutionExplanation": "n(n+1)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Sum of first 15 odd numbers?",
@@ -1350,7 +1472,8 @@
   "correctAnswer": "A",
   "hint": "n\u00b2=225",
   "solutionExplanation": "n\u00b2=225",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 2,5,10,17,26,__",
@@ -1361,7 +1484,8 @@
   "correctAnswer": "C",
   "hint": "Differences: 3,5,7,9,11",
   "solutionExplanation": "Differences: 3,5,7,9,11",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 1,2,4,8,16,32,__",
@@ -1372,7 +1496,8 @@
   "correctAnswer": "D",
   "hint": "\u00d72",
   "solutionExplanation": "\u00d72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Sum 1+2+3+...+20?",
@@ -1383,7 +1508,8 @@
   "correctAnswer": "B",
   "hint": "n(n+1)/2",
   "solutionExplanation": "n(n+1)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Pattern: 0,3,8,15,24,__",
@@ -1394,7 +1520,8 @@
   "correctAnswer": "C",
   "hint": "n\u00b2-1: 6\u00b2-1=35",
   "solutionExplanation": "n\u00b2-1: 6\u00b2-1=35",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "How many terms: 5,10,15,...,100?",
@@ -1405,7 +1532,8 @@
   "correctAnswer": "D",
   "hint": "(100-5)/5+1=20",
   "solutionExplanation": "(100-5)/5+1=20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Next prime after 43?",
@@ -1416,7 +1544,8 @@
   "correctAnswer": "B",
   "hint": "47 is prime",
   "solutionExplanation": "47 is prime",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "How many squares on a 4\u00d74 grid?",
@@ -1427,7 +1556,8 @@
   "correctAnswer": "D",
   "hint": "1\u00b2:16+2\u00b2:9+3\u00b2:4+4\u00b2:1=30",
   "solutionExplanation": "1\u00b2:16+2\u00b2:9+3\u00b2:4+4\u00b2:1=30",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Three consecutive odds sum to 81. Largest?",
@@ -1438,7 +1568,8 @@
   "correctAnswer": "D",
   "hint": "x+x+2+x+4=81, x=25, largest=29",
   "solutionExplanation": "x+x+2+x+4=81, x=25, largest=29",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Clock at 3:45. Angle between hands?",
@@ -1449,7 +1580,8 @@
   "correctAnswer": "D",
   "hint": "Hour=112.5\u00b0,min=270\u00b0,diff=157.5",
   "solutionExplanation": "Hour=112.5\u00b0,min=270\u00b0,diff=157.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "Product of two consecutive integers=72. Larger?",
@@ -1460,7 +1592,8 @@
   "correctAnswer": "A",
   "hint": "8\u00d79=72",
   "solutionExplanation": "8\u00d79=72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "x\u00b2=144 and x>0. What is x\u00b3?",
@@ -1471,7 +1604,8 @@
   "correctAnswer": "C",
   "hint": "12\u00b3=1728",
   "solutionExplanation": "12\u00b3=1728",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Diagonals in a hexagon?",
@@ -1482,7 +1616,8 @@
   "correctAnswer": "A",
   "hint": "n(n-3)/2=9",
   "solutionExplanation": "n(n-3)/2=9",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "LCM(12,15,20)?",
@@ -1493,7 +1628,8 @@
   "correctAnswer": "B",
   "hint": "2\u00b2\u00d73\u00d75=60",
   "solutionExplanation": "2\u00b2\u00d73\u00d75=60",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "GCF(84,126)?",
@@ -1504,7 +1640,8 @@
   "correctAnswer": "D",
   "hint": "2\u00d73\u00d77=42",
   "solutionExplanation": "2\u00d73\u00d77=42",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "5! (factorial)?",
@@ -1515,7 +1652,8 @@
   "correctAnswer": "C",
   "hint": "5\u00d74\u00d73\u00d72\u00d71",
   "solutionExplanation": "5\u00d74\u00d73\u00d72\u00d71",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Smallest prime >50?",
@@ -1526,7 +1664,8 @@
   "correctAnswer": "B",
   "hint": "53 is prime",
   "solutionExplanation": "53 is prime",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Integers 1-100 divisible by both 3 and 7?",
@@ -1537,7 +1676,8 @@
   "correctAnswer": "C",
   "hint": "Div by 21: 21,42,63,84",
   "solutionExplanation": "Div by 21: 21,42,63,84",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Cube SA=150. Edge?",
@@ -1548,7 +1688,8 @@
   "correctAnswer": "A",
   "hint": "6s\u00b2=150,s=5",
   "solutionExplanation": "6s\u00b2=150,s=5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Two dice. P(sum>9)?",
@@ -1559,7 +1700,8 @@
   "correctAnswer": "A",
   "hint": "6 outcomes of 36",
   "solutionExplanation": "6 outcomes of 36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mean of first 10 positive integers?",
@@ -1570,7 +1712,8 @@
   "correctAnswer": "D",
   "hint": "(1+10)/2",
   "solutionExplanation": "(1+10)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "45 minutes is what fraction of hour?",
@@ -1581,7 +1724,8 @@
   "correctAnswer": "C",
   "hint": "45/60",
   "solutionExplanation": "45/60",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Perimeter regular pentagon=45. Area of square same side?",
@@ -1592,7 +1736,8 @@
   "correctAnswer": "C",
   "hint": "Side=9, area=81",
   "solutionExplanation": "Side=9, area=81",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Ages: dad 3\u00d7 son, sum=48. Dad?",
@@ -1603,7 +1748,8 @@
   "correctAnswer": "C",
   "hint": "4x=48,x=12,dad=36",
   "solutionExplanation": "4x=48,x=12,dad=36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "If a/b=3/4 and b/c=2/5, what is a/c?",
@@ -1614,7 +1760,8 @@
   "correctAnswer": "D",
   "hint": "(3/4)(2/5)=3/10",
   "solutionExplanation": "(3/4)(2/5)=3/10",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "23 coins (nickels+dimes)=$1.85. Dimes?",
@@ -1625,7 +1772,8 @@
   "correctAnswer": "D",
   "hint": "Solve system",
   "solutionExplanation": "Solve system",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "7\u00d78+6\u00d79?",
@@ -1636,7 +1784,8 @@
   "correctAnswer": "A",
   "hint": "56+54=110",
   "solutionExplanation": "56+54=110",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "15\u00b2-12\u00b2?",
@@ -1647,7 +1796,8 @@
   "correctAnswer": "C",
   "hint": "(15-12)(15+12)=81",
   "solutionExplanation": "(15-12)(15+12)=81",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(3/4)\u00b2?",
@@ -1658,7 +1808,8 @@
   "correctAnswer": "D",
   "hint": "9/16",
   "solutionExplanation": "9/16",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "\u221a(49+576)?",
@@ -1669,7 +1820,8 @@
   "correctAnswer": "D",
   "hint": "\u221a625=25",
   "solutionExplanation": "\u221a625=25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "2\u2075\u00d73\u00b2?",
@@ -1680,7 +1832,8 @@
   "correctAnswer": "D",
   "hint": "32\u00d79=288",
   "solutionExplanation": "32\u00d79=288",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "1/2+1/3+1/6?",
@@ -1691,7 +1844,8 @@
   "correctAnswer": "C",
   "hint": "3/6+2/6+1/6=1",
   "solutionExplanation": "3/6+2/6+1/6=1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(-5)\u00b2+(-2)\u00b3?",
@@ -1702,7 +1856,8 @@
   "correctAnswer": "C",
   "hint": "25-8=17",
   "solutionExplanation": "25-8=17",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Volume hemisphere r=6 (\u03c0\u22483.14)?",
@@ -1713,7 +1868,8 @@
   "correctAnswer": "B",
   "hint": "(2/3)\u03c0r\u00b3",
   "solutionExplanation": "(2/3)\u03c0r\u00b3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "A number doubled minus 5 = 31. Number?",
@@ -1724,7 +1880,8 @@
   "correctAnswer": "A",
   "hint": "2x-5=31",
   "solutionExplanation": "2x-5=31",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 144\u00f712",
@@ -1735,7 +1892,8 @@
   "correctAnswer": "D",
   "hint": "12\u00d712=144",
   "solutionExplanation": "12\u00d712=144",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 7\u00b2+8\u00b2",
@@ -1746,7 +1904,8 @@
   "correctAnswer": "B",
   "hint": "49+64",
   "solutionExplanation": "49+64",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Quick: 3/5 of 85",
@@ -1757,6 +1916,7 @@
   "correctAnswer": "D",
   "hint": "85\u00d73/5",
   "solutionExplanation": "85\u00d73/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  }
 ]

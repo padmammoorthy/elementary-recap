@@ -76,9 +76,9 @@ public class TestDataLoader implements CommandLineRunner {
                     tq.setCorrectAnswer((String) jq.get("correctAnswer"));
                     tq.setHint((String) jq.get("hint"));
                     tq.setSolutionExplanation((String) jq.get("solutionExplanation"));
-                    String svgType = (String) jq.get("svgType");
-                    if (svgType != null && !svgType.isEmpty()) {
-                        tq.setIllustration(getSvg(svgType));
+                    String illust = (String) jq.get("illustration");
+                    if (illust != null && !illust.isEmpty()) {
+                        tq.setIllustration(illust);
                     } else {
                         tq.setIllustration(getSvg(tq.getQuestionText()));
                     }
@@ -145,6 +145,12 @@ public class TestDataLoader implements CommandLineRunner {
                     tq.setCorrectAnswer((String) jq.get("correctAnswer"));
                     tq.setHint((String) jq.get("hint"));
                     tq.setSolutionExplanation((String) jq.get("solutionExplanation"));
+                    String illust2 = (String) jq.get("illustration");
+                    if (illust2 != null && !illust2.isEmpty()) {
+                        tq.setIllustration(illust2);
+                    } else {
+                        tq.setIllustration(getSvg(tq.getQuestionText()));
+                    }
                     testQuestionRepository.save(tq);
                 }
             }

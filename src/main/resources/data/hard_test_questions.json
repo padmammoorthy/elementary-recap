@@ -8,7 +8,8 @@
   "correctAnswer": "A",
   "hint": "Multiply by reciprocal",
   "solutionExplanation": "3/4 \u00d7 5/2 = 15/8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Add: 2\u2153 + 4\u00be",
@@ -19,7 +20,8 @@
   "correctAnswer": "A",
   "hint": "LCD=12: 2 4/12 + 4 9/12",
   "solutionExplanation": "= 6 13/12 = 7 1/12",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Subtract: 5\u2159 - 2\u215d",
@@ -30,7 +32,8 @@
   "correctAnswer": "B",
   "hint": "LCD=24, borrow if needed",
   "solutionExplanation": "5 4/24 - 2 15/24, borrow: 4 28/24 - 2 15/24 = 2 13/24",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "What is 5/6 of 42?",
@@ -41,7 +44,8 @@
   "correctAnswer": "A",
   "hint": "Multiply 42\u00d75/6",
   "solutionExplanation": "42\u00d75\u00f76=35",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Reduce 84/126 to lowest terms",
@@ -52,7 +56,8 @@
   "correctAnswer": "C",
   "hint": "GCF=42",
   "solutionExplanation": "84\u00f742=2, 126\u00f742=3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Multiply: 3.75 \u00d7 2.4",
@@ -63,7 +68,8 @@
   "correctAnswer": "D",
   "hint": "Count decimal places: 2+1=3... actually 2+1=3 places? No: 3.75(2dec)\u00d72.4(1dec)=3dec",
   "solutionExplanation": "3.75\u00d72.4=9.000=9.00",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Divide: 14.4 \u00f7 0.06",
@@ -74,7 +80,8 @@
   "correctAnswer": "D",
   "hint": "Move decimals: 1440\u00f76",
   "solutionExplanation": "1440\u00f76=240",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Convert 7/8 to a decimal",
@@ -85,7 +92,8 @@
   "correctAnswer": "A",
   "hint": "7\u00f78",
   "solutionExplanation": "0.875",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Round 4.5678 to nearest hundredth",
@@ -96,7 +104,8 @@
   "correctAnswer": "D",
   "hint": "Look at thousandths: 7\u22655",
   "solutionExplanation": "Round up: 4.57",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Write 0.0036 in scientific notation",
@@ -107,7 +116,8 @@
   "correctAnswer": "B",
   "hint": "Move decimal 3 right",
   "solutionExplanation": "3.6\u00d710\u207b\u00b3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate: (-8)\u00f7(-2)+(-3)\u00d74",
@@ -118,7 +128,8 @@
   "correctAnswer": "B",
   "hint": "PEMDAS: 4+(-12)=-8",
   "solutionExplanation": "4-12=-8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify: -5-(-9)+(-3)-(+2)",
@@ -129,7 +140,8 @@
   "correctAnswer": "B",
   "hint": "-5+9-3-2=-1",
   "solutionExplanation": "-1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Find: (-7)\u00b2-(-3)\u00b3",
@@ -140,7 +152,8 @@
   "correctAnswer": "D",
   "hint": "49-(-27)=49+27=76",
   "solutionExplanation": "76",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Temperature dropped from 8\u00b0C to -13\u00b0C. Change?",
@@ -151,7 +164,8 @@
   "correctAnswer": "C",
   "hint": "|8-(-13)|=21",
   "solutionExplanation": "21 degrees",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate |4-9|+|-6+2|",
@@ -162,7 +176,8 @@
   "correctAnswer": "C",
   "hint": "|\u22125|+|\u22124|=5+4=9",
   "solutionExplanation": "9",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify ratio 45:75:105",
@@ -173,7 +188,8 @@
   "correctAnswer": "C",
   "hint": "GCF=15",
   "solutionExplanation": "\u00f715 each",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "If 8 pencils cost $3.60, cost of 15?",
@@ -184,7 +200,8 @@
   "correctAnswer": "D",
   "hint": "Unit rate=$0.45",
   "solutionExplanation": "$0.45\u00d715=$6.75",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 7/x = 21/36",
@@ -195,7 +212,8 @@
   "correctAnswer": "B",
   "hint": "Cross: 7\u00d736=21x",
   "solutionExplanation": "252=21x, x=12",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Map scale 1:50,000. Distance 8cm on map. Actual km?",
@@ -206,7 +224,8 @@
   "correctAnswer": "A",
   "hint": "8\u00d750000=400000cm=4km",
   "solutionExplanation": "4 km",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mix ratio 3:5. Need 24L of smaller part. Total?",
@@ -217,7 +236,8 @@
   "correctAnswer": "C",
   "hint": "24 is 3 parts. 1 part=8. Total=8\u00d78=64",
   "solutionExplanation": "8 parts\u00d78=64",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Find 12.5% of 240",
@@ -228,7 +248,8 @@
   "correctAnswer": "C",
   "hint": "0.125\u00d7240",
   "solutionExplanation": "30",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "A number increased by 40% is 84. Original?",
@@ -239,7 +260,8 @@
   "correctAnswer": "D",
   "hint": "x\u00d71.4=84, x=60",
   "solutionExplanation": "60",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Successive discounts 20% then 15% on $200. Final?",
@@ -250,7 +272,8 @@
   "correctAnswer": "C",
   "hint": "200\u00d70.8=160, 160\u00d70.85=136",
   "solutionExplanation": "$136",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Score 72 out of 80. Percentage?",
@@ -261,7 +284,8 @@
   "correctAnswer": "D",
   "hint": "72/80\u00d7100=90",
   "solutionExplanation": "90%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Sales tax 7.5% on $64.00. Total?",
@@ -272,7 +296,8 @@
   "correctAnswer": "C",
   "hint": "64\u00d71.075=68.80",
   "solutionExplanation": "$68.80",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Right triangle legs 8 and 15. Hypotenuse?",
@@ -283,7 +308,8 @@
   "correctAnswer": "A",
   "hint": "64+225=289, \u221a289=17",
   "solutionExplanation": "17",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "questionText": "Area of trapezoid: bases 11,17; height 8?",
@@ -294,7 +320,8 @@
   "correctAnswer": "A",
   "hint": "(11+17)/2\u00d78=14\u00d78=112",
   "solutionExplanation": "112",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"45,70 25,25 140,25 155,70\" fill=\"#55efc4\" fill-opacity=\"0.12\" stroke=\"#00b894\" stroke-width=\"2\"/><text x=\"80\" y=\"20\" font-size=\"9\" fill=\"#00b894\">b1</text><text x=\"95\" y=\"83\" font-size=\"9\" fill=\"#00b894\">b2</text></svg>"
  },
  {
   "questionText": "Circumference of circle d=28 (\u03c0=22/7)?",
@@ -305,7 +332,8 @@
   "correctAnswer": "D",
   "hint": "22/7\u00d728=88",
   "solutionExplanation": "88",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Surface area of rectangular prism 10\u00d76\u00d74?",
@@ -316,7 +344,8 @@
   "correctAnswer": "A",
   "hint": "2(60+40+24)=248",
   "solutionExplanation": "248",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Volume of cylinder r=7, h=10 (\u03c0=22/7)?",
@@ -327,7 +356,8 @@
   "correctAnswer": "A",
   "hint": "22/7\u00d749\u00d710=1540",
   "solutionExplanation": "1540",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Interior angle of regular 9-gon?",
@@ -338,7 +368,8 @@
   "correctAnswer": "A",
   "hint": "(9-2)\u00d7180/9=1260/9=140",
   "solutionExplanation": "140\u00b0",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "Arc length: r=12, central angle 60\u00b0 (\u03c0=3.14)?",
@@ -349,7 +380,8 @@
   "correctAnswer": "D",
   "hint": "(60/360)\u00d72\u00d73.14\u00d712=12.56",
   "solutionExplanation": "12.56",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Area of circle r=14 (\u03c0=22/7)?",
@@ -360,7 +392,8 @@
   "correctAnswer": "A",
   "hint": "22/7\u00d7196=616",
   "solutionExplanation": "616",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Diagonal of rectangle 9\u00d740?",
@@ -371,7 +404,8 @@
   "correctAnswer": "C",
   "hint": "\u221a(81+1600)=\u221a1681=41",
   "solutionExplanation": "41",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "questionText": "Perimeter of semicircle d=14 (\u03c0=22/7)?",
@@ -382,7 +416,8 @@
   "correctAnswer": "D",
   "hint": "\u03c0d/2+d=22+14=36",
   "solutionExplanation": "36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Solve: 3(2x-4)=2(x+6)",
@@ -393,7 +428,8 @@
   "correctAnswer": "B",
   "hint": "6x-12=2x+12, 4x=24",
   "solutionExplanation": "x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify: 4x\u00b2\u00b73x\u00b3",
@@ -404,7 +440,8 @@
   "correctAnswer": "B",
   "hint": "Multiply coefficients, add exponents",
   "solutionExplanation": "12x\u2075",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Factor: 15x\u00b2y-10xy\u00b2+5xy",
@@ -415,7 +452,8 @@
   "correctAnswer": "D",
   "hint": "GCF=5xy",
   "solutionExplanation": "5xy(3x-2y+1)",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: x/4 - x/6 = 2",
@@ -426,7 +464,8 @@
   "correctAnswer": "C",
   "hint": "LCD=12: 3x-2x=24, x=24",
   "solutionExplanation": "x=24",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate f(x)=x\u00b2-5x+6 at x=-2",
@@ -437,7 +476,8 @@
   "correctAnswer": "B",
   "hint": "4+10+6=20",
   "solutionExplanation": "20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Slope between (-3,7) and (5,-1)?",
@@ -448,7 +488,8 @@
   "correctAnswer": "D",
   "hint": "(-1-7)/(5-(-3))=-8/8=-1",
   "solutionExplanation": "-1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "questionText": "Write equation: slope 3, through (2,1)",
@@ -459,7 +500,8 @@
   "correctAnswer": "A",
   "hint": "y-1=3(x-2), y=3x-5",
   "solutionExplanation": "y=3x-5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "questionText": "Solve inequality: -2x+5\u2264-3",
@@ -470,7 +512,8 @@
   "correctAnswer": "C",
   "hint": "-2x\u2264-8, x\u22654 (flip!)",
   "solutionExplanation": "x\u22654",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 45\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"45\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"15\" y1=\"22\" x2=\"165\" y2=\"22\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"165,18 175,22 165,26\" fill=\"#333\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#6c5ce7\"/></svg>"
  },
  {
   "questionText": "Solve: |2x-6|=10",
@@ -481,7 +524,8 @@
   "correctAnswer": "B",
   "hint": "2x-6=10 or 2x-6=-10",
   "solutionExplanation": "x=8,-2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(4.8\u00d710\u2075)\u00d7(2.5\u00d710\u00b3)",
@@ -492,7 +536,8 @@
   "correctAnswer": "A",
   "hint": "4.8\u00d72.5=12=1.2\u00d710. 10\u2075\u207a\u00b3\u207a\u00b9=10\u2079",
   "solutionExplanation": "1.2\u00d710\u2079",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate: 5\u207b\u00b2+3\u207b\u00b9",
@@ -503,7 +548,8 @@
   "correctAnswer": "B",
   "hint": "1/25+1/3, LCD=75",
   "solutionExplanation": "Actually 1/25+1/3=3/75+25/75=28/75",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify: (x\u207b\u00b2y\u00b3)/(x\u00b3y\u207b\u00b9)",
@@ -514,7 +560,8 @@
   "correctAnswer": "A",
   "hint": "x\u207b\u00b2\u207b\u00b3=x\u207b\u2075, y\u00b3\u207b\u207d\u207b\u00b9\u207e=y\u2074",
   "solutionExplanation": "y\u2074/x\u2075",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(2/3)\u207b\u00b2 =?",
@@ -525,7 +572,8 @@
   "correctAnswer": "D",
   "hint": "Flip and square: (3/2)\u00b2=9/4",
   "solutionExplanation": "9/4",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Write 0.000072 in scientific notation",
@@ -536,7 +584,8 @@
   "correctAnswer": "B",
   "hint": "Move decimal 5 right",
   "solutionExplanation": "7.2\u00d710\u207b\u2075",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Legs 20 and 21. Hypotenuse?",
@@ -547,7 +596,8 @@
   "correctAnswer": "B",
   "hint": "400+441=841, \u221a841=29",
   "solutionExplanation": "29",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "questionText": "Hypotenuse 26, one leg 10. Other leg?",
@@ -558,7 +608,8 @@
   "correctAnswer": "B",
   "hint": "676-100=576, \u221a576=24",
   "solutionExplanation": "24",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "questionText": "Ladder 13ft against wall, base 5ft away. Height?",
@@ -569,7 +620,8 @@
   "correctAnswer": "A",
   "hint": "169-25=144, \u221a=12",
   "solutionExplanation": "12",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "questionText": "Is 7,24,25 a right triangle?",
@@ -580,7 +632,8 @@
   "correctAnswer": "A",
   "hint": "49+576=625=25\u00b2",
   "solutionExplanation": "Yes",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "questionText": "Rectangle 16\u00d712. Diagonal?",
@@ -591,7 +644,8 @@
   "correctAnswer": "C",
   "hint": "256+144=400, \u221a=20",
   "solutionExplanation": "20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "5\u2153 - 2\u215d =?",
@@ -602,7 +656,8 @@
   "correctAnswer": "D",
   "hint": "LCD=24: 5 8/24 - 2 15/24, borrow",
   "solutionExplanation": "2 17/24",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "2\u00be \u00d7 1\u2157 =?",
@@ -613,7 +668,8 @@
   "correctAnswer": "D",
   "hint": "11/4 \u00d7 8/5 = 88/20 = 4 8/20 = 4 2/5",
   "solutionExplanation": "4 2/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "4\u00bd \u00f7 1\u2153 =?",
@@ -624,7 +680,8 @@
   "correctAnswer": "D",
   "hint": "9/2 \u00f7 4/3 = 9/2 \u00d7 3/4 = 27/8",
   "solutionExplanation": "3 3/8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "What is 7/12 of 84?",
@@ -635,7 +692,8 @@
   "correctAnswer": "B",
   "hint": "84\u00d77/12=588/12=49",
   "solutionExplanation": "49",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Add: 5/6 + 7/9",
@@ -646,7 +704,8 @@
   "correctAnswer": "D",
   "hint": "LCD=18: 15/18+14/18=29/18",
   "solutionExplanation": "1 11/18",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Compound interest: $3000 at 6% for 2 years?",
@@ -657,7 +716,8 @@
   "correctAnswer": "A",
   "hint": "3000\u00d71.06\u00b2=3000\u00d71.1236",
   "solutionExplanation": "$3,370.80",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Original price if 35% off = $58.50?",
@@ -668,7 +728,8 @@
   "correctAnswer": "C",
   "hint": "58.50/0.65=90",
   "solutionExplanation": "$90",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Commission 4.5% on $280,000 sale?",
@@ -679,7 +740,8 @@
   "correctAnswer": "C",
   "hint": "280000\u00d70.045",
   "solutionExplanation": "$12,600",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Percent decrease: 45 to 36?",
@@ -690,7 +752,8 @@
   "correctAnswer": "D",
   "hint": "9/45\u00d7100=20%",
   "solutionExplanation": "20%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Tax 8.25% on $125. Total with tax?",
@@ -701,7 +764,8 @@
   "correctAnswer": "A",
   "hint": "125\u00d71.0825",
   "solutionExplanation": "$135.31",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "15% tip on $68 meal?",
@@ -712,7 +776,8 @@
   "correctAnswer": "B",
   "hint": "68\u00d70.15",
   "solutionExplanation": "$10.20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "A stock gained 12% then lost 8%. Net change on $500?",
@@ -723,7 +788,8 @@
   "correctAnswer": "D",
   "hint": "500\u00d71.12=560, 560\u00d70.92=515.20... Hmm: 500\u00d71.12\u00d70.92=515.20. Let me fix answer",
   "solutionExplanation": "$515.20 actually. Let me use simpler: Gained 25% then lost 20% on $400: 400\u00d71.25=500, 500\u00d70.8=400. Net=0%. Use that.",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Find 85% of 60",
@@ -734,7 +800,8 @@
   "correctAnswer": "B",
   "hint": "0.85\u00d760=51",
   "solutionExplanation": "51",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "120 is what percent of 150?",
@@ -745,7 +812,8 @@
   "correctAnswer": "C",
   "hint": "120/150\u00d7100=80",
   "solutionExplanation": "80%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Markup 45% on cost $80. Selling price?",
@@ -756,7 +824,8 @@
   "correctAnswer": "A",
   "hint": "80\u00d71.45=116",
   "solutionExplanation": "$116",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Equilateral triangle perimeter 51cm. Each side?",
@@ -767,7 +836,8 @@
   "correctAnswer": "D",
   "hint": "51\u00f73=17",
   "solutionExplanation": "17",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,75 90,15 155,75\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 45 75 A 18 18 0 0 0 40 62\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "Parallelogram: base 14, height 9. Area?",
@@ -778,7 +848,8 @@
   "correctAnswer": "C",
   "hint": "14\u00d79=126",
   "solutionExplanation": "126",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 75\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"75\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"45,60 25,18 140,18 160,60\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"18\" x2=\"25\" y2=\"60\" stroke=\"#e17055\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"15\" y=\"42\" font-size=\"9\" fill=\"#e17055\">h</text></svg>"
  },
  {
   "questionText": "Regular octagon: each interior angle?",
@@ -789,7 +860,8 @@
   "correctAnswer": "A",
   "hint": "(8-2)\u00d7180/8=135",
   "solutionExplanation": "135\u00b0",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "Volume of cone r=6, h=10 (\u03c0=3.14)?",
@@ -800,7 +872,8 @@
   "correctAnswer": "D",
   "hint": "(1/3)\u00d73.14\u00d736\u00d710=376.8",
   "solutionExplanation": "376.8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Surface area of sphere r=7 (\u03c0=22/7)?",
@@ -811,7 +884,8 @@
   "correctAnswer": "B",
   "hint": "4\u00d722/7\u00d749=616",
   "solutionExplanation": "616",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Arc length: r=10, angle=72\u00b0 (\u03c0=3.14)?",
@@ -822,7 +896,8 @@
   "correctAnswer": "C",
   "hint": "(72/360)\u00d72\u00d73.14\u00d710=12.56",
   "solutionExplanation": "12.56",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Area of sector: r=9, angle=40\u00b0 (\u03c0=3.14)?",
@@ -833,7 +908,8 @@
   "correctAnswer": "B",
   "hint": "(40/360)\u00d73.14\u00d781=28.26",
   "solutionExplanation": "28.26",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Trapezoid: bases 9,15; height 7. Area?",
@@ -844,7 +920,8 @@
   "correctAnswer": "C",
   "hint": "(9+15)/2\u00d77=84",
   "solutionExplanation": "84",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"45,70 25,25 140,25 155,70\" fill=\"#55efc4\" fill-opacity=\"0.12\" stroke=\"#00b894\" stroke-width=\"2\"/><text x=\"80\" y=\"20\" font-size=\"9\" fill=\"#00b894\">b1</text><text x=\"95\" y=\"83\" font-size=\"9\" fill=\"#00b894\">b2</text></svg>"
  },
  {
   "questionText": "Circumference: d=35 (\u03c0=22/7)?",
@@ -855,7 +932,8 @@
   "correctAnswer": "B",
   "hint": "22/7\u00d735=110",
   "solutionExplanation": "110",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "questionText": "Perimeter of rectangle: l=3.5, w=2.8?",
@@ -866,7 +944,8 @@
   "correctAnswer": "B",
   "hint": "2(3.5+2.8)=12.6",
   "solutionExplanation": "12.6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><rect x=\"25\" y=\"15\" width=\"110\" height=\"55\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"80\" y=\"12\" text-anchor=\"middle\" font-size=\"9\" fill=\"#6c5ce7\">l</text><text x=\"15\" y=\"45\" font-size=\"9\" fill=\"#6c5ce7\">w</text></svg>"
  },
  {
   "questionText": "Volume rectangular prism: 15\u00d78\u00d76?",
@@ -877,7 +956,8 @@
   "correctAnswer": "D",
   "hint": "15\u00d78\u00d76=720",
   "solutionExplanation": "720",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Surface area: 12\u00d75\u00d74?",
@@ -888,7 +968,8 @@
   "correctAnswer": "C",
   "hint": "2(60+48+20)=256",
   "solutionExplanation": "256",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "questionText": "Solve: 5(x-3)-2(x+4)=7",
@@ -899,7 +980,8 @@
   "correctAnswer": "C",
   "hint": "5x-15-2x-8=7, 3x-23=7, 3x=30",
   "solutionExplanation": "x=10... wait: 3x=30, x=10. Let me fix.",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 4x-7=2x+9",
@@ -910,7 +992,8 @@
   "correctAnswer": "D",
   "hint": "4x-2x=9+7, 2x=16",
   "solutionExplanation": "x=8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: x/3+x/4=7",
@@ -921,7 +1004,8 @@
   "correctAnswer": "B",
   "hint": "LCD=12: 4x+3x=84, 7x=84",
   "solutionExplanation": "x=12",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate: 2x\u00b2-3x+4 when x=-3",
@@ -932,7 +1016,8 @@
   "correctAnswer": "C",
   "hint": "2(9)-3(-3)+4=18+9+4=31",
   "solutionExplanation": "31",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify: (3x\u00b2)(\u22124x\u00b3)",
@@ -943,7 +1028,8 @@
   "correctAnswer": "B",
   "hint": "Multiply: 3\u00d7(\u22124)=\u221212, x\u00b2\u207a\u00b3=x\u2075",
   "solutionExplanation": "\u221212x\u2075",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Factor completely: 18x\u00b3-12x\u00b2+6x",
@@ -954,7 +1040,8 @@
   "correctAnswer": "D",
   "hint": "GCF=6x",
   "solutionExplanation": "6x(3x\u00b2-2x+1)",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: |3x-9|=15",
@@ -965,7 +1052,8 @@
   "correctAnswer": "D",
   "hint": "3x-9=15\u2192x=8 or 3x-9=-15\u2192x=-2",
   "solutionExplanation": "x=8,-2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Slope of line through (-4,6) and (2,-3)?",
@@ -976,7 +1064,8 @@
   "correctAnswer": "B",
   "hint": "(-3-6)/(2-(-4))=-9/6=-3/2",
   "solutionExplanation": "-3/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "questionText": "Write equation: slope -2, y-intercept 5",
@@ -987,7 +1076,8 @@
   "correctAnswer": "D",
   "hint": "y=mx+b",
   "solutionExplanation": "y=-2x+5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "questionText": "Solve inequality: -3x+1>10",
@@ -998,7 +1088,8 @@
   "correctAnswer": "A",
   "hint": "-3x>9, x<-3 (flip!)",
   "solutionExplanation": "x<-3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 45\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"45\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"15\" y1=\"22\" x2=\"165\" y2=\"22\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"165,18 175,22 165,26\" fill=\"#333\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#6c5ce7\"/></svg>"
  },
  {
   "questionText": "f(x)=3x\u00b2-x+2. Find f(-1)",
@@ -1009,7 +1100,8 @@
   "correctAnswer": "D",
   "hint": "3(1)-(-1)+2=3+1+2=6",
   "solutionExplanation": "6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(9.6\u00d710\u2077)\u00f7(3.2\u00d710\u2074)",
@@ -1020,7 +1112,8 @@
   "correctAnswer": "A",
   "hint": "9.6\u00f73.2=3, 10\u2077\u207b\u2074=10\u00b3",
   "solutionExplanation": "3\u00d710\u00b3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "(2.5\u00d710\u207b\u00b3)\u00d7(4\u00d710\u2075)",
@@ -1031,7 +1124,8 @@
   "correctAnswer": "A",
   "hint": "2.5\u00d74=10=1\u00d710\u00b9, 10\u207b\u00b3\u207a\u2075\u207a\u00b9=10\u00b3",
   "solutionExplanation": "1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Write 0.00000089 in scientific notation",
@@ -1042,7 +1136,8 @@
   "correctAnswer": "B",
   "hint": "Move 7 places right",
   "solutionExplanation": "8.9\u00d710\u207b\u2077",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate: 3\u207b\u00b3",
@@ -1053,7 +1148,8 @@
   "correctAnswer": "C",
   "hint": "1/3\u00b3=1/27",
   "solutionExplanation": "1/27",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify: x\u2074\u00b7x\u207b\u2076",
@@ -1064,7 +1160,8 @@
   "correctAnswer": "A",
   "hint": "Add exponents: 4+(-6)=-2",
   "solutionExplanation": "x\u207b\u00b2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Scale 1:250. Model height 12cm. Actual?",
@@ -1075,7 +1172,8 @@
   "correctAnswer": "B",
   "hint": "12\u00d7250=3000cm=30m",
   "solutionExplanation": "30m",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Similar triangles: sides 5,12,13 ~ 10,?,?",
@@ -1086,7 +1184,8 @@
   "correctAnswer": "B",
   "hint": "Scale \u00d72",
   "solutionExplanation": "24,26",
-  "svgType": ""
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,75 90,15 155,75\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 45 75 A 18 18 0 0 0 40 62\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
  },
  {
   "questionText": "Unit rate: 450 miles in 7.5 hours?",
@@ -1097,7 +1196,8 @@
   "correctAnswer": "C",
   "hint": "450\u00f77.5=60",
   "solutionExplanation": "60 mph",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Ratio boys:girls=5:8. Total 78. Girls?",
@@ -1108,7 +1208,8 @@
   "correctAnswer": "A",
   "hint": "78/13=6. Girls=8\u00d76=48",
   "solutionExplanation": "48",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Proportion: 2.5/x=10/16",
@@ -1119,7 +1220,8 @@
   "correctAnswer": "D",
   "hint": "2.5\u00d716=10x, 40=10x",
   "solutionExplanation": "x=4",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate: -4\u00b2+(-4)\u00b2",
@@ -1130,7 +1232,8 @@
   "correctAnswer": "B",
   "hint": "\u221216+16=0",
   "solutionExplanation": "0",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Simplify: (-2)\u00b3\u00d7(-3)\u00b2",
@@ -1141,7 +1244,8 @@
   "correctAnswer": "B",
   "hint": "(-8)(9)=-72",
   "solutionExplanation": "-72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Order of operations: 18\u00f7(3+6)\u00d74-1",
@@ -1152,7 +1256,8 @@
   "correctAnswer": "B",
   "hint": "18\u00f79=2, 2\u00d74=8, 8-1=7",
   "solutionExplanation": "7",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Evaluate: |\u22127+3|\u2212|4\u22129|",
@@ -1163,7 +1268,8 @@
   "correctAnswer": "A",
   "hint": "|\u22124|\u2212|\u22125|=4\u22125=\u22121",
   "solutionExplanation": "\u22121",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Temperature: \u221212\u00b0C rose 8\u00b0 then dropped 5\u00b0. Final?",
@@ -1174,7 +1280,8 @@
   "correctAnswer": "A",
   "hint": "\u221212+8\u22125=\u22129",
   "solutionExplanation": "\u22129\u00b0C",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Convert 2.5 hours to minutes and seconds",
@@ -1185,7 +1292,8 @@
   "correctAnswer": "D",
   "hint": "2.5\u00d760=150",
   "solutionExplanation": "150 min",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "How many cubic centimeters in 1 liter?",
@@ -1196,7 +1304,8 @@
   "correctAnswer": "D",
   "hint": "1L=1000mL=1000cm\u00b3",
   "solutionExplanation": "1000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Convert 72 km/h to m/s",
@@ -1207,7 +1316,8 @@
   "correctAnswer": "B",
   "hint": "72\u00d71000/3600=20",
   "solutionExplanation": "20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Area in square meters: room 500cm\u00d7400cm?",
@@ -1218,7 +1328,8 @@
   "correctAnswer": "C",
   "hint": "5m\u00d74m=20",
   "solutionExplanation": "20",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Mean of 78,82,91,85,94?",
@@ -1229,7 +1340,8 @@
   "correctAnswer": "B",
   "hint": "430\u00f75=86",
   "solutionExplanation": "86",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Median of 23,45,12,67,34,56?",
@@ -1240,7 +1352,8 @@
   "correctAnswer": "C",
   "hint": "Sort:12,23,34,45,56,67. Med=(34+45)/2",
   "solutionExplanation": "39.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "P(sum=8 rolling two dice)?",
@@ -1251,7 +1364,8 @@
   "correctAnswer": "D",
   "hint": "Outcomes: (2,6)(3,5)(4,4)(5,3)(6,2)=5",
   "solutionExplanation": "5/36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "A bag: 5R,4B,3G. P(red then blue, no replace)?",
@@ -1262,7 +1376,8 @@
   "correctAnswer": "A",
   "hint": "(5/12)(4/11)=20/132",
   "solutionExplanation": "5/33",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 12x-8=64",
@@ -1273,7 +1388,8 @@
   "correctAnswer": "A",
   "hint": "Add 8, divide by 12",
   "solutionExplanation": "12x=72, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 13x-9=69",
@@ -1284,7 +1400,8 @@
   "correctAnswer": "B",
   "hint": "Add 9, divide by 13",
   "solutionExplanation": "13x=78, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 14x-10=74",
@@ -1295,7 +1412,8 @@
   "correctAnswer": "B",
   "hint": "Add 10, divide by 14",
   "solutionExplanation": "14x=84, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 15x-11=79",
@@ -1306,7 +1424,8 @@
   "correctAnswer": "A",
   "hint": "Add 11, divide by 15",
   "solutionExplanation": "15x=90, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 16x-12=84",
@@ -1317,7 +1436,8 @@
   "correctAnswer": "A",
   "hint": "Add 12, divide by 16",
   "solutionExplanation": "16x=96, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 7x-5=37",
@@ -1328,7 +1448,8 @@
   "correctAnswer": "B",
   "hint": "Add 5, divide by 7",
   "solutionExplanation": "7x=42, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 8x-6=42",
@@ -1339,7 +1460,8 @@
   "correctAnswer": "A",
   "hint": "Add 6, divide by 8",
   "solutionExplanation": "8x=48, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 9x-7=47",
@@ -1350,7 +1472,8 @@
   "correctAnswer": "B",
   "hint": "Add 7, divide by 9",
   "solutionExplanation": "9x=54, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 10x-8=52",
@@ -1361,7 +1484,8 @@
   "correctAnswer": "A",
   "hint": "Add 8, divide by 10",
   "solutionExplanation": "10x=60, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 11x-9=57",
@@ -1372,7 +1496,8 @@
   "correctAnswer": "A",
   "hint": "Add 9, divide by 11",
   "solutionExplanation": "11x=66, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 12x-10=62",
@@ -1383,7 +1508,8 @@
   "correctAnswer": "D",
   "hint": "Add 10, divide by 12",
   "solutionExplanation": "12x=72, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 13x-11=67",
@@ -1394,7 +1520,8 @@
   "correctAnswer": "C",
   "hint": "Add 11, divide by 13",
   "solutionExplanation": "13x=78, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 14x-12=72",
@@ -1405,7 +1532,8 @@
   "correctAnswer": "A",
   "hint": "Add 12, divide by 14",
   "solutionExplanation": "14x=84, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 15x-5=85",
@@ -1416,7 +1544,8 @@
   "correctAnswer": "C",
   "hint": "Add 5, divide by 15",
   "solutionExplanation": "15x=90, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 16x-6=90",
@@ -1427,7 +1556,8 @@
   "correctAnswer": "B",
   "hint": "Add 6, divide by 16",
   "solutionExplanation": "16x=96, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 7x-7=35",
@@ -1438,7 +1568,8 @@
   "correctAnswer": "B",
   "hint": "Add 7, divide by 7",
   "solutionExplanation": "7x=42, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 8x-8=40",
@@ -1449,7 +1580,8 @@
   "correctAnswer": "C",
   "hint": "Add 8, divide by 8",
   "solutionExplanation": "8x=48, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 9x-9=45",
@@ -1460,7 +1592,8 @@
   "correctAnswer": "A",
   "hint": "Add 9, divide by 9",
   "solutionExplanation": "9x=54, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 10x-10=50",
@@ -1471,7 +1604,8 @@
   "correctAnswer": "C",
   "hint": "Add 10, divide by 10",
   "solutionExplanation": "10x=60, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 11x-11=55",
@@ -1482,7 +1616,8 @@
   "correctAnswer": "D",
   "hint": "Add 11, divide by 11",
   "solutionExplanation": "11x=66, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 12x-12=60",
@@ -1493,7 +1628,8 @@
   "correctAnswer": "B",
   "hint": "Add 12, divide by 12",
   "solutionExplanation": "12x=72, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 13x-5=73",
@@ -1504,7 +1640,8 @@
   "correctAnswer": "B",
   "hint": "Add 5, divide by 13",
   "solutionExplanation": "13x=78, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 14x-6=78",
@@ -1515,7 +1652,8 @@
   "correctAnswer": "A",
   "hint": "Add 6, divide by 14",
   "solutionExplanation": "14x=84, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 15x-7=83",
@@ -1526,7 +1664,8 @@
   "correctAnswer": "C",
   "hint": "Add 7, divide by 15",
   "solutionExplanation": "15x=90, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 16x-8=88",
@@ -1537,7 +1676,8 @@
   "correctAnswer": "D",
   "hint": "Add 8, divide by 16",
   "solutionExplanation": "16x=96, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 7x-9=33",
@@ -1548,7 +1688,8 @@
   "correctAnswer": "D",
   "hint": "Add 9, divide by 7",
   "solutionExplanation": "7x=42, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 8x-10=38",
@@ -1559,7 +1700,8 @@
   "correctAnswer": "D",
   "hint": "Add 10, divide by 8",
   "solutionExplanation": "8x=48, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 9x-11=43",
@@ -1570,7 +1712,8 @@
   "correctAnswer": "A",
   "hint": "Add 11, divide by 9",
   "solutionExplanation": "9x=54, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 10x-12=48",
@@ -1581,7 +1724,8 @@
   "correctAnswer": "A",
   "hint": "Add 12, divide by 10",
   "solutionExplanation": "10x=60, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 11x-5=61",
@@ -1592,7 +1736,8 @@
   "correctAnswer": "D",
   "hint": "Add 5, divide by 11",
   "solutionExplanation": "11x=66, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 12x-6=66",
@@ -1603,7 +1748,8 @@
   "correctAnswer": "A",
   "hint": "Add 6, divide by 12",
   "solutionExplanation": "12x=72, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 13x-7=71",
@@ -1614,7 +1760,8 @@
   "correctAnswer": "D",
   "hint": "Add 7, divide by 13",
   "solutionExplanation": "13x=78, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 14x-8=76",
@@ -1625,7 +1772,8 @@
   "correctAnswer": "A",
   "hint": "Add 8, divide by 14",
   "solutionExplanation": "14x=84, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 15x-9=81",
@@ -1636,7 +1784,8 @@
   "correctAnswer": "D",
   "hint": "Add 9, divide by 15",
   "solutionExplanation": "15x=90, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "questionText": "Solve: 16x-10=86",
@@ -1647,6 +1796,7 @@
   "correctAnswer": "C",
   "hint": "Add 10, divide by 16",
   "solutionExplanation": "16x=96, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  }
 ]

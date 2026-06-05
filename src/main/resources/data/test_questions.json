@@ -9,7 +9,8 @@
   "correctAnswer": "D",
   "hint": "Add the rise to the starting temperature.",
   "solutionExplanation": "-5+14=9\u00b0C",
-  "svgType": "integer"
+  "svgType": "integer",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -21,7 +22,8 @@
   "correctAnswer": "C",
   "hint": "Follow PEMDAS carefully inside out.",
   "solutionExplanation": "4\u00b2=16, 16\u00f72=8, 32-8=24, 4\u00d724=96, 96+5=101",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -33,7 +35,8 @@
   "correctAnswer": "D",
   "hint": "Add all outer sides.",
   "solutionExplanation": "12+6+6+5+6+11=46",
-  "svgType": "rectangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><rect x=\"25\" y=\"15\" width=\"110\" height=\"55\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><text x=\"80\" y=\"12\" text-anchor=\"middle\" font-size=\"9\" fill=\"#6c5ce7\">l</text><text x=\"15\" y=\"45\" font-size=\"9\" fill=\"#6c5ce7\">w</text></svg>"
  },
  {
   "testNum": 1,
@@ -45,7 +48,8 @@
   "correctAnswer": "C",
   "hint": "Total=30. Girls:Total=18:30=3:5.",
   "solutionExplanation": "18/30=3/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -57,7 +61,8 @@
   "correctAnswer": "D",
   "hint": "Prime factor each, take highest powers.",
   "solutionExplanation": "2\u00b2\u00d73\u00b2\u00d75=180",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -69,7 +74,8 @@
   "correctAnswer": "D",
   "hint": "Two cases: x-3=7 or x-3=-7.",
   "solutionExplanation": "x=10 or x=-4",
-  "svgType": "number_line"
+  "svgType": "number_line",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -81,7 +87,8 @@
   "correctAnswer": "C",
   "hint": "Cross multiply: 4.5\u00d712=9x.",
   "solutionExplanation": "54=9x, x=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -93,7 +100,8 @@
   "correctAnswer": "C",
   "hint": "Convert all to decimals to compare.",
   "solutionExplanation": "-0.75,-0.5,-0.5,0,0.2. Note -0.5=-1/2",
-  "svgType": "number_line"
+  "svgType": "number_line",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -105,7 +113,8 @@
   "correctAnswer": "A",
   "hint": "0.045=45/1000=9/200. Move decimal 2 right for %.",
   "solutionExplanation": "9/200 = 4.5%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -117,7 +126,8 @@
   "correctAnswer": "C",
   "hint": "A=(1/2)bh.",
   "solutionExplanation": "(1/2)(14)(8)=56",
-  "svgType": "triangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 1,
@@ -129,7 +139,8 @@
   "correctAnswer": "D",
   "hint": "Multiply map distance by scale.",
   "solutionExplanation": "4.5\u00d715=67.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -141,7 +152,8 @@
   "correctAnswer": "D",
   "hint": "GCF=60. 180/60=3, 240/60=4.",
   "solutionExplanation": "3/4",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -153,7 +165,8 @@
   "correctAnswer": "C",
   "hint": "Subtract 3.75 from both sides.",
   "solutionExplanation": "m=8.2-3.75=4.45",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -165,7 +178,8 @@
   "correctAnswer": "D",
   "hint": "Grouping changed, not order.",
   "solutionExplanation": "Associative Property of Addition",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -177,7 +191,8 @@
   "correctAnswer": "A",
   "hint": "Co-interior angles sum to 180\u00b0.",
   "solutionExplanation": "180-115=65\u00b0",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 1,
@@ -189,7 +204,8 @@
   "correctAnswer": "B",
   "hint": "Multiply by 1.60.",
   "solutionExplanation": "45\u00d71.6=72",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -201,7 +217,8 @@
   "correctAnswer": "D",
   "hint": "Substitute carefully with negatives.",
   "solutionExplanation": "3(9)-2(-3)+5=27+6+5=38",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -213,7 +230,8 @@
   "correctAnswer": "C",
   "hint": "Half circumference + diameter.",
   "solutionExplanation": "(3.14\u00d710)/2+10=15.7+10=25.7",
-  "svgType": "circle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "testNum": 1,
@@ -225,7 +243,8 @@
   "correctAnswer": "D",
   "hint": "Move decimal 4 places left.",
   "solutionExplanation": "0.0003125",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -237,7 +256,8 @@
   "correctAnswer": "A",
   "hint": "1 gallon=4 quarts.",
   "solutionExplanation": "2.5\u00d74=10",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -249,7 +269,8 @@
   "correctAnswer": "A",
   "hint": "x changes sign, y stays.",
   "solutionExplanation": "(-4,4)",
-  "svgType": "coordinate"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "testNum": 1,
@@ -261,7 +282,8 @@
   "correctAnswer": "A",
   "hint": "Not blue=4+5=9 out of 15.",
   "solutionExplanation": "9/15=3/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -273,7 +295,8 @@
   "correctAnswer": "D",
   "hint": "Sum\u00f76.",
   "solutionExplanation": "540/6=90",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -285,7 +308,8 @@
   "correctAnswer": "C",
   "hint": "Multiply both sides by 3/2.",
   "solutionExplanation": "y=14\u00d73/2=21",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -297,7 +321,8 @@
   "correctAnswer": "B",
   "hint": "V=lwh.",
   "solutionExplanation": "8\u00d75\u00d74.5=180",
-  "svgType": "volume"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "testNum": 1,
@@ -309,7 +334,8 @@
   "correctAnswer": "C",
   "hint": "Divide coefficients, subtract exponents.",
   "solutionExplanation": "6.4/2=3.2, 10\u2076\u207b\u00b2=10\u2074",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -321,7 +347,8 @@
   "correctAnswer": "D",
   "hint": "a\u00b2+b\u00b2=c\u00b2. 81+144=225.",
   "solutionExplanation": "sqrt(225)=15",
-  "svgType": "pythagorean"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "testNum": 1,
@@ -333,7 +360,8 @@
   "correctAnswer": "C",
   "hint": "Long division 7\u00f711.",
   "solutionExplanation": "0.636363...",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -345,7 +373,8 @@
   "correctAnswer": "C",
   "hint": "0.35\u00d780.",
   "solutionExplanation": "28",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -357,7 +386,8 @@
   "correctAnswer": "A",
   "hint": "A=\u03c0r\u00b2=22/7\u00d749.",
   "solutionExplanation": "154",
-  "svgType": "circle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "testNum": 1,
@@ -369,7 +399,8 @@
   "correctAnswer": "B",
   "hint": "Add 7, divide by 2.",
   "solutionExplanation": "2a=22, a=11",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -381,7 +412,8 @@
   "correctAnswer": "A",
   "hint": "Rule: y=2x+1.",
   "solutionExplanation": "2(7)+1=15",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -393,7 +425,8 @@
   "correctAnswer": "A",
   "hint": "Combine like terms.",
   "solutionExplanation": "(3x-x)+(2y-4y)+5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -405,7 +438,8 @@
   "correctAnswer": "C",
   "hint": "LSA=2\u03c0rh.",
   "solutionExplanation": "2\u03c0(3)(10)=60\u03c0",
-  "svgType": "cylinder"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "testNum": 1,
@@ -417,7 +451,8 @@
   "correctAnswer": "C",
   "hint": "3x+2x+10=180.",
   "solutionExplanation": "5x=170, x=34",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 1,
@@ -429,7 +464,8 @@
   "correctAnswer": "D",
   "hint": "Multiply by reciprocal.",
   "solutionExplanation": "3/4\u00d78/5=24/20=6/5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -441,7 +477,8 @@
   "correctAnswer": "B",
   "hint": "Find unit rate first.",
   "solutionExplanation": "$1.80/lb\u00d77=$12.60",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -453,7 +490,8 @@
   "correctAnswer": "A",
   "hint": "7\u00d74=28.",
   "solutionExplanation": "28",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -465,7 +503,8 @@
   "correctAnswer": "B",
   "hint": "(6-2)\u00d7180/6=120.",
   "solutionExplanation": "720/6=120",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 1,
@@ -477,7 +516,8 @@
   "correctAnswer": "D",
   "hint": "6 squares fold into a cube.",
   "solutionExplanation": "Cube",
-  "svgType": "volume"
+  "svgType": "volume",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -489,7 +529,8 @@
   "correctAnswer": "C",
   "hint": "(-3)(-4)=12. (-10)/2=-5. 12-(-5)=17.",
   "solutionExplanation": "12+5=17",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -501,7 +542,8 @@
   "correctAnswer": "C",
   "hint": "35/50\u00d7100.",
   "solutionExplanation": "70%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -513,7 +555,8 @@
   "correctAnswer": "D",
   "hint": "Factor tree: 504=8\u00d763=8\u00d79\u00d77.",
   "solutionExplanation": "2\u00b3\u00d73\u00b2\u00d77",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -525,7 +568,8 @@
   "correctAnswer": "B",
   "hint": "Pythagorean: 400+225=625.",
   "solutionExplanation": "sqrt(625)=25",
-  "svgType": "pythagorean"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 1,
@@ -537,7 +581,8 @@
   "correctAnswer": "B",
   "hint": "9/5(85)+32=153+32=185.",
   "solutionExplanation": "185\u00b0F",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -549,7 +594,8 @@
   "correctAnswer": "B",
   "hint": "(10+16)/2\u00d76=78.",
   "solutionExplanation": "78",
-  "svgType": "trapezoid"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"45,70 25,25 140,25 155,70\" fill=\"#55efc4\" fill-opacity=\"0.12\" stroke=\"#00b894\" stroke-width=\"2\"/><text x=\"80\" y=\"20\" font-size=\"9\" fill=\"#00b894\">b1</text><text x=\"95\" y=\"83\" font-size=\"9\" fill=\"#00b894\">b2</text></svg>"
  },
  {
   "testNum": 1,
@@ -561,7 +607,8 @@
   "correctAnswer": "D",
   "hint": "Subtract 4: x\u2265-2.",
   "solutionExplanation": "x\u2265-2",
-  "svgType": "number_line"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 45\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"45\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"15\" y1=\"22\" x2=\"165\" y2=\"22\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"165,18 175,22 165,26\" fill=\"#333\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#6c5ce7\"/></svg>"
  },
  {
   "testNum": 1,
@@ -573,7 +620,8 @@
   "correctAnswer": "C",
   "hint": "12/4=3.",
   "solutionExplanation": "3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -585,7 +633,8 @@
   "correctAnswer": "B",
   "hint": "1.2\u00d71.2=1.44.",
   "solutionExplanation": "1.2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 1,
@@ -597,7 +646,8 @@
   "correctAnswer": "D",
   "hint": "0.30\u00d7n=9. n=30.",
   "solutionExplanation": "9/0.3=30",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -609,7 +659,8 @@
   "correctAnswer": "D",
   "hint": "Add exponents in numerator, subtract denominator.",
   "solutionExplanation": "x^(5+3-2)=x^6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -621,7 +672,8 @@
   "correctAnswer": "D",
   "hint": "Add 5, multiply by 4/3.",
   "solutionExplanation": "(3/4)w=12, w=16",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -633,7 +685,8 @@
   "correctAnswer": "A",
   "hint": "Exterior angle = sum of remote interior angles.",
   "solutionExplanation": "45+70=115",
-  "svgType": "triangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,75 90,15 155,75\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 45 75 A 18 18 0 0 0 40 62\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 2,
@@ -645,7 +698,8 @@
   "correctAnswer": "A",
   "hint": "Divide 5\u00f78.",
   "solutionExplanation": "5\u00f78=0.625=62.5%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -657,7 +711,8 @@
   "correctAnswer": "B",
   "hint": "48\u00d70.75 or 48-48\u00d70.25.",
   "solutionExplanation": "48-12=36",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -669,7 +724,8 @@
   "correctAnswer": "A",
   "hint": "1 sq yd=9 sq ft.",
   "solutionExplanation": "120/9=13.33",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -681,7 +737,8 @@
   "correctAnswer": "A",
   "hint": "Substitute x=2.",
   "solutionExplanation": "-2(2)+3=-1",
-  "svgType": "coordinate"
+  "svgType": "coordinate",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -693,7 +750,8 @@
   "correctAnswer": "D",
   "hint": "SA=6s\u00b2.",
   "solutionExplanation": "6\u00d716=96",
-  "svgType": "volume"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "testNum": 2,
@@ -705,7 +763,8 @@
   "correctAnswer": "D",
   "hint": "Distribute -3 to both terms.",
   "solutionExplanation": "-3\u00d72x=-6x, -3\u00d7(-5)=15",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -717,7 +776,8 @@
   "correctAnswer": "B",
   "hint": "I=Prt.",
   "solutionExplanation": "1200\u00d70.04\u00d73=144",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -729,7 +789,8 @@
   "correctAnswer": "D",
   "hint": "54=2\u00d73\u00b3, 90=2\u00d73\u00b2\u00d75. GCF=2\u00d73\u00b2=18.",
   "solutionExplanation": "18",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -741,7 +802,8 @@
   "correctAnswer": "C",
   "hint": "Scale=15/5=3. x=6\u00d73.",
   "solutionExplanation": "18",
-  "svgType": "triangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,75 90,15 155,75\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 45 75 A 18 18 0 0 0 40 62\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 2,
@@ -753,7 +815,8 @@
   "correctAnswer": "C",
   "hint": "Convert: -8+3-5-2=-12.",
   "solutionExplanation": "-12",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -765,7 +828,8 @@
   "correctAnswer": "A",
   "hint": "Move decimal 6 places left.",
   "solutionExplanation": "4.5\u00d710\u2076",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -777,7 +841,8 @@
   "correctAnswer": "B",
   "hint": "275\u00f711.",
   "solutionExplanation": "25 mpg",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -789,7 +854,8 @@
   "correctAnswer": "C",
   "hint": "(3/10)(2/9)=6/90=1/15.",
   "solutionExplanation": "1/15",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -801,7 +867,8 @@
   "correctAnswer": "C",
   "hint": "0.36=36/100=9/25.",
   "solutionExplanation": "9/25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -813,7 +880,8 @@
   "correctAnswer": "D",
   "hint": "0.4y=2.4, y=6.",
   "solutionExplanation": "y=6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -825,7 +893,8 @@
   "correctAnswer": "A",
   "hint": "360\u00f78=45.",
   "solutionExplanation": "45\u00b0",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,75 90,15 155,75\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 45 75 A 18 18 0 0 0 40 62\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 2,
@@ -837,7 +906,8 @@
   "correctAnswer": "B",
   "hint": "V=\u03c0r\u00b2h=3.14\u00d716\u00d710.",
   "solutionExplanation": "502.4",
-  "svgType": "cylinder"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "testNum": 2,
@@ -849,7 +919,8 @@
   "correctAnswer": "D",
   "hint": "Sort, find middle two; mode=most frequent.",
   "solutionExplanation": "Sorted:14,14,14,15,18,19,21,25. Med=(15+18)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -861,7 +932,8 @@
   "correctAnswer": "C",
   "hint": "8+6-10=4.",
   "solutionExplanation": "4",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -873,7 +945,8 @@
   "correctAnswer": "C",
   "hint": "-3x>-9, x<3. Positive: 1,2.",
   "solutionExplanation": "x<3",
-  "svgType": "number_line"
+  "svgType": "number_line",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -885,7 +958,8 @@
   "correctAnswer": "B",
   "hint": "\u00f71000.",
   "solutionExplanation": "0.45",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -897,7 +971,8 @@
   "correctAnswer": "B",
   "hint": "2 lengths+1 width+semicircle circumference.",
   "solutionExplanation": "10+10+6+\u03c0(3)\u224835.42",
-  "svgType": "rectangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "testNum": 2,
@@ -909,7 +984,8 @@
   "correctAnswer": "D",
   "hint": "2x+7=23, 2x=16, x=8.",
   "solutionExplanation": "8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -921,7 +997,8 @@
   "correctAnswer": "D",
   "hint": "3\u2153=10/3. Reciprocal=3/10.",
   "solutionExplanation": "3/10",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -933,7 +1010,8 @@
   "correctAnswer": "D",
   "hint": "Area scale=45/5=9. Linear scale=\u221a9=3.",
   "solutionExplanation": "3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -945,7 +1023,8 @@
   "correctAnswer": "A",
   "hint": "Cross multiply: 12(x+1)=36. x+1=3.",
   "solutionExplanation": "x=2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -957,7 +1036,8 @@
   "correctAnswer": "B",
   "hint": "C=2\u03c0r=16\u03c0, r=8. A=\u03c0(64).",
   "solutionExplanation": "64\u03c0",
-  "svgType": "circle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "testNum": 2,
@@ -969,7 +1049,8 @@
   "correctAnswer": "B",
   "hint": "1+1/4+1/16=16/16+4/16+1/16=21/16.",
   "solutionExplanation": "21/16",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -981,7 +1062,8 @@
   "correctAnswer": "A",
   "hint": "(6\u00d7(-2)-4)/(-2)=(-12-4)/(-2)=-16/-2=8. Wait: (-16)/(-2)=8.",
   "solutionExplanation": "8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -993,7 +1075,8 @@
   "correctAnswer": "A",
   "hint": "42\u00f77=6.",
   "solutionExplanation": "6",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1005,7 +1088,8 @@
   "correctAnswer": "C",
   "hint": "Direct variation: y=kx (no added constant).",
   "solutionExplanation": "C",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1017,7 +1101,8 @@
   "correctAnswer": "C",
   "hint": "90-55=35.",
   "solutionExplanation": "35\u00b0",
-  "svgType": "triangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "testNum": 2,
@@ -1029,7 +1114,8 @@
   "correctAnswer": "C",
   "hint": "150\u00d70.04=6 defective. 150-6=144.",
   "solutionExplanation": "144",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1041,7 +1127,8 @@
   "correctAnswer": "B",
   "hint": "Combine: (4+3)a\u00b2b+(-2-1)ab\u00b2.",
   "solutionExplanation": "7a\u00b2b-3ab\u00b2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1053,7 +1140,8 @@
   "correctAnswer": "D",
   "hint": "784=2\u2074\u00d77\u00b2. \u221a=2\u00b2\u00d77=28.",
   "solutionExplanation": "28",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1065,7 +1153,8 @@
   "correctAnswer": "C",
   "hint": "2(24+6h+4h)=148. 48+20h=148. h=5.",
   "solutionExplanation": "5",
-  "svgType": "volume"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "testNum": 2,
@@ -1077,7 +1166,8 @@
   "correctAnswer": "B",
   "hint": "50\u00d75280/3600\u224873.3.",
   "solutionExplanation": "73.3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1089,7 +1179,8 @@
   "correctAnswer": "B",
   "hint": "(x,y)\u2192(-y,x). (-(-3),2)=(3,2).",
   "solutionExplanation": "(3,2)",
-  "svgType": "coordinate"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "testNum": 2,
@@ -1101,7 +1192,8 @@
   "correctAnswer": "D",
   "hint": "3m-6-4m-2=5. -m-8=5. -m=13. m=-13.",
   "solutionExplanation": "m=-13",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1113,7 +1205,8 @@
   "correctAnswer": "C",
   "hint": "Let x=0.777..., 10x=7.777..., 9x=7.",
   "solutionExplanation": "7/9",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1125,7 +1218,8 @@
   "correctAnswer": "A",
   "hint": "(5-2)\u00d7180=540.",
   "solutionExplanation": "540\u00b0",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 2,
@@ -1137,7 +1231,8 @@
   "correctAnswer": "A",
   "hint": "Rectangle=112. Triangle=(1/2)(14)(7)=49. Total=161.",
   "solutionExplanation": "161",
-  "svgType": "rectangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "testNum": 2,
@@ -1149,7 +1244,8 @@
   "correctAnswer": "B",
   "hint": "1.2/4=0.3. 10\u207b\u00b2\u207b\u207d\u207b\u2075\u207e=10\u00b3. 0.3\u00d710\u00b3=300.",
   "solutionExplanation": "300",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1161,7 +1257,8 @@
   "correctAnswer": "D",
   "hint": "5/20\u00d7100=25%.",
   "solutionExplanation": "25%",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1173,7 +1270,8 @@
   "correctAnswer": "D",
   "hint": "(5/3)\u00f7(5/6)=(5/3)(6/5)=2.",
   "solutionExplanation": "2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1185,7 +1283,8 @@
   "correctAnswer": "C",
   "hint": "k=10.5/3=3.5. 11\u00d73.5=38.5.",
   "solutionExplanation": "38.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 2,
@@ -1197,7 +1296,8 @@
   "correctAnswer": "D",
   "hint": "Closed dot=includes. Right=greater.",
   "solutionExplanation": "x\u22652",
-  "svgType": "number_line"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 45\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"45\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"15\" y1=\"22\" x2=\"165\" y2=\"22\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"165,18 175,22 165,26\" fill=\"#333\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#6c5ce7\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1209,7 +1309,8 @@
   "correctAnswer": "C",
   "hint": "5x-10y-6x+12y=-x+2y.",
   "solutionExplanation": "-x+2y",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1221,7 +1322,8 @@
   "correctAnswer": "B",
   "hint": "0.05x+12-0.12x=9.9. -0.07x=-2.1. x=30.",
   "solutionExplanation": "x=30",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1233,7 +1335,8 @@
   "correctAnswer": "B",
   "hint": "Vertical angles equal, linear pairs=180.",
   "solutionExplanation": "a=138,b=42,c=138",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1245,7 +1348,8 @@
   "correctAnswer": "B",
   "hint": "5\u00f711=0.454545...",
   "solutionExplanation": "4.4\u03045\u0304",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1257,7 +1361,8 @@
   "correctAnswer": "D",
   "hint": "640=0.8\u00d7original. 640/0.8=800.",
   "solutionExplanation": "$800",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1269,7 +1374,8 @@
   "correctAnswer": "B",
   "hint": "90\u00d71000/3600=25.",
   "solutionExplanation": "25",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1281,7 +1387,8 @@
   "correctAnswer": "C",
   "hint": "Read from y=mx+b form.",
   "solutionExplanation": "slope=-1/2, y-int=2",
-  "svgType": "coordinate"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1293,7 +1400,8 @@
   "correctAnswer": "B",
   "hint": "2\u00d7(\u00bd\u00d73\u00d74)+10(3+4+5)=12+120=132. Hmm: 2(6)+10(12)=12+120=132.",
   "solutionExplanation": "132 cm\u00b2... Actually: 2(6)+3(10)+4(10)+5(10)=12+30+40+50=132",
-  "svgType": "triangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "testNum": 3,
@@ -1305,7 +1413,8 @@
   "correctAnswer": "D",
   "hint": "GCF=6x\u00b2y\u00b2.",
   "solutionExplanation": "6x\u00b2y\u00b2(2x-3y+1)",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1317,7 +1426,8 @@
   "correctAnswer": "C",
   "hint": "2000\u00d71.05\u00b2=2000\u00d71.1025.",
   "solutionExplanation": "$2,205",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1329,7 +1439,8 @@
   "correctAnswer": "C",
   "hint": "Take higher powers of each factor.",
   "solutionExplanation": "18a\u00b2b\u00b3",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1341,7 +1452,8 @@
   "correctAnswer": "A",
   "hint": "6/4=h/24. h=36.",
   "solutionExplanation": "36",
-  "svgType": "triangle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,75 90,15 155,75\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 45 75 A 18 18 0 0 0 40 62\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1353,7 +1465,8 @@
   "correctAnswer": "B",
   "hint": "(-(-2)-(-3)(4))/(-2)=(2-(-12))/(-2)=14/(-2)=-7.",
   "solutionExplanation": "-7",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1365,7 +1478,8 @@
   "correctAnswer": "D",
   "hint": "2.5\u00d76=15=1.5\u00d710. 10\u207b\u2074\u207a\u207d\u207b\u00b3\u207e\u207a\u00b9=10\u207b\u2076.",
   "solutionExplanation": "1.5\u00d710\u207b\u2076",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1377,7 +1491,8 @@
   "correctAnswer": "D",
   "hint": "Rate=240/min. 240\u00d712=2880.",
   "solutionExplanation": "2880",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1389,7 +1504,8 @@
   "correctAnswer": "C",
   "hint": "(1/6)(3/6)=3/36=1/12.",
   "solutionExplanation": "1/12",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1401,7 +1517,8 @@
   "correctAnswer": "B",
   "hint": "825/10000. GCF=25. 33/400.",
   "solutionExplanation": "33/400",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1413,7 +1530,8 @@
   "correctAnswer": "C",
   "hint": "8x-4-3x-6=10. 5x-10=10. 5x=20. x=4.",
   "solutionExplanation": "x=4",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1425,7 +1543,8 @@
   "correctAnswer": "D",
   "hint": "(10-2)\u00d7180/10=1440/10=144.",
   "solutionExplanation": "144\u00b0",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1437,7 +1556,8 @@
   "correctAnswer": "C",
   "hint": "V=(4/3)\u03c0r\u00b3=(4/3)\u03c0(27)=36\u03c0.",
   "solutionExplanation": "36\u03c0",
-  "svgType": "sphere"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"35,85 110,85 125,62 50,62\" fill=\"#a29bfe\" fill-opacity=\"0.12\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"110,85 125,62 125,32 110,55\" fill=\"#a29bfe\" fill-opacity=\"0.08\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"50,62 125,62 125,32 50,32\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1449,7 +1569,8 @@
   "correctAnswer": "B",
   "hint": "From 80s: 81,84,84,88\u2192leaves 1,4,4,8.",
   "solutionExplanation": "1,4,4,8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1461,7 +1582,8 @@
   "correctAnswer": "A",
   "hint": "3(7)-\u221a169=21-13=8.",
   "solutionExplanation": "8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1473,7 +1595,8 @@
   "correctAnswer": "B",
   "hint": "Subtract 1 from all parts.",
   "solutionExplanation": "-3\u2264x<3",
-  "svgType": "number_line"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 45\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"45\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"15\" y1=\"22\" x2=\"165\" y2=\"22\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"165,18 175,22 165,26\" fill=\"#333\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#6c5ce7\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1485,7 +1608,8 @@
   "correctAnswer": "C",
   "hint": "1m\u00b2=10,000cm\u00b2. 2.5\u00d710000.",
   "solutionExplanation": "25,000",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1497,7 +1621,8 @@
   "correctAnswer": "C",
   "hint": "\u03c0(5\u00b2-3\u00b2)=\u03c0(25-9)=16\u03c0\u224850.24.",
   "solutionExplanation": "50.24",
-  "svgType": "circle"
+  "svgType": "circle",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1509,7 +1634,8 @@
   "correctAnswer": "C",
   "hint": "0.25(d+3)+0.10d=3.45. 0.35d+0.75=3.45. d\u22487.7\u2192d=7? Actually: 0.25q+0.10d=3.45, q=d+3.",
   "solutionExplanation": "Let me recalc: 0.25(d+3)+0.10d=3.45\u21920.35d=2.70\u2192d=7.7. Hmm, use d=9: 12q+9d=3.00+0.90=3.90. Try d=6: 9(0.25)+6(0.10)=2.25+0.60=2.85. d=8: 11(0.25)+8(0.10)=2.75+0.80=3.55. d=7: 10(0.25)+7(0.10)=2.50+0.70=3.20. Not exact\u2014adjust to closest.",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1521,7 +1647,8 @@
   "correctAnswer": "B",
   "hint": "Flip: (3/2)\u00b3=27/8.",
   "solutionExplanation": "27/8",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1533,7 +1660,8 @@
   "correctAnswer": "C",
   "hint": "270\u00f718=15.",
   "solutionExplanation": "15",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1545,7 +1673,8 @@
   "correctAnswer": "A",
   "hint": "Cross: 3(2y-3)=5(y+2). 6y-9=5y+10. y=19.",
   "solutionExplanation": "y=19",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1557,7 +1686,8 @@
   "correctAnswer": "D",
   "hint": "(60/360)\u00d72\u03c0(6)=(1/6)(12\u03c0)=2\u03c0.",
   "solutionExplanation": "2\u03c0",
-  "svgType": "circle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "testNum": 3,
@@ -1569,7 +1699,8 @@
   "correctAnswer": "A",
   "hint": "x^(-3+5)=x\u00b2. y^(4+2)=y\u2076.",
   "solutionExplanation": "x\u00b2y\u2076",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1581,7 +1712,8 @@
   "correctAnswer": "D",
   "hint": "-(4)+4(-2)-1=-4-8-1=-13.",
   "solutionExplanation": "-13",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1593,7 +1725,8 @@
   "correctAnswer": "A",
   "hint": "r=10. 3\u00d7100=300.",
   "solutionExplanation": "300",
-  "svgType": "circle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"90\" cy=\"45\" r=\"32\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"122\" y2=\"45\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"103\" y=\"40\" font-size=\"9\" fill=\"#e17055\">r</text></svg>"
  },
  {
   "testNum": 3,
@@ -1605,7 +1738,8 @@
   "correctAnswer": "D",
   "hint": "Inverse: xy=constant. A: 2\u00d712=24, 4\u00d76=24, 6\u00d74=24.",
   "solutionExplanation": "Table A",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1617,7 +1751,8 @@
   "correctAnswer": "A",
   "hint": "8\u00b2+15\u00b2=64+225=289. \u221a289=17.",
   "solutionExplanation": "17",
-  "svgType": "pythagorean"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 110\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"110\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"25,95 25,25 145,95\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"25\" y=\"85\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"15\" y=\"65\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"80\" y=\"108\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"80\" y=\"50\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>"
  },
  {
   "testNum": 3,
@@ -1629,7 +1764,8 @@
   "correctAnswer": "B",
   "hint": "273/0.65=420.",
   "solutionExplanation": "420",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1641,7 +1777,8 @@
   "correctAnswer": "B",
   "hint": "Factor: 4x(x-4)/8x=(x-4)/2.",
   "solutionExplanation": "(x-4)/2",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1653,7 +1790,8 @@
   "correctAnswer": "C",
   "hint": "0.04\u00d70.04=0.0016.",
   "solutionExplanation": "0.04",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1665,7 +1803,8 @@
   "correctAnswer": "D",
   "hint": "Base=36. 4 triangles=4\u00d7(\u00bd\u00d76\u00d75)=60. Total=96.",
   "solutionExplanation": "96",
-  "svgType": "triangle"
+  "svgType": "triangle",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1677,7 +1816,8 @@
   "correctAnswer": "B",
   "hint": "18mi/hr\u00d7(10/60)hr=3mi. 3\u00d71760=5280yd.",
   "solutionExplanation": "5280",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1689,7 +1829,8 @@
   "correctAnswer": "A",
   "hint": "(-4+5, 2-3)=(1,-1).",
   "solutionExplanation": "(1,-1)",
-  "svgType": "coordinate"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"90\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"75\" x2=\"160\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"20\" y1=\"10\" x2=\"20\" y2=\"75\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"35\" y1=\"65\" x2=\"140\" y2=\"22\" stroke=\"#6c5ce7\" stroke-width=\"2.5\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"#e17055\"/><circle cx=\"140\" cy=\"22\" r=\"3\" fill=\"#e17055\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1701,7 +1842,8 @@
   "correctAnswer": "D",
   "hint": "2A=h(b\u2081+b\u2082). 2A/h=b\u2081+b\u2082. b\u2081=2A/h-b\u2082.",
   "solutionExplanation": "b\u2081=2A/h-b\u2082",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1713,7 +1855,8 @@
   "correctAnswer": "A",
   "hint": "Let x=0.4545..., 100x=45.4545..., 99x=45. x=45/99=5/11.",
   "solutionExplanation": "5/11",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1725,7 +1868,8 @@
   "correctAnswer": "A",
   "hint": "(12-2)\u00d7180=1800.",
   "solutionExplanation": "1800\u00b0",
-  "svgType": "angle"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 70\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"70\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"25\" y1=\"55\" x2=\"155\" y2=\"55\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"25\" y1=\"55\" x2=\"110\" y2=\"18\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 55 A 22 22 0 0 0 44 40\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>"
  },
  {
   "testNum": 3,
@@ -1737,7 +1881,8 @@
   "correctAnswer": "C",
   "hint": "4.2\u00d73=12.6. 10\u2074\u207b\u00b2=10\u00b2. 12.6\u00d7100=1260.",
   "solutionExplanation": "1260",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1749,7 +1894,8 @@
   "correctAnswer": "B",
   "hint": "320000\u00d70.03=9600.",
   "solutionExplanation": "$9,600",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1761,7 +1907,8 @@
   "correctAnswer": "B",
   "hint": "(6/10+5/10)\u00f7(11/10)=(11/10)\u00d7(10/11)=1.",
   "solutionExplanation": "1",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1773,7 +1920,8 @@
   "correctAnswer": "B",
   "hint": "13.5/3=4.5.",
   "solutionExplanation": "k=4.5",
-  "svgType": ""
+  "svgType": "",
+  "illustration": null
  },
  {
   "testNum": 3,
@@ -1785,6 +1933,7 @@
   "correctAnswer": "A",
   "hint": "Open=not included. Left=less than.",
   "solutionExplanation": "x<-1",
-  "svgType": "number_line"
+  "svgType": "",
+  "illustration": "<svg viewBox=\"0 0 180 45\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"180\" height=\"45\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"15\" y1=\"22\" x2=\"165\" y2=\"22\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"165,18 175,22 165,26\" fill=\"#333\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#6c5ce7\"/></svg>"
  }
 ]
