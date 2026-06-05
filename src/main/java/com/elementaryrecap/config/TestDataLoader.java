@@ -54,8 +54,45 @@ public class TestDataLoader implements CommandLineRunner {
         ));
         testRepository.saveAll(tests);
 
-        int idx = 0;
-        for (Test test : tests) {
+        // Load easy test questions from JSON file
+        try {
+            com.fasterxml.jackson.databind.ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
+            java.io.InputStream is = new org.springframework.core.io.ClassPathResource("data/test_questions.json").getInputStream();
+            java.util.List<java.util.Map<String, Object>> jsonQuestions = mapper.readValue(is, new com.fasterxml.jackson.core.type.TypeReference<java.util.List<java.util.Map<String, Object>>>() {});
+            
+            // Map test numbers to actual test IDs (first 3 are easy tests)
+            Long[] easyTestIds = {tests.get(0).getId(), tests.get(1).getId(), tests.get(2).getId()};
+            
+            for (java.util.Map<String, Object> jq : jsonQuestions) {
+                int testNum = (Integer) jq.get("testNum");
+                if (testNum >= 1 && testNum <= 3) {
+                    TestQuestion tq = new TestQuestion();
+                    tq.setTestId(easyTestIds[testNum - 1]);
+                    tq.setQuestionText((String) jq.get("questionText"));
+                    tq.setOptionA((String) jq.get("optionA"));
+                    tq.setOptionB((String) jq.get("optionB"));
+                    tq.setOptionC((String) jq.get("optionC"));
+                    tq.setOptionD((String) jq.get("optionD"));
+                    tq.setCorrectAnswer((String) jq.get("correctAnswer"));
+                    tq.setHint((String) jq.get("hint"));
+                    tq.setSolutionExplanation((String) jq.get("solutionExplanation"));
+                    String svgType = (String) jq.get("svgType");
+                    if (svgType != null && !svgType.isEmpty()) {
+                        tq.setIllustration(getSvg(svgType));
+                    } else {
+                        tq.setIllustration(getSvg(tq.getQuestionText()));
+                    }
+                    testQuestionRepository.save(tq);
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Could not load test JSON: " + e.getMessage());
+        }
+
+        // Generate questions for remaining tests (medium, hard, geometry, fun)
+        int idx = 3; // skip first 3 (loaded from JSON)
+        for (int t = 3; t < tests.size(); t++) {
+            Test test = tests.get(t);
             int count = "fun".equals(test.getCategory()) ? 20 : 50;
             List<TestQuestion> questions = new ArrayList<>();
             for (int i = 0; i < count; i++) {
@@ -91,7 +128,23 @@ public class TestDataLoader implements CommandLineRunner {
         return tq;
     }
 
-    private String getSvg(String questionText) {
+    private String getSvg(String input) {
+        if (input == null) return null;
+        String questionText = input;
+        // Check if input is a svgType keyword
+        if (input.equals("triangle")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"30,85 100,15 170,85\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 50 85 A 20 20 0 0 0 45 70\" stroke=\"#e17055\" stroke-width=\"1.5\" fill=\"none\"/></svg>";
+        if (input.equals("pythagorean")) return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"30,100 30,30 150,100\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"30\" y=\"90\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"20\" y=\"70\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"85\" y=\"115\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"85\" y=\"55\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>";
+        if (input.equals("circle")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"100\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"100\" y1=\"50\" x2=\"135\" y2=\"50\" stroke=\"#e17055\" stroke-width=\"1.5\"/><text x=\"115\" y=\"45\" font-size=\"9\" fill=\"#e17055\">r</text></svg>";
+        if (input.equals("angle")) return "<svg viewBox=\"0 0 200 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"80\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"30\" y1=\"60\" x2=\"170\" y2=\"60\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"30\" y1=\"60\" x2=\"120\" y2=\"20\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><path d=\"M 55 60 A 25 25 0 0 0 48 45\" stroke=\"#e17055\" stroke-width=\"2\" fill=\"none\"/></svg>";
+        if (input.equals("rectangle")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><rect x=\"30\" y=\"20\" width=\"120\" height=\"60\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>";
+        if (input.equals("volume")) return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"40,90 120,90 135,65 55,65\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"120,90 135,65 135,35 120,60\" fill=\"#a29bfe\" fill-opacity=\"0.1\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><polygon points=\"55,65 135,65 135,35 55,35\" fill=\"#a29bfe\" fill-opacity=\"0.05\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>";
+        if (input.equals("cylinder")) return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><ellipse cx=\"100\" cy=\"30\" rx=\"40\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"90\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"140\" y1=\"30\" x2=\"140\" y2=\"90\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><ellipse cx=\"100\" cy=\"90\" rx=\"40\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/></svg>";
+        if (input.equals("sphere")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"100\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><ellipse cx=\"100\" cy=\"50\" rx=\"35\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/></svg>";
+        if (input.equals("trapezoid")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,80 30,30 150,30 170,80\" fill=\"#55efc4\" fill-opacity=\"0.15\" stroke=\"#00b894\" stroke-width=\"2\"/></svg>";
+        if (input.equals("coordinate")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"100\" y1=\"10\" x2=\"100\" y2=\"90\" stroke=\"#333\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"30\" r=\"4\" fill=\"#e17055\"/></svg>";
+        if (input.equals("number_line")) return "<svg viewBox=\"0 0 200 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"50\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"25\" x2=\"180\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"180,20 190,25 180,30\" fill=\"#333\"/><circle cx=\"100\" cy=\"25\" r=\"4\" fill=\"#6c5ce7\"/></svg>";
+        if (input.equals("integer")) return "<svg viewBox=\"0 0 200 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"50\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"25\" x2=\"180\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"50\" y=\"40\" font-size=\"9\" fill=\"#e17055\">-5</text><text x=\"100\" y=\"40\" font-size=\"9\">0</text><text x=\"150\" y=\"40\" font-size=\"9\" fill=\"#00b894\">+5</text></svg>";
+        // Fall through to keyword detection in questionText
         String t = questionText.toLowerCase();
         if (t.contains("right triangle") || t.contains("legs") || t.contains("hypotenuse") || t.contains("ladder") || t.contains("pythagorean")) {
             return "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"120\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"30,100 30,30 150,100\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><rect x=\"30\" y=\"90\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"#6c5ce7\"/><text x=\"20\" y=\"70\" font-size=\"10\" fill=\"#e17055\">a</text><text x=\"85\" y=\"115\" font-size=\"10\" fill=\"#00b894\">b</text><text x=\"85\" y=\"55\" font-size=\"10\" fill=\"#6c5ce7\">c</text></svg>";
