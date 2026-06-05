@@ -55,4 +55,6 @@ public class TestService {
         TestResult result = new TestResult(userId, testId, score, totalQuestions, passed);
         return testResultRepository.save(result);
     }
+    public Optional<TestResult> getResultById(Long id) { return testResultRepository.findById(id); }
+    public List<TestResult> getUserTestResults(Long userId, Long testId) { return testResultRepository.findByUserIdAndTestId(userId, testId); }
 }

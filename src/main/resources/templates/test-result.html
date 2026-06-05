@@ -41,9 +41,14 @@
                     <h2 th:text="${test.name}"></h2>
                     <div class="score-display">
                         <div class="score-circle">
-                            <span class="score-emoji">🎯</span>
+                            <span class="score-emoji" th:text="${result != null and result.passed} ? '🎉' : '📝'"></span>
                         </div>
-                        <p class="score-text">Test Completed!</p>
+                        <div th:if="${result != null}" class="score-details">
+                            <p class="score-value" th:text="${result.score} + ' / ' + ${result.totalQuestions}"></p>
+                            <p class="score-percent" th:text="${#numbers.formatDecimal(result.percentage, 0, 1)} + '%'"></p>
+                            <p class="score-status" th:classappend="${result.passed} ? 'passed' : 'failed'" th:text="${result.passed} ? 'PASSED ✓' : 'Keep Practicing'"></p>
+                        </div>
+                        <p th:if="${result == null}" class="score-text">Test Completed!</p>
                     </div>
                 </div>
 
@@ -58,25 +63,28 @@
                     </div>
                 </div>
 
-                <!-- Review Section -->
+                <!-- Review Section - ONLY INCORRECT ANSWERS -->
                 <div class="review-section">
-                    <h3>📋 Question Review</h3>
+                    <h3>❌ Review Incorrect Answers</h3>
                     <div th:each="question, iterStat : ${questions}" class="review-card">
                         <div class="review-question">
                             <span class="review-num" th:text="'Q' + (${iterStat.index} + 1)"></span>
                             <p th:text="${question.questionText}"></p>
                         </div>
                         <div class="review-answer">
-                            <span class="correct-answer">Correct: <strong th:text="${question.correctAnswer}"></strong></span>
+                            <span class="correct-answer">Correct Answer: <strong th:text="${question.correctAnswer}"></strong></span>
                         </div>
                         <div th:if="${question.solutionExplanation}" class="review-explanation">
+                            <strong>How to solve:</strong>
                             <p th:text="${question.solutionExplanation}"></p>
                         </div>
                     </div>
+                    <p th:if="${questions.isEmpty()}" class="all-correct">🎉 You got all questions correct!</p>
                 </div>
 
                 <div class="result-actions">
-                    <a th:href="@{/tests}" class="btn btn-primary">Back to Tests</a>
+                    <a th:href="@{/tests/{id}(id=${test.id})}" class="btn btn-primary">Retake Test</a>
+                    <a th:href="@{/tests}" class="btn btn-secondary">Back to Tests</a>
                     <a th:href="@{/badges}" class="btn btn-secondary">View All Badges</a>
                 </div>
             </div>

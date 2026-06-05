@@ -88,9 +88,22 @@ public class TestController {
         List<TestQuestion> questions = testService.getAllTestQuestions(id);
         List<Badge> userBadges = badgeService.getUserBadges(user.getId());
 
+        // Get the latest result for score display
+        TestResult result = null;
+        if (resultId != null) {
+            result = testService.getResultById(resultId).orElse(null);
+        }
+        if (result == null) {
+            List<TestResult> results = testService.getUserTestResults(user.getId(), id);
+            if (!results.isEmpty()) {
+                result = results.get(0);
+            }
+        }
+
         model.addAttribute("test", test);
         model.addAttribute("questions", questions);
         model.addAttribute("badges", userBadges);
+        model.addAttribute("result", result);
         addUserAttributes(model, authentication);
         return "test-result";
     }

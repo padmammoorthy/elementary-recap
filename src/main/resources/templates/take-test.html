@@ -89,5 +89,17 @@
             </div>
         </main>
     </div>
+    <script>
+        // Shuffle answer choices for each question on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.radio-choices').forEach(function(container) {
+                var choices = Array.from(container.children);
+                for (var i = choices.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1));
+                    container.appendChild(choices[j]);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
