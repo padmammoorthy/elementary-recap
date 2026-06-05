@@ -89,9 +89,45 @@ public class TestDataLoader implements CommandLineRunner {
             System.err.println("Could not load test JSON: " + e.getMessage());
         }
 
-        // Generate questions for remaining tests (medium, hard, geometry, fun)
-        int idx = 3; // skip first 3 (loaded from JSON)
+        // Load hard test questions from JSON (tests at indices 6,7,8 are hard standard)
+        try {
+            com.fasterxml.jackson.databind.ObjectMapper mapper2 = new com.fasterxml.jackson.databind.ObjectMapper();
+            java.io.InputStream is2 = new org.springframework.core.io.ClassPathResource("data/hard_test_questions.json").getInputStream();
+            java.util.List<java.util.Map<String, Object>> hardJson = mapper2.readValue(is2, new com.fasterxml.jackson.core.type.TypeReference<java.util.List<java.util.Map<String, Object>>>() {});
+            
+            // Hard standard tests are at indices 6,7,8
+            Long[] hardTestIds = {tests.get(6).getId(), tests.get(7).getId(), tests.get(8).getId()};
+            int perTest = hardJson.size() / 3;
+            for (int i = 0; i < hardJson.size(); i++) {
+                java.util.Map<String, Object> jq = hardJson.get(i);
+                int testNum = i / perTest;
+                if (testNum >= 3) testNum = 2;
+                TestQuestion tq = new TestQuestion();
+                tq.setTestId(hardTestIds[testNum]);
+                tq.setQuestionText((String) jq.get("questionText"));
+                tq.setOptionA((String) jq.get("optionA"));
+                tq.setOptionB((String) jq.get("optionB"));
+                tq.setOptionC((String) jq.get("optionC"));
+                tq.setOptionD((String) jq.get("optionD"));
+                tq.setCorrectAnswer((String) jq.get("correctAnswer"));
+                tq.setHint((String) jq.get("hint"));
+                tq.setSolutionExplanation((String) jq.get("solutionExplanation"));
+                String svgType = (String) jq.get("svgType");
+                if (svgType != null && !svgType.isEmpty()) {
+                    tq.setIllustration(getSvg(svgType));
+                } else {
+                    tq.setIllustration(getSvg(tq.getQuestionText()));
+                }
+                testQuestionRepository.save(tq);
+            }
+        } catch (Exception e) {
+            System.err.println("Could not load hard test JSON: " + e.getMessage());
+        }
+
+        // Generate questions for remaining tests (medium, geometry, fun) - skip easy(0-2) and hard(6-8)
+        int idx = 3;
         for (int t = 3; t < tests.size(); t++) {
+            if (t >= 6 && t <= 8) { idx++; continue; } // Skip hard tests (loaded from JSON)
             Test test = tests.get(t);
             int count = "fun".equals(test.getCategory()) ? 20 : 50;
             List<TestQuestion> questions = new ArrayList<>();
