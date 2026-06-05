@@ -71,7 +71,7 @@ public class TestDataLoader implements CommandLineRunner {
         int seed = testIdx * 53 + qIdx * 7; // unique per test+question
         String[] q;
         if (diff == Test.Difficulty.EASY) {
-            q = easyQuestion(seed);
+            q = mediumQuestion(seed + 500); // Easy tests now use medium-level questions with different seed
         } else if (diff == Test.Difficulty.MEDIUM) {
             q = mediumQuestion(seed);
         } else {
@@ -117,32 +117,6 @@ public class TestDataLoader implements CommandLineRunner {
             return "<svg viewBox=\"0 0 200 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"80\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,65 30,20 150,20 170,65\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"65\" stroke=\"#e17055\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"20\" y=\"45\" font-size=\"9\" fill=\"#e17055\">h</text></svg>";
         }
         return null; // No illustration for non-geometry questions
-    }
-
-    private String[] easyQuestion(int seed) {
-        int a, b, c;
-        switch (seed % 20) {
-            case 0: a=3+seed%7; b=5+seed%15; return s("Solve: "+a+"x = "+(a*b), ""+b, ""+(b+2), ""+(b-1), ""+(a*b), "Divide by "+a, a+"x="+(a*b)+", x="+b);
-            case 1: a=20+seed%60; return s("Complement of "+a+" degrees?", ""+(90-a), ""+(180-a), ""+a, "90", "Complementary sum to 90", "90-"+a+"="+(90-a));
-            case 2: a=5+seed%10; b=3+seed%8; return s("Area rectangle "+a+" by "+b+"?", ""+(a*b), ""+(2*(a+b)), ""+(a+b), ""+(a*b+1), "A=lxw", a+"x"+b+"="+(a*b));
-            case 3: a=2+seed%6; b=seed%10+5; return s("Evaluate "+a+"x+3 when x="+b, ""+(a*b+3), ""+(a+b+3), ""+(a*b-3), ""+(a+3), "Substitute x="+b, a+"("+b+")+3="+(a*b+3));
-            case 4: a=3+seed%5; return s("Perimeter of square side "+a+"?", ""+(4*a), ""+(a*a), ""+(2*a), ""+(a+4), "P=4s", "4x"+a+"="+(4*a));
-            case 5: a=10+seed%40; return s("50% of "+a+"?", ""+(a/2), ""+a, ""+(a*2), ""+(a-5), "Half of "+a, a+"/2="+(a/2));
-            case 6: a=2+seed%8; b=a+2+seed%4; return s("Simplify "+a+"/"+b, "GCF method", (a+1)+"/"+b, a+"/"+(b+1), "Cannot", "Find GCF", "Divide both by GCF");
-            case 7: a=5+seed%8; b=3+seed%6; return s("GCF of "+(a*6)+" and "+(b*6)+"?", ""+6, ""+3, ""+12, ""+2, "Factor both", "Both divisible by 6");
-            case 8: a=20+seed%40; b=a+10+seed%20; return s("Round "+b+" to nearest ten", ""+((b+5)/10*10), ""+(b/10*10), ""+((b+50)/100*100), ""+b, "Look at ones digit", "Round based on ones");
-            case 9: a=3+seed%5; return s("Convert "+a+"/5 to decimal", ""+(a*2)+".0"+"/"+"10", "0."+a, ""+a+".0", "0.0"+a, "Divide "+a+" by 5", a+"/5=0."+(a*2));
-            case 10: a=4+seed%8; b=3+seed%6; return s("LCM of "+a+" and "+b+"?", ""+(a*b/gcd(a,b)), ""+(a*b), ""+(a+b), ""+Math.min(a,b), "Find first common multiple", "LCM formula");
-            case 11: a=30+seed%50; return s("Write "+a+"% as fraction", a+"/100", "1/"+a, a+"/10", a+"/1000", a+"% = "+a+"/100", "Percent means per hundred");
-            case 12: a=5+seed%10; return s("Volume of cube edge "+a+"?", ""+(a*a*a), ""+(6*a*a), ""+(a*a), ""+(4*a), "V=s^3", a+"^3="+(a*a*a));
-            case 13: a=12+seed%20; b=a+5; return s(a+" is what fraction of "+b+"?", a+"/"+b, b+"/"+a, "1/"+a, a+"%", "Part/whole", a+"/"+b);
-            case 14: a=3+seed%5; b=7+seed%10; return s("Find: "+a+"/"+b+" of "+(a*b), ""+a, ""+(a*b/b+1), ""+b, ""+(a*b), "Multiply fraction by number", a+"/"+b+"*"+(a*b)+"="+a+"... Actually "+(a*b)+"*"+a+"/"+b+"="+(a*a));
-            case 15: a=40+seed%50; b=180-a; return s("Supplement of "+a+"?", ""+b, ""+(90-a), ""+a, "360", "Supplementary=180", "180-"+a+"="+b);
-            case 16: a=8+seed%12; b=6+seed%10; return s("Perimeter rectangle "+a+"x"+b+"?", ""+(2*(a+b)), ""+(a*b), ""+(a+b), ""+(4*a), "P=2(l+w)", "2("+a+"+"+b+")="+(2*(a+b)));
-            case 17: a=seed%9+2; return s("Is "+(a*7)+" divisible by 7?", "Yes", "No", "Only by "+a, "Cannot tell", "Divide: "+(a*7)+"/7="+a, "No remainder");
-            case 18: a=3+seed%4; return s("Reciprocal of "+a+"/7?", "7/"+a, a+"/7", "-"+a+"/7", "1", "Flip fraction", "Swap numerator and denominator");
-            default: a=10+seed%20; return s("What is 10% of "+a+"0?", ""+(a), ""+(a*10), ""+(a/10), ""+a+"0", "Move decimal left", a+"0/10="+a);
-        }
     }
 
     private String[] mediumQuestion(int seed) {
