@@ -29,7 +29,9 @@ public class TestController {
     @GetMapping("/tests")
     public String listTests(Model model, Authentication authentication) {
         List<Test> allTests = testService.getAllTests();
+        // Exclude fun tests (they're on the Olympiad page)
         Map<String, List<Test>> testsByDifficulty = allTests.stream()
+                .filter(t -> !"fun".equals(t.getCategory()))
                 .collect(Collectors.groupingBy(t -> t.getDifficulty().name(),
                         LinkedHashMap::new, Collectors.toList()));
         model.addAttribute("testsByDifficulty", testsByDifficulty);

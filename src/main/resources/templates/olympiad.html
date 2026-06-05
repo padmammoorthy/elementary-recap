@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympiad - Elementary Math Recap</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}">
+    <link rel="stylesheet" th:href="@{/css/nav.css}">
+</head>
+<body>
+    <div class="app-layout">
+        <nav class="sidebar">
+            <div class="sidebar-header"><h2>📐 Saxon Math</h2></div>
+            <ul class="nav-links">
+                <li><a th:href="@{/lessons}">🎓 Lessons</a></li>
+                <li><a th:href="@{/quiz}">✏️ Practice Test</a></li>
+                <li><a th:href="@{/tests}">📝 Tests</a></li>
+                <li><a th:href="@{/badges}">🏆 Badges</a></li>
+                <li class="active"><a th:href="@{/olympiad}">🏅 Olympiad</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header class="top-bar">
+                <h1>🏅 Math Olympiad</h1>
+                <div class="profile-section" th:if="${currentUser}">
+                    <span class="avatar" th:if="${currentUser.avatarType == 'emoji'}" th:text="${currentUser.avatar}"></span>
+                    <img th:if="${currentUser.avatarType == 'image'}" th:src="${currentUser.avatar}" class="avatar-img" alt="Avatar">
+                    <span class="display-name" th:text="${currentUser.displayName}"></span>
+                    <a th:href="@{/logout}" class="sign-out">Sign Out</a>
+                </div>
+            </header>
+
+            <div class="olympiad-intro">
+                <p>Challenge yourself with these Math Olympiad-style problems! Each test contains 20 questions covering all topics from Saxon Math Course 2. Think critically and have fun!</p>
+            </div>
+
+            <div class="test-grid">
+                <div th:each="test : ${tests}" class="test-card">
+                    <div class="test-card-header">
+                        <h3 th:text="${test.name}"></h3>
+                        <span class="difficulty-badge" th:classappend="${test.difficulty.name().toLowerCase()}" th:text="${test.difficulty}"></span>
+                    </div>
+                    <p class="test-desc" th:text="${test.description}"></p>
+                    <a th:href="@{/tests/{id}(id=${test.id})}" class="btn btn-primary">Start Challenge →</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
