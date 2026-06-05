@@ -47,7 +47,10 @@ public class TestDataLoader implements CommandLineRunner {
             new Test("Fun Test 2", Test.Difficulty.MEDIUM, "fun", "Real-world math applications"),
             new Test("Fun Test 3", Test.Difficulty.MEDIUM, "fun", "Pattern recognition and logic"),
             new Test("Fun Test 4", Test.Difficulty.HARD, "fun", "Challenge problems"),
-            new Test("Fun Test 5", Test.Difficulty.HARD, "fun", "Math olympiad style")
+            new Test("Fun Test 5", Test.Difficulty.HARD, "fun", "Math olympiad style"),
+            new Test("Olympiad Challenge 1", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS style: number theory and arithmetic"),
+            new Test("Olympiad Challenge 2", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS style: geometry and measurement"),
+            new Test("Olympiad Challenge 3", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS style: algebra and problem solving")
         ));
         testRepository.saveAll(tests);
 
