@@ -46,13 +46,16 @@ public class TestController {
             return "redirect:/tests";
         }
         Test test = testOpt.get();
-        Page<TestQuestion> questionsPage = testService.getTestQuestionsPage(id, page);
+        // Load ALL questions for the form (client-side pagination)
+        List<TestQuestion> allQuestions = testService.getAllTestQuestions(id);
+        long totalQuestions = allQuestions.size();
+        int totalPages = (int) Math.ceil((double) totalQuestions / 5);
 
         model.addAttribute("test", test);
-        model.addAttribute("questions", questionsPage.getContent());
+        model.addAttribute("questions", allQuestions);
         model.addAttribute("currentPage", page);
-        model.addAttribute("totalPages", testService.getTotalPages(id));
-        model.addAttribute("totalQuestions", testService.getQuestionCount(id));
+        model.addAttribute("totalPages", totalPages);
+        model.addAttribute("totalQuestions", totalQuestions);
         addUserAttributes(model, authentication);
         return "take-test";
     }

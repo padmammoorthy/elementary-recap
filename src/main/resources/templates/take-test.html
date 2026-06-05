@@ -45,9 +45,9 @@
                 </div>
 
                 <form th:action="@{/tests/{id}/save-answers(id=${test.id})}" method="post" id="testForm">
-                    <div th:each="question, iterStat : ${questions}" class="question-card test-question">
+                    <div th:each="question, iterStat : ${questions}" class="question-card test-question" th:data-page="${iterStat.index / 5}">
                         <div class="question-header">
-                            <span class="question-num" th:text="'Question ' + (${currentPage} * 5 + ${iterStat.index} + 1)"></span>
+                            <span class="question-num" th:text="'Question ' + (${iterStat.index} + 1)"></span>
                         </div>
                         <p class="question-text" th:text="${question.questionText}"></p>
 
@@ -71,35 +71,59 @@
                         </div>
                     </div>
 
-                    <!-- Pagination / Submit -->
+                    <!-- Navigation -->
                     <div class="test-navigation">
-                        <a th:if="${currentPage > 0}"
-                           th:href="@{/tests/{id}(id=${test.id}, page=${currentPage - 1})}"
-                           class="page-btn">← Previous</a>
-                        <span th:if="${currentPage == 0}"></span>
-
-                        <button th:if="${currentPage == totalPages - 1}" type="submit" class="btn btn-primary submit-test-btn">
-                            Submit Test
-                        </button>
-                        <a th:if="${currentPage < totalPages - 1}"
-                           th:href="@{/tests/{id}(id=${test.id}, page=${currentPage + 1})}"
-                           class="page-btn">Next →</a>
+                        <button type="button" id="prevBtn" class="page-btn" onclick="changePage(-1)">← Previous</button>
+                        <span id="pageIndicator" class="page-indicator"></span>
+                        <button type="button" id="nextBtn" class="page-btn" onclick="changePage(1)">Next →</button>
+                        <button type="submit" id="submitBtn" class="btn btn-primary submit-test-btn" style="display:none">Submit Test</button>
                     </div>
+
+                    <!-- Page number links -->
+                    <div class="page-numbers" id="pageNumbers"></div>
                 </form>
             </div>
         </main>
     </div>
     <script>
-        // Shuffle answer choices for each question on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll('.radio-choices').forEach(function(container) {
-                var choices = Array.from(container.children);
-                for (var i = choices.length - 1; i > 0; i--) {
-                    var j = Math.floor(Math.random() * (i + 1));
-                    container.appendChild(choices[j]);
-                }
+        var currentPage = 0;
+        var totalPages = Math.ceil(document.querySelectorAll('.test-question').length / 5);
+
+        function showPage(page) {
+            document.querySelectorAll('.test-question').forEach(function(q) {
+                q.style.display = (parseInt(q.dataset.page) === page) ? 'block' : 'none';
             });
+            currentPage = page;
+            document.getElementById('pageIndicator').textContent = 'Page ' + (page+1) + ' of ' + totalPages;
+            document.getElementById('prevBtn').style.display = page > 0 ? 'inline-block' : 'none';
+            document.getElementById('nextBtn').style.display = page < totalPages-1 ? 'inline-block' : 'none';
+            document.getElementById('submitBtn').style.display = page === totalPages-1 ? 'inline-block' : 'none';
+            // Update page numbers
+            var pn = document.getElementById('pageNumbers');
+            pn.innerHTML = '';
+            for (var i = 0; i < totalPages; i++) {
+                var btn = document.createElement('button');
+                btn.type = 'button';
+                btn.textContent = i + 1;
+                btn.className = 'page-num' + (i === page ? ' active' : '');
+                btn.onclick = (function(p) { return function() { showPage(p); }; })(i);
+                pn.appendChild(btn);
+            }
+        }
+
+        function changePage(dir) { showPage(currentPage + dir); }
+
+        // Shuffle answer choices
+        document.querySelectorAll('.radio-choices').forEach(function(container) {
+            var choices = Array.from(container.children);
+            for (var i = choices.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                container.appendChild(choices[j]);
+            }
         });
+
+        // Init
+        showPage(0);
     </script>
 </body>
 </html>
