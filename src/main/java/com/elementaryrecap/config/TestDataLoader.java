@@ -124,10 +124,39 @@ public class TestDataLoader implements CommandLineRunner {
             System.err.println("Could not load hard test JSON: " + e.getMessage());
         }
 
-        // Generate questions for remaining tests (medium, geometry, fun) - skip easy(0-2) and hard(6-8)
+        // Load Olympiad test questions from JSON
+        try {
+            com.fasterxml.jackson.databind.ObjectMapper mapper3 = new com.fasterxml.jackson.databind.ObjectMapper();
+            java.io.InputStream is3 = new org.springframework.core.io.ClassPathResource("data/olympiad_questions.json").getInputStream();
+            java.util.List<java.util.Map<String, Object>> olympiadJson = mapper3.readValue(is3, new com.fasterxml.jackson.core.type.TypeReference<java.util.List<java.util.Map<String, Object>>>() {});
+            java.util.List<Test> funTests = new java.util.ArrayList<>();
+            for (Test t : tests) { if ("fun".equals(t.getCategory())) funTests.add(t); }
+            int oIdx = 0;
+            for (int ot = 0; ot < funTests.size() && oIdx < olympiadJson.size(); ot++) {
+                for (int oq = 0; oq < 20 && oIdx < olympiadJson.size(); oq++, oIdx++) {
+                    java.util.Map<String, Object> jq = olympiadJson.get(oIdx);
+                    TestQuestion tq = new TestQuestion();
+                    tq.setTestId(funTests.get(ot).getId());
+                    tq.setQuestionText((String) jq.get("questionText"));
+                    tq.setOptionA((String) jq.get("optionA"));
+                    tq.setOptionB((String) jq.get("optionB"));
+                    tq.setOptionC((String) jq.get("optionC"));
+                    tq.setOptionD((String) jq.get("optionD"));
+                    tq.setCorrectAnswer((String) jq.get("correctAnswer"));
+                    tq.setHint((String) jq.get("hint"));
+                    tq.setSolutionExplanation((String) jq.get("solutionExplanation"));
+                    testQuestionRepository.save(tq);
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Could not load olympiad JSON: " + e.getMessage());
+        }
+
+        // Generate questions for remaining tests (medium, geometry) - skip easy(0-2), hard(6-8), olympiad(fun)
         int idx = 3;
         for (int t = 3; t < tests.size(); t++) {
             if (t >= 6 && t <= 8) { idx++; continue; } // Skip hard tests (loaded from JSON)
+            if ("fun".equals(tests.get(t).getCategory())) { idx++; continue; } // Skip olympiad (loaded from JSON)
             Test test = tests.get(t);
             int count = "fun".equals(test.getCategory()) ? 20 : 50;
             List<TestQuestion> questions = new ArrayList<>();
