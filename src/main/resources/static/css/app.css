@@ -486,3 +486,63 @@ a {
     gap: 1rem;
     justify-content: center;
 }
+
+/* Student last active in parent dashboard */
+.student-last-active {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #f1f2f6;
+    font-size: 0.8rem;
+    color: #636e72;
+}
+
+.last-active-time {
+    font-weight: 500;
+    color: #2d3436;
+}
+
+/* Page number links */
+.page-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    justify-content: center;
+}
+
+.page-links .page-num,
+.page-numbers .page-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #636e72;
+    background: #f1f2f6;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.page-links .page-num:hover,
+.page-numbers .page-num:hover {
+    background: #dfe6e9;
+    color: #2d3436;
+}
+
+.page-links .page-num.active,
+.page-numbers .page-num.active {
+    background: #6c5ce7;
+    color: #fff;
+    font-weight: 600;
+}
+
+.page-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
