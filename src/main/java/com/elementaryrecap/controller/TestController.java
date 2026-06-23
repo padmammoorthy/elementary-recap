@@ -31,10 +31,15 @@ public class TestController {
         List<Test> allTests = testService.getAllTests();
         // Exclude fun tests (they're on the Olympiad page)
         Map<String, List<Test>> testsByDifficulty = allTests.stream()
-                .filter(t -> !"fun".equals(t.getCategory()))
+                .filter(t -> !"fun".equals(t.getCategory()) && !"lesson_based".equals(t.getCategory()))
                 .collect(Collectors.groupingBy(t -> t.getDifficulty().name(),
                         LinkedHashMap::new, Collectors.toList()));
+        // Get lesson-based tests separately
+        List<Test> lessonBasedTests = allTests.stream()
+                .filter(t -> "lesson_based".equals(t.getCategory()))
+                .collect(Collectors.toList());
         model.addAttribute("testsByDifficulty", testsByDifficulty);
+        model.addAttribute("lessonBasedTests", lessonBasedTests);
         addUserAttributes(model, authentication);
         return "tests";
     }
@@ -65,7 +70,8 @@ public class TestController {
     @PostMapping("/tests/{id}/save-answers")
     public String saveAnswers(@PathVariable Long id,
                               @RequestParam Map<String, String> allParams,
-                              Authentication authentication) {
+                              Authentication authentication,
+                              jakarta.servlet.http.HttpSession session) {
         AppUser user = userRepository.findByUsername(authentication.getName()).orElseThrow();
         Map<Long, String> answers = new HashMap<>();
         for (Map.Entry<String, String> entry : allParams.entrySet()) {
@@ -76,13 +82,16 @@ public class TestController {
         }
         TestResult result = testService.gradeAndSaveTest(user.getId(), id, answers);
         badgeService.checkAndAwardBadges(user.getId(), result);
+        // Store user answers in session for review
+        session.setAttribute("lastAnswers_" + id, answers);
         return "redirect:/tests/" + id + "/result?resultId=" + result.getId();
     }
 
     @GetMapping("/tests/{id}/result")
     public String testResult(@PathVariable Long id,
                              @RequestParam(required = false) Long resultId,
-                             Model model, Authentication authentication) {
+                             Model model, Authentication authentication,
+                             jakarta.servlet.http.HttpSession session) {
         AppUser user = userRepository.findByUsername(authentication.getName()).orElseThrow();
         Optional<Test> testOpt = testService.getTestById(id);
         if (testOpt.isEmpty()) {
@@ -90,7 +99,7 @@ public class TestController {
         }
 
         Test test = testOpt.get();
-        List<TestQuestion> questions = testService.getAllTestQuestions(id);
+        List<TestQuestion> allQuestions = testService.getAllTestQuestions(id);
         List<Badge> userBadges = badgeService.getUserBadges(user.getId());
 
         // Get the latest result for score display
@@ -105,8 +114,32 @@ public class TestController {
             }
         }
 
+        // Filter to only incorrect answers for review
+        @SuppressWarnings("unchecked")
+        Map<Long, String> userAnswers = (Map<Long, String>) session.getAttribute("lastAnswers_" + id);
+        List<Map<String, Object>> incorrectQuestions = new ArrayList<>();
+        if (userAnswers != null) {
+            for (TestQuestion q : allQuestions) {
+                String userAnswer = userAnswers.get(q.getId());
+                if (userAnswer == null || !userAnswer.equalsIgnoreCase(q.getCorrectAnswer())) {
+                    Map<String, Object> item = new LinkedHashMap<>();
+                    item.put("question", q);
+                    item.put("userAnswer", userAnswer != null ? userAnswer : "No answer");
+                    incorrectQuestions.add(item);
+                }
+            }
+        } else {
+            // Fallback: show all questions if no session data
+            for (TestQuestion q : allQuestions) {
+                Map<String, Object> item = new LinkedHashMap<>();
+                item.put("question", q);
+                item.put("userAnswer", "N/A");
+                incorrectQuestions.add(item);
+            }
+        }
+
         model.addAttribute("test", test);
-        model.addAttribute("questions", questions);
+        model.addAttribute("incorrectQuestions", incorrectQuestions);
         model.addAttribute("badges", userBadges);
         model.addAttribute("result", result);
         addUserAttributes(model, authentication);

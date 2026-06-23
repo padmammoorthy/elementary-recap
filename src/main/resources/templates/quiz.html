@@ -77,7 +77,10 @@
 
                     <div class="result-area" style="display:none">
                         <div class="result-message"></div>
-                        <div class="hint-text"></div>
+                        <div class="solution-box" style="display:none; margin-top:0.75rem; padding:0.75rem 1rem; background:#f0fdf4; border-left:4px solid #22c55e; border-radius:6px;">
+                            <div style="font-weight:600; color:#166534; margin-bottom:0.25rem;">📝 How to solve:</div>
+                            <div class="solution-text" style="color:#14532d;"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -121,12 +124,18 @@
             .then(data => {
                 resultArea.style.display = 'block';
                 const msgEl = resultArea.querySelector('.result-message');
-                const hintEl = resultArea.querySelector('.hint-text');
+                const solutionBox = resultArea.querySelector('.solution-box');
+                const solutionText = resultArea.querySelector('.solution-text');
 
                 if (data.correct) {
                     btn.classList.add('correct');
                     msgEl.textContent = '✅ Correct!';
                     msgEl.className = 'result-message correct';
+                    // Show solution even on correct answer so student sees the method
+                    if (data.hint) {
+                        solutionText.textContent = data.hint;
+                        solutionBox.style.display = 'block';
+                    }
                 } else {
                     btn.classList.add('incorrect');
                     msgEl.textContent = '❌ Incorrect. The correct answer is ' + data.correctAnswer + '.';
@@ -136,8 +145,8 @@
                         if (b.dataset.answer === data.correctAnswer) b.classList.add('correct');
                     });
                     if (data.hint) {
-                        hintEl.textContent = '💡 Hint: ' + data.hint;
-                        hintEl.style.display = 'block';
+                        solutionText.textContent = data.hint;
+                        solutionBox.style.display = 'block';
                     }
                 }
             });

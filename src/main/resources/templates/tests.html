@@ -37,6 +37,25 @@
             </header>
 
             <div class="tests-container">
+                <!-- Lesson Based Tests Section -->
+                <div th:if="${lessonBasedTests != null and !lessonBasedTests.isEmpty()}" class="difficulty-section">
+                    <h2 class="difficulty-title">
+                        <span class="difficulty-badge lesson-based">📘 Lesson Based</span>
+                    </h2>
+                    <div class="test-cards-grid">
+                        <a th:each="test : ${lessonBasedTests}"
+                           th:href="@{/tests/{id}(id=${test.id})}"
+                           class="test-card">
+                            <div class="test-card-header">
+                                <h3 th:text="${test.name}"></h3>
+                                <span class="test-category" th:text="${test.category}"></span>
+                            </div>
+                            <p th:text="${test.description}"></p>
+                            <span class="test-card-action">Start Test →</span>
+                        </a>
+                    </div>
+                </div>
+
                 <div th:each="entry : ${testsByDifficulty}" class="difficulty-section">
                     <h2 class="difficulty-title">
                         <span th:if="${entry.key == 'EASY'}" class="difficulty-badge easy">🟢 Easy</span>

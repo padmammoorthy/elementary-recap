@@ -83,6 +83,11 @@
 
                     <!-- Page number links -->
                     <div class="page-numbers" id="pageNumbers"></div>
+
+                    <!-- Score tracker -->
+                    <div class="score-tracker" id="scoreTracker" style="margin-top:1rem;padding:0.75rem 1rem;background:#f0f0ff;border-radius:8px;font-size:0.9rem;">
+                        <strong>📊 Answered:</strong> <span id="answeredCount">0</span> / <span th:text="${totalQuestions}"></span>
+                    </div>
                 </form>
             </div>
         </main>
@@ -122,6 +127,15 @@
                 var j = Math.floor(Math.random() * (i + 1));
                 container.appendChild(choices[j]);
             }
+        });
+
+        // Track answered questions
+        function updateAnsweredCount() {
+            var answered = document.querySelectorAll('input[type="radio"]:checked').length;
+            document.getElementById('answeredCount').textContent = answered;
+        }
+        document.querySelectorAll('input[type="radio"]').forEach(function(radio) {
+            radio.addEventListener('change', updateAnsweredCount);
         });
 
         // Init

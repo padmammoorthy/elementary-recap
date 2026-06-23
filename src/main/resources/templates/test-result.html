@@ -67,20 +67,27 @@
                 <!-- Review Section - ONLY INCORRECT ANSWERS -->
                 <div class="review-section">
                     <h3>❌ Review Incorrect Answers</h3>
-                    <div th:each="question, iterStat : ${questions}" class="review-card">
+                    <div th:each="item, iterStat : ${incorrectQuestions}" class="review-card">
                         <div class="review-question">
                             <span class="review-num" th:text="'Q' + (${iterStat.index} + 1)"></span>
-                            <p th:text="${question.questionText}"></p>
+                            <p th:text="${item['question'].questionText}"></p>
                         </div>
                         <div class="review-answer">
-                            <span class="correct-answer">Correct Answer: <strong th:text="${question.correctAnswer}"></strong></span>
+                            <span class="user-answer incorrect-label">Your Answer: <strong th:text="${item['userAnswer']}"></strong></span>
+                            <span class="correct-answer">Correct Answer: <strong th:text="${item['question'].correctAnswer}"></strong></span>
                         </div>
-                        <div th:if="${question.solutionExplanation}" class="review-explanation">
+                        <div class="review-options">
+                            <span><strong>A.</strong> <span th:text="${item['question'].optionA}"></span></span>
+                            <span><strong>B.</strong> <span th:text="${item['question'].optionB}"></span></span>
+                            <span><strong>C.</strong> <span th:text="${item['question'].optionC}"></span></span>
+                            <span><strong>D.</strong> <span th:text="${item['question'].optionD}"></span></span>
+                        </div>
+                        <div th:if="${item['question'].solutionExplanation}" class="review-explanation">
                             <strong>How to solve:</strong>
-                            <p th:text="${question.solutionExplanation}"></p>
+                            <p th:text="${item['question'].solutionExplanation}"></p>
                         </div>
                     </div>
-                    <p th:if="${questions.isEmpty()}" class="all-correct">🎉 You got all questions correct!</p>
+                    <p th:if="${incorrectQuestions.isEmpty()}" class="all-correct">🎉 You got all questions correct!</p>
                 </div>
 
                 <div class="result-actions">

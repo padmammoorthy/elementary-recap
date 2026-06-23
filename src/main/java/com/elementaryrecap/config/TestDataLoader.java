@@ -50,7 +50,20 @@ public class TestDataLoader implements CommandLineRunner {
             new Test("Olympiad 5", Test.Difficulty.HARD, "fun", "Math olympiad style"),
             new Test("Olympiad Challenge 1", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS: number theory"),
             new Test("Olympiad Challenge 2", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS: geometry"),
-            new Test("Olympiad Challenge 3", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS: algebra and problem solving")
+            new Test("Olympiad Challenge 3", Test.Difficulty.HARD, "fun", "AMC/MATHCOUNTS: algebra and problem solving"),
+            new Test("Advanced Notation", Test.Difficulty.MEDIUM, "lesson_based", "Exponents, square roots, and scientific notation"),
+            new Test("Algebra & Linear Concepts", Test.Difficulty.MEDIUM, "lesson_based", "Variables, evaluation, equations, inequalities, and graphing"),
+            new Test("Data Analysis", Test.Difficulty.MEDIUM, "lesson_based", "Graphs, coordinate planes, Venn diagrams, and statistics"),
+            new Test("Equations & Inequalities", Test.Difficulty.MEDIUM, "lesson_based", "One-step and two-step equations; solving and graphing inequalities"),
+            new Test("Applied Problem Solving", Test.Difficulty.HARD, "lesson_based", "Real-world word problems combining notation, algebra, and data"),
+            new Test("Equations & Inequalities — Set A", Test.Difficulty.MEDIUM, "lesson_based", "Saxon Course 2: Solving one/two-step equations and inequalities with word problems"),
+            new Test("Fractions & Decimals — Set A", Test.Difficulty.MEDIUM, "lesson_based", "Operations with fractions/mixed numbers, decimals, and word problems"),
+            new Test("Functions & Graphing", Test.Difficulty.MEDIUM, "lesson_based", "Coordinate planes, ordered pairs, arithmetic sequences, and linear functions"),
+            new Test("Geometry & Measurement — Set A", Test.Difficulty.MEDIUM, "lesson_based", "Angles, perimeter, area, volume, similarity & scale"),
+            new Test("Geometry & Measurement — Set B", Test.Difficulty.MEDIUM, "lesson_based", "Geometric figures, measurement calculations, similarity & scale"),
+            new Test("Percents & Ratios — Set A", Test.Difficulty.MEDIUM, "lesson_based", "Fractions/decimals/percents conversions, proportions, percent of change"),
+            new Test("Percents & Ratios — Set B", Test.Difficulty.MEDIUM, "lesson_based", "Equivalent forms, proportions, and real-world percent word problems"),
+            new Test("Probability", Test.Difficulty.MEDIUM, "lesson_based", "Independent/dependent events, sample spaces, and experimental probability")
         ));
         testRepository.saveAll(tests);
 
@@ -158,11 +171,42 @@ public class TestDataLoader implements CommandLineRunner {
             System.err.println("Could not load olympiad JSON: " + e.getMessage());
         }
 
+        // Load lesson-based test questions from JSON
+        try {
+            com.fasterxml.jackson.databind.ObjectMapper mapper4 = new com.fasterxml.jackson.databind.ObjectMapper();
+            java.io.InputStream is4 = new org.springframework.core.io.ClassPathResource("data/lesson_based_questions.json").getInputStream();
+            java.util.List<java.util.Map<String, Object>> lessonJson = mapper4.readValue(is4, new com.fasterxml.jackson.core.type.TypeReference<java.util.List<java.util.Map<String, Object>>>() {});
+            
+            // Lesson-based tests are at indices 23,24,25,26,27
+            java.util.List<Test> lessonTests = new java.util.ArrayList<>();
+            for (Test t : tests) { if ("lesson_based".equals(t.getCategory())) lessonTests.add(t); }
+            
+            for (java.util.Map<String, Object> jq : lessonJson) {
+                int testNum = (Integer) jq.get("testNum");
+                if (testNum >= 1 && testNum <= lessonTests.size()) {
+                    TestQuestion tq = new TestQuestion();
+                    tq.setTestId(lessonTests.get(testNum - 1).getId());
+                    tq.setQuestionText((String) jq.get("questionText"));
+                    tq.setOptionA((String) jq.get("optionA"));
+                    tq.setOptionB((String) jq.get("optionB"));
+                    tq.setOptionC((String) jq.get("optionC"));
+                    tq.setOptionD((String) jq.get("optionD"));
+                    tq.setCorrectAnswer((String) jq.get("correctAnswer"));
+                    tq.setHint((String) jq.get("hint"));
+                    tq.setSolutionExplanation((String) jq.get("solutionExplanation"));
+                    testQuestionRepository.save(tq);
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Could not load lesson-based test JSON: " + e.getMessage());
+        }
+
         // Generate questions for remaining tests (medium, geometry) - skip easy(0-2), hard(6-8), olympiad(fun)
         int idx = 3;
         for (int t = 3; t < tests.size(); t++) {
             if (t >= 6 && t <= 8) { idx++; continue; } // Skip hard tests (loaded from JSON)
             if ("fun".equals(tests.get(t).getCategory())) { idx++; continue; } // Skip olympiad (loaded from JSON)
+            if ("lesson_based".equals(tests.get(t).getCategory())) { idx++; continue; } // Skip lesson-based (loaded from JSON)
             Test test = tests.get(t);
             int count = "fun".equals(test.getCategory()) ? 20 : 50;
             List<TestQuestion> questions = new ArrayList<>();
@@ -213,7 +257,7 @@ public class TestDataLoader implements CommandLineRunner {
         if (input.equals("sphere")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"100\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><ellipse cx=\"100\" cy=\"50\" rx=\"35\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/></svg>";
         if (input.equals("trapezoid")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,80 30,30 150,30 170,80\" fill=\"#55efc4\" fill-opacity=\"0.15\" stroke=\"#00b894\" stroke-width=\"2\"/></svg>";
         if (input.equals("coordinate")) return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"100\" y1=\"10\" x2=\"100\" y2=\"90\" stroke=\"#333\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"30\" r=\"4\" fill=\"#e17055\"/></svg>";
-        if (input.equals("number_line")) return "<svg viewBox=\"0 0 200 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"50\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"25\" x2=\"180\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"180,20 190,25 180,30\" fill=\"#333\"/><circle cx=\"100\" cy=\"25\" r=\"4\" fill=\"#6c5ce7\"/></svg>";
+        if (input.equals("number_line") || input.equals("inequality")) return "<svg viewBox=\"0 0 200 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"50\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"25\" x2=\"180\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"180,20 190,25 180,30\" fill=\"#333\"/><circle cx=\"100\" cy=\"25\" r=\"4\" fill=\"#6c5ce7\"/></svg>";
         if (input.equals("integer")) return "<svg viewBox=\"0 0 200 50\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"50\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"25\" x2=\"180\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"50\" y=\"40\" font-size=\"9\" fill=\"#e17055\">-5</text><text x=\"100\" y=\"40\" font-size=\"9\">0</text><text x=\"150\" y=\"40\" font-size=\"9\" fill=\"#00b894\">+5</text></svg>";
         // Fall through to keyword detection in questionText
         String t = questionText.toLowerCase();
@@ -239,6 +283,8 @@ public class TestDataLoader implements CommandLineRunner {
             return "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"100\" fill=\"#f8f7ff\" rx=\"6\"/><circle cx=\"100\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><ellipse cx=\"100\" cy=\"50\" rx=\"35\" ry=\"12\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"100\" y1=\"50\" x2=\"135\" y2=\"50\" stroke=\"#e17055\" stroke-width=\"1.5\"/></svg>";
         } else if (t.contains("parallelogram")) {
             return "<svg viewBox=\"0 0 200 80\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"80\" fill=\"#f8f7ff\" rx=\"6\"/><polygon points=\"50,65 30,20 150,20 170,65\" fill=\"#a29bfe\" fill-opacity=\"0.15\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"65\" stroke=\"#e17055\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"20\" y=\"45\" font-size=\"9\" fill=\"#e17055\">h</text></svg>";
+        } else if (t.contains("inequality") || t.contains("number line") || (t.contains("solve") && (t.contains(">") || t.contains("<") || t.contains("≤") || t.contains("≥")))) {
+            return "<svg viewBox=\"0 0 280 55\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"55\" fill=\"#f8f7ff\" rx=\"6\"/><line x1=\"20\" y1=\"30\" x2=\"260\" y2=\"30\" stroke=\"#555\" stroke-width=\"2\"/><polygon points=\"260,26 270,30 260,34\" fill=\"#555\"/><line x1=\"60\" y1=\"24\" x2=\"60\" y2=\"36\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"24\" x2=\"100\" y2=\"36\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"24\" x2=\"140\" y2=\"36\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"24\" x2=\"180\" y2=\"36\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"24\" x2=\"220\" y2=\"36\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"30\" r=\"5\" fill=\"none\" stroke=\"#6c5ce7\" stroke-width=\"2\"/><line x1=\"145\" y1=\"30\" x2=\"250\" y2=\"30\" stroke=\"#6c5ce7\" stroke-width=\"3\" stroke-opacity=\"0.5\"/></svg>";
         }
         return null; // No illustration for non-geometry questions
     }

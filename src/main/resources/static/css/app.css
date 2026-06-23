@@ -546,3 +546,35 @@ a {
     justify-content: center;
     margin-top: 1rem;
 }
+
+/* Lesson Based Tests Badge */
+.difficulty-badge.lesson-based {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Review incorrect answer styles */
+.review-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.incorrect-label {
+    color: #e74c3c;
+    margin-right: 1rem;
+}
+
+.user-answer {
+    display: inline-block;
+    margin-right: 1rem;
+}
